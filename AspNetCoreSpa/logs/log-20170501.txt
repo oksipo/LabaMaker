@@ -1,0 +1,106 @@
+2017-05-01 14:15:35.451 +03:00 [Information] webpack built cdedc0df54cf6c34cb7a in 1104ms
+2017-05-01 14:15:37.475 +03:00 [Information] Hash: cdedc0df54cf6c34cb7a
+Version: webpack 2.4.1
+Time: 1104ms
+      Asset    Size  Chunks             Chunk Names
+    main.js  110 kB       0  [emitted]  main
+main.js.map  121 kB       0  [emitted]  main
+chunk    {0} main.js, main.js.map (main) 81.5 kB [entry] [rendered]
+    [0] ./~/html-entities/lib/html5-entities.js 49 kB {0} [built]
+        [] -> factory:73ms building:161ms = 234ms
+    [1] (webpack)-hot-middleware/client.js?path=%2F__webpack_hmr 6.68 kB {0} [built]
+        [] -> factory:87ms building:104ms = 191ms
+    [2] ./~/ansi-html/index.js 4.26 kB {0} [built]
+        [] -> factory:115ms building:33ms = 148ms
+    [3] ./~/ansi-regex/index.js 135 bytes {0} [built]
+        [] -> factory:130ms building:28ms = 158ms
+    [4] ./~/html-entities/index.js 231 bytes {0} [built]
+        [] -> factory:114ms building:2ms = 116ms
+    [5] ./~/html-entities/lib/html4-entities.js 6.59 kB {0} [built]
+        [] -> factory:72ms building:54ms = 126ms
+    [6] ./~/html-entities/lib/xml-entities.js 2.99 kB {0} [built]
+        [] -> factory:71ms building:42ms = 113ms
+    [7] ./~/querystring-es3/decode.js 2.51 kB {0} [built]
+        [] -> factory:30ms building:119ms = 149ms
+    [8] ./~/querystring-es3/encode.js 2.54 kB {0} [built]
+        [] -> factory:31ms building:100ms = 131ms
+    [9] ./~/querystring-es3/index.js 127 bytes {0} [built]
+        [] -> factory:23ms building:5ms = 28ms
+   [10] ./~/strip-ansi/index.js 161 bytes {0} [built]
+        [] -> factory:25ms building:5ms = 30ms
+   [11] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+        [] -> factory:13ms building:62ms = 75ms
+   [12] (webpack)-hot-middleware/process-update.js 3.88 kB {0} [built]
+        [] -> factory:14ms building:141ms = 155ms
+   [13] (webpack)/buildin/module.js 517 bytes {0} [built]
+        [] -> factory:83ms building:81ms = 164ms
+   [14] multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts 40 bytes {0} [built]
+         factory:1ms building:1ms = 2ms
+
+ERROR in multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts
+Module not found: Error: Can't resolve './Client/app/main.ts' in 'F:\Eleks\LabaMaker\AspNetCoreSpa'
+ @ multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts
+2017-05-01 14:15:48.524 +03:00 [Information] Executed DbCommand (445ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-01 14:15:48.533 +03:00 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-01 14:15:48.737 +03:00 [Information] Executed DbCommand (104ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-01 14:15:49.012 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-01 14:15:50.152 +03:00 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-01 14:15:50.157 +03:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-01 14:15:50.163 +03:00 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-01 14:15:50.169 +03:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-01 14:15:50.174 +03:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-01 14:15:51.966 +03:00 [Information] Executed DbCommand (320ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2017-05-01 14:15:52.094 +03:00 [Information] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2017-05-01 14:15:52.173 +03:00 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-05-01 14:15:53.000 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-01 14:15:53.388 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-01 14:15:53.516 +03:00 [Information] Request finished in 87.9474ms 200 
+2017-05-01 14:15:54.707 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-01 14:16:00.366 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-01 14:16:01.015 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 6407.1502ms
+2017-05-01 14:16:01.041 +03:00 [Information] Request finished in 8150.0211ms 200 text/html; charset=utf-8
+2017-05-01 14:16:01.077 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css?v=ZbF5IRdw8d6zzLNkH9-VAOQtg1tEvAaEGWCpsXOxOtA  
+2017-05-01 14:16:01.141 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=jwiNB5SH_v9fMNJSyoWV_Zn5tf4Ov7NIn4pPspVSpkY  
+2017-05-01 14:16:01.153 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js?v=jFLJMe4Q5pDE-XMQUfljdvkQ2GRVSh4L4JndgcVON6M  
+2017-05-01 14:16:01.180 +03:00 [Information] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\vendor.css"'
+2017-05-01 14:16:01.189 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js?v=OnJxLVa33-H66tLZT0UFzEbFIYW9hWACnsxA2QEtvoE  
+2017-05-01 14:16:01.205 +03:00 [Information] Sending file. Request path: '"/dist/polyfills.dll.js"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\polyfills.dll.js"'
+2017-05-01 14:16:01.210 +03:00 [Information] Sending file. Request path: '"/dist/vendor.dll.js"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\vendor.dll.js"'
+2017-05-01 14:16:01.232 +03:00 [Information] Request finished in 101.3187ms 200 application/javascript; charset=UTF-8
+2017-05-01 14:16:01.247 +03:00 [Information] Request finished in 165.9338ms 200 text/css
+2017-05-01 14:16:01.252 +03:00 [Information] Request finished in 94.7994ms 200 application/javascript
+2017-05-01 14:16:01.325 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/af7ae505a9eed503f8b8e6982036873e.woff2  
+2017-05-01 14:16:01.332 +03:00 [Information] Sending file. Request path: '"/dist/af7ae505a9eed503f8b8e6982036873e.woff2"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\af7ae505a9eed503f8b8e6982036873e.woff2"'
+2017-05-01 14:16:01.586 +03:00 [Information] Request finished in 260.8442ms 200 application/font-woff2
+2017-05-01 14:16:02.531 +03:00 [Information] Request finished in 1343.4642ms 200 application/javascript
+2017-05-01 14:16:03.391 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-01 14:25:10.230 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-01 14:25:10.687 +03:00 [Warning] Disabling the transport security requirement is not recommended in production. Consider setting 'OpenIdConnectServerOptions.AllowInsecureHttp' to 'false' to prevent the OpenID Connect server middleware from serving non-HTTPS requests.
+2017-05-01 14:26:41.254 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-01 14:26:41.619 +03:00 [Warning] Disabling the transport security requirement is not recommended in production. Consider setting 'OpenIdConnectServerOptions.AllowInsecureHttp' to 'false' to prevent the OpenID Connect server middleware from serving non-HTTPS requests.

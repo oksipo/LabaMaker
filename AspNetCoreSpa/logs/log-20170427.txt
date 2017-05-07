@@ -1,0 +1,25 @@
+2017-04-27 22:09:16.765 +03:00 [Information] Executed DbCommand (1,303ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-04-27 22:09:17.928 +03:00 [Information] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-04-27 22:09:18.973 +03:00 [Information] Executed DbCommand (820ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-04-27 22:09:21.443 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-04-27 22:09:27.802 +03:00 [Information] DLL: Bundling done, all DLLs are valid.
+2017-04-27 22:09:27.826 +03:00 [Information] webpack building...
+2017-04-27 22:09:29.713 +03:00 [Information] Executed DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-04-27 22:09:29.734 +03:00 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-04-27 22:09:29.813 +03:00 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-04-27 22:09:29.827 +03:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-04-27 22:09:29.837 +03:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
