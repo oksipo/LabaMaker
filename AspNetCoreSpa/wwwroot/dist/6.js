@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 156:
+/***/ 165:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23,7 +23,7 @@ exports.EdgeService = EdgeService;
 
 /***/ }),
 
-/***/ 171:
+/***/ 180:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ exports.ChildComponent = ChildComponent;
 
 /***/ }),
 
-/***/ 172:
+/***/ 181:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58,7 +58,7 @@ exports.ChildComponent = ChildComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var child_1 = __webpack_require__(171);
+var child_1 = __webpack_require__(180);
 var ParentComponent = (function () {
     function ParentComponent() {
     }
@@ -82,7 +82,7 @@ exports.ParentComponent = ParentComponent;
 
 /***/ }),
 
-/***/ 173:
+/***/ 182:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -98,7 +98,7 @@ var ComponentHomeComponent = (function () {
 ComponentHomeComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-component-home',
-        template: __webpack_require__(228)
+        template: __webpack_require__(237)
     })
 ], ComponentHomeComponent);
 exports.ComponentHomeComponent = ComponentHomeComponent;
@@ -106,7 +106,7 @@ exports.ComponentHomeComponent = ComponentHomeComponent;
 
 /***/ }),
 
-/***/ 174:
+/***/ 183:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -130,7 +130,7 @@ exports.BlueDynamicComponent = BlueDynamicComponent;
 
 /***/ }),
 
-/***/ 175:
+/***/ 184:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -138,9 +138,9 @@ exports.BlueDynamicComponent = BlueDynamicComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var red_dynamic_component_1 = __webpack_require__(177);
-var blue_dynamic_component_1 = __webpack_require__(174);
-var green_dynamic_component_1 = __webpack_require__(176);
+var red_dynamic_component_1 = __webpack_require__(186);
+var blue_dynamic_component_1 = __webpack_require__(183);
+var green_dynamic_component_1 = __webpack_require__(185);
 var DynamicComponent = (function () {
     function DynamicComponent() {
         this.componentTypes = [
@@ -166,7 +166,7 @@ tslib_1.__decorate([
 DynamicComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-dynamic',
-        template: __webpack_require__(229)
+        template: __webpack_require__(238)
     })
 ], DynamicComponent);
 exports.DynamicComponent = DynamicComponent;
@@ -174,7 +174,7 @@ exports.DynamicComponent = DynamicComponent;
 
 /***/ }),
 
-/***/ 176:
+/***/ 185:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -198,7 +198,7 @@ exports.GreenDynamicComponent = GreenDynamicComponent;
 
 /***/ }),
 
-/***/ 177:
+/***/ 186:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -222,7 +222,7 @@ exports.RedDynamicComponent = RedDynamicComponent;
 
 /***/ }),
 
-/***/ 178:
+/***/ 187:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -257,7 +257,7 @@ EdgeComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-edge',
         template: '<div class="edge" [ngStyle]="style"></div>',
-        styles: [__webpack_require__(307)]
+        styles: [__webpack_require__(316)]
     })
 ], EdgeComponent);
 exports.EdgeComponent = EdgeComponent;
@@ -265,7 +265,7 @@ exports.EdgeComponent = EdgeComponent;
 
 /***/ }),
 
-/***/ 179:
+/***/ 188:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -273,8 +273,8 @@ exports.EdgeComponent = EdgeComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var edge_service_1 = __webpack_require__(156);
-var edge_component_1 = __webpack_require__(178);
+var edge_service_1 = __webpack_require__(165);
+var edge_component_1 = __webpack_require__(187);
 var GraphComponent = (function () {
     function GraphComponent(componentResolver, edgeService) {
         this.componentResolver = componentResolver;
@@ -293,7 +293,7 @@ var GraphComponent = (function () {
 GraphComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-graph',
-        template: __webpack_require__(230),
+        template: __webpack_require__(239),
         styles: [
             "\n        .graph-table{\n            border-spacing: 70px;\n            border-collapse: separate;\n            }\n        "
         ]
@@ -305,7 +305,7 @@ exports.GraphComponent = GraphComponent;
 
 /***/ }),
 
-/***/ 180:
+/***/ 189:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -313,7 +313,7 @@ exports.GraphComponent = GraphComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
+var Observable_1 = __webpack_require__(8);
 var Subject_1 = __webpack_require__(32);
 var RxjsComponent = (function () {
     function RxjsComponent() {
@@ -338,7 +338,7 @@ var RxjsComponent = (function () {
 RxjsComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-rxjs',
-        template: __webpack_require__(231)
+        template: __webpack_require__(240)
     })
 ], RxjsComponent);
 exports.RxjsComponent = RxjsComponent;
@@ -346,10 +346,10 @@ exports.RxjsComponent = RxjsComponent;
 
 /***/ }),
 
-/***/ 209:
+/***/ 218:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -361,10 +361,10 @@ exports.push([module.i, "div.edge {\n  transform-origin: 0 100%;\n  height: 1px;
 
 /***/ }),
 
-/***/ 210:
+/***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -376,35 +376,35 @@ exports.push([module.i, ".vertex-text {\n  position: absolute;\n  top: 50%;\n  h
 
 /***/ }),
 
-/***/ 228:
+/***/ 237:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\r\n    <div class=\"col-12 col-md-3 push-md-9\">\r\n        <div class=\"list-group\">\r\n            <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['graph']\">Dynamic grapah</a>\r\n            <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['accesschildcomponent']\">Access child component</a>\r\n            <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['dynamiccomponent']\">Dynamic component</a>\r\n            <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['rxjs']\">Rxjs</a>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"col-12 col-md-9 pull-md-3 bd-content\">\r\n        <router-outlet></router-outlet>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 229:
+/***/ 238:
 /***/ (function(module, exports) {
 
 module.exports = "<b>Creating AOT Friendly Dynamic Components with Angular 2</b>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">Application Code</div>\r\n            <div class=\"panel-body\">\r\n                <div class=\"input-group\">\r\n                    <select class=\"form-control\" [(ngModel)]=\"selectedComponentType\">\r\n                        <option *ngFor=\"let cellComponentType of componentTypes\" [ngValue]=\"cellComponentType\">{{cellComponentType.name}}</option>\r\n                    </select>\r\n                    <span class=\"input-group-btn\">\r\n                        <button type=\"button\" class=\"btn btn-primary\" (click)=\"grid.addDynamicCellComponent(selectedComponentType)\">Add Dynamic Grid component</button>\r\n                    </span>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">Library Code</div>\r\n            <div class=\"panel-body\">\r\n                <appc-grid-component #grid></appc-grid-component>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 230:
+/***/ 239:
 /***/ (function(module, exports) {
 
 module.exports = "<div>\r\n\r\n    <div class=\"alert alert-info\" role=\"alert\">\r\n        Click any pair of nodes to connect them with an edge\r\n    </div>\r\n\r\n    <appc-vertex [value]=\"'A'\"></appc-vertex>\r\n\r\n    <table class=\"graph-table\">\r\n        <tr>\r\n            <td>\r\n                <appc-vertex [value]=\"'B'\"></appc-vertex>\r\n                <td>\r\n                    <appc-vertex [value]=\"'C'\"></appc-vertex>\r\n                </td>\r\n                <tr>\r\n                    <td>\r\n                        <appc-vertex [value]=\"'E'\"></appc-vertex>\r\n                    </td>\r\n                    <td>\r\n                        <appc-vertex [value]=\"'F'\"></appc-vertex>\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <appc-vertex [value]=\"'G'\"></appc-vertex>\r\n                    </td>\r\n                    <td>\r\n                        <appc-vertex [value]=\"'H'\"></appc-vertex>\r\n                    </td>\r\n                    <td>\r\n                        <appc-vertex [value]=\"'I'\"></appc-vertex>\r\n                    </td>\r\n                </tr>\r\n    </table>\r\n</div>";
 
 /***/ }),
 
-/***/ 231:
+/***/ 240:
 /***/ (function(module, exports) {
 
 module.exports = "<h2>Clock by merging streams</h2>\r\n\r\n<button (click)=\"click$.next()\">Update an hour</button> {{ clock | async | date: 'dd-MM-yyyy hh:mm:ss'}}";
 
 /***/ }),
 
-/***/ 258:
+/***/ 267:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -413,20 +413,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var component_home_component_1 = __webpack_require__(173);
-var graph_component_1 = __webpack_require__(179);
-var edge_component_1 = __webpack_require__(178);
-var vertex_component_1 = __webpack_require__(264);
-var parent_1 = __webpack_require__(172);
-var child_1 = __webpack_require__(171);
-var edge_service_1 = __webpack_require__(156);
-var component_home_routes_1 = __webpack_require__(259);
-var grid_module_1 = __webpack_require__(262);
-var blue_dynamic_component_1 = __webpack_require__(174);
-var green_dynamic_component_1 = __webpack_require__(176);
-var red_dynamic_component_1 = __webpack_require__(177);
-var dynamic_component_1 = __webpack_require__(175);
-var rxjs_component_1 = __webpack_require__(180);
+var component_home_component_1 = __webpack_require__(182);
+var graph_component_1 = __webpack_require__(188);
+var edge_component_1 = __webpack_require__(187);
+var vertex_component_1 = __webpack_require__(273);
+var parent_1 = __webpack_require__(181);
+var child_1 = __webpack_require__(180);
+var edge_service_1 = __webpack_require__(165);
+var component_home_routes_1 = __webpack_require__(268);
+var grid_module_1 = __webpack_require__(271);
+var blue_dynamic_component_1 = __webpack_require__(183);
+var green_dynamic_component_1 = __webpack_require__(185);
+var red_dynamic_component_1 = __webpack_require__(186);
+var dynamic_component_1 = __webpack_require__(184);
+var rxjs_component_1 = __webpack_require__(189);
 var ComponentModule = (function () {
     function ComponentModule() {
     }
@@ -467,18 +467,18 @@ exports.ComponentModule = ComponentModule;
 
 /***/ }),
 
-/***/ 259:
+/***/ 268:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var component_home_component_1 = __webpack_require__(173);
-var graph_component_1 = __webpack_require__(179);
-var parent_1 = __webpack_require__(172);
-var dynamic_component_1 = __webpack_require__(175);
-var rxjs_component_1 = __webpack_require__(180);
+var router_1 = __webpack_require__(7);
+var component_home_component_1 = __webpack_require__(182);
+var graph_component_1 = __webpack_require__(188);
+var parent_1 = __webpack_require__(181);
+var dynamic_component_1 = __webpack_require__(184);
+var rxjs_component_1 = __webpack_require__(189);
 var routes = [
     {
         path: '', component: component_home_component_1.ComponentHomeComponent, children: [
@@ -494,7 +494,7 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 260:
+/***/ 269:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -529,7 +529,7 @@ exports.CellComponent = CellComponent;
 
 /***/ }),
 
-/***/ 261:
+/***/ 270:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -561,7 +561,7 @@ exports.GridComponent = GridComponent;
 
 /***/ }),
 
-/***/ 262:
+/***/ 271:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -570,8 +570,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var common_1 = __webpack_require__(33);
 var core_1 = __webpack_require__(0);
-var grid_component_1 = __webpack_require__(261);
-var cell_component_1 = __webpack_require__(260);
+var grid_component_1 = __webpack_require__(270);
+var cell_component_1 = __webpack_require__(269);
 var GridModule = GridModule_1 = (function () {
     function GridModule() {
     }
@@ -605,7 +605,7 @@ var GridModule_1;
 
 /***/ }),
 
-/***/ 263:
+/***/ 272:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -624,7 +624,7 @@ exports.Coordinates = Coordinates;
 
 /***/ }),
 
-/***/ 264:
+/***/ 273:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -632,8 +632,8 @@ exports.Coordinates = Coordinates;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var edge_service_1 = __webpack_require__(156);
-var coordinates_1 = __webpack_require__(263);
+var edge_service_1 = __webpack_require__(165);
+var coordinates_1 = __webpack_require__(272);
 var VertexComponent = (function () {
     function VertexComponent(edgeService, vc) {
         this.edgeService = edgeService;
@@ -657,7 +657,7 @@ tslib_1.__decorate([
 VertexComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-vertex',
-        styles: [__webpack_require__(308)],
+        styles: [__webpack_require__(317)],
         template: '<div #vertex class="vertex" (click)="setCoordinates()"><span class="vertex-text">{{value}}</span></div>'
     }),
     tslib_1.__metadata("design:paramtypes", [edge_service_1.EdgeService, core_1.ViewContainerRef])
@@ -667,11 +667,11 @@ exports.VertexComponent = VertexComponent;
 
 /***/ }),
 
-/***/ 307:
+/***/ 316:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(209);
+        var result = __webpack_require__(218);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -682,11 +682,11 @@ exports.VertexComponent = VertexComponent;
 
 /***/ }),
 
-/***/ 308:
+/***/ 317:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(210);
+        var result = __webpack_require__(219);
 
         if (typeof result === "string") {
             module.exports = result;

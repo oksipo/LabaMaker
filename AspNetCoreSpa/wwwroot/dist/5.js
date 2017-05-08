@@ -1,13 +1,13 @@
 webpackJsonp([5],{
 
-/***/ 143:
+/***/ 152:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var maps_api_loader_1 = __webpack_require__(145);
+var Observable_1 = __webpack_require__(8);
+var maps_api_loader_1 = __webpack_require__(154);
 /**
  * Wrapper class that handles the communication with the Google Maps Javascript
  * API v3
@@ -128,14 +128,14 @@ exports.GoogleMapsAPIWrapper = GoogleMapsAPIWrapper;
 
 /***/ }),
 
-/***/ 144:
+/***/ 153:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
+var Observable_1 = __webpack_require__(8);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
 var MarkerManager = (function () {
     function MarkerManager(_mapsWrapper, _zone) {
         this._mapsWrapper = _mapsWrapper;
@@ -219,7 +219,7 @@ exports.MarkerManager = MarkerManager;
 
 /***/ }),
 
-/***/ 145:
+/***/ 154:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -240,13 +240,13 @@ exports.MapsAPILoader = MapsAPILoader;
 
 /***/ }),
 
-/***/ 148:
+/***/ 157:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var info_window_manager_1 = __webpack_require__(151);
+var info_window_manager_1 = __webpack_require__(160);
 var infoWindowId = 0;
 /**
  * SebmGoogleMapInfoWindow renders a info window inside a {@link SebmGoogleMapMarker} or standalone.
@@ -370,7 +370,7 @@ exports.SebmGoogleMapInfoWindow = SebmGoogleMapInfoWindow;
 
 /***/ }),
 
-/***/ 149:
+/***/ 158:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -413,14 +413,14 @@ exports.SebmGoogleMapPolylinePoint = SebmGoogleMapPolylinePoint;
 
 /***/ }),
 
-/***/ 150:
+/***/ 159:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
+var Observable_1 = __webpack_require__(8);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
 var CircleManager = (function () {
     function CircleManager(_apiWrapper, _zone) {
         this._apiWrapper = _apiWrapper;
@@ -519,15 +519,15 @@ exports.CircleManager = CircleManager;
 
 /***/ }),
 
-/***/ 151:
+/***/ 160:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var Observable_1 = __webpack_require__(7);
+var Observable_1 = __webpack_require__(8);
 var core_1 = __webpack_require__(0);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
-var marker_manager_1 = __webpack_require__(144);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
+var marker_manager_1 = __webpack_require__(153);
 var InfoWindowManager = (function () {
     function InfoWindowManager(_mapsWrapper, _zone, _markerManager) {
         this._mapsWrapper = _mapsWrapper;
@@ -615,14 +615,14 @@ exports.InfoWindowManager = InfoWindowManager;
 
 /***/ }),
 
-/***/ 152:
+/***/ 161:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
+var Observable_1 = __webpack_require__(8);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
 /**
  * Manages all KML Layers for a Google Map instance.
  */
@@ -685,14 +685,14 @@ exports.KmlLayerManager = KmlLayerManager;
 
 /***/ }),
 
-/***/ 153:
+/***/ 162:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
+var Observable_1 = __webpack_require__(8);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
 var PolygonManager = (function () {
     function PolygonManager(_mapsWrapper, _zone) {
         this._mapsWrapper = _mapsWrapper;
@@ -763,14 +763,14 @@ exports.PolygonManager = PolygonManager;
 
 /***/ }),
 
-/***/ 154:
+/***/ 163:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
+var Observable_1 = __webpack_require__(8);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
 var PolylineManager = (function () {
     function PolylineManager(_mapsWrapper, _zone) {
         this._mapsWrapper = _mapsWrapper;
@@ -847,7 +847,7 @@ exports.PolylineManager = PolylineManager;
 
 /***/ }),
 
-/***/ 155:
+/***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -858,8 +858,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var core_1 = __webpack_require__(0);
-var browser_globals_1 = __webpack_require__(165);
-var maps_api_loader_1 = __webpack_require__(145);
+var browser_globals_1 = __webpack_require__(174);
+var maps_api_loader_1 = __webpack_require__(154);
 (function (GoogleMapsScriptProtocol) {
     GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["HTTP"] = 1] = "HTTP";
     GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["HTTPS"] = 2] = "HTTPS";
@@ -957,13 +957,13 @@ exports.LazyMapsAPILoader = LazyMapsAPILoader;
 
 /***/ }),
 
-/***/ 159:
+/***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var circle_manager_1 = __webpack_require__(150);
+var circle_manager_1 = __webpack_require__(159);
 var SebmGoogleMapCircle = (function () {
     function SebmGoogleMapCircle(_manager) {
         this._manager = _manager;
@@ -1161,13 +1161,13 @@ exports.SebmGoogleMapCircle = SebmGoogleMapCircle;
 
 /***/ }),
 
-/***/ 160:
+/***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var kml_layer_manager_1 = __webpack_require__(152);
+var kml_layer_manager_1 = __webpack_require__(161);
 var layerId = 0;
 var SebmGoogleMapKmlLayer = (function () {
     function SebmGoogleMapKmlLayer(_manager) {
@@ -1283,14 +1283,14 @@ exports.SebmGoogleMapKmlLayer = SebmGoogleMapKmlLayer;
 
 /***/ }),
 
-/***/ 161:
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var marker_manager_1 = __webpack_require__(144);
-var google_map_info_window_1 = __webpack_require__(148);
+var marker_manager_1 = __webpack_require__(153);
+var google_map_info_window_1 = __webpack_require__(157);
 var markerId = 0;
 /**
  * SebmGoogleMapMarker renders a map marker inside a {@link SebmGoogleMap}.
@@ -1464,13 +1464,13 @@ exports.SebmGoogleMapMarker = SebmGoogleMapMarker;
 
 /***/ }),
 
-/***/ 162:
+/***/ 171:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var polygon_manager_1 = __webpack_require__(153);
+var polygon_manager_1 = __webpack_require__(162);
 /**
  * SebmGoogleMapPolygon renders a polygon on a {@link SebmGoogleMap}
  *
@@ -1698,14 +1698,14 @@ exports.SebmGoogleMapPolygon = SebmGoogleMapPolygon;
 
 /***/ }),
 
-/***/ 163:
+/***/ 172:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var polyline_manager_1 = __webpack_require__(154);
-var google_map_polyline_point_1 = __webpack_require__(149);
+var polyline_manager_1 = __webpack_require__(163);
+var google_map_polyline_point_1 = __webpack_require__(158);
 var polylineId = 0;
 /**
  * SebmGoogleMapPolyline renders a polyline on a {@link SebmGoogleMap}
@@ -1910,19 +1910,19 @@ exports.SebmGoogleMapPolyline = SebmGoogleMapPolyline;
 
 /***/ }),
 
-/***/ 164:
+/***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var google_maps_api_wrapper_1 = __webpack_require__(143);
-var circle_manager_1 = __webpack_require__(150);
-var info_window_manager_1 = __webpack_require__(151);
-var marker_manager_1 = __webpack_require__(144);
-var polygon_manager_1 = __webpack_require__(153);
-var polyline_manager_1 = __webpack_require__(154);
-var kml_layer_manager_1 = __webpack_require__(152);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
+var circle_manager_1 = __webpack_require__(159);
+var info_window_manager_1 = __webpack_require__(160);
+var marker_manager_1 = __webpack_require__(153);
+var polygon_manager_1 = __webpack_require__(162);
+var polyline_manager_1 = __webpack_require__(163);
+var kml_layer_manager_1 = __webpack_require__(161);
 /**
  * SebMGoogleMap renders a Google Map.
  * **Important note**: To be able see a map in the browser, you have to define a height for the CSS
@@ -2232,7 +2232,7 @@ exports.SebmGoogleMap = SebmGoogleMap;
 
 /***/ }),
 
-/***/ 165:
+/***/ 174:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2256,7 +2256,7 @@ exports.BROWSER_GLOBALS_PROVIDERS = [WindowRef, DocumentRef];
 
 /***/ }),
 
-/***/ 183:
+/***/ 192:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2274,8 +2274,8 @@ var GoogleMapsComponent = (function () {
 GoogleMapsComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-google-maps',
-        template: __webpack_require__(234),
-        styles: [__webpack_require__(310)]
+        template: __webpack_require__(243),
+        styles: [__webpack_require__(319)]
     })
 ], GoogleMapsComponent);
 exports.GoogleMapsComponent = GoogleMapsComponent;
@@ -2283,24 +2283,24 @@ exports.GoogleMapsComponent = GoogleMapsComponent;
 
 /***/ }),
 
-/***/ 202:
+/***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var google_map_kml_layer_1 = __webpack_require__(160);
-var google_map_1 = __webpack_require__(164);
-var google_map_circle_1 = __webpack_require__(159);
-var google_map_info_window_1 = __webpack_require__(148);
-var google_map_marker_1 = __webpack_require__(161);
-var google_map_polygon_1 = __webpack_require__(162);
-var google_map_polyline_1 = __webpack_require__(163);
-var google_map_polyline_point_1 = __webpack_require__(149);
-var lazy_maps_api_loader_1 = __webpack_require__(155);
-var lazy_maps_api_loader_2 = __webpack_require__(155);
-var maps_api_loader_1 = __webpack_require__(145);
-var browser_globals_1 = __webpack_require__(165);
+var google_map_kml_layer_1 = __webpack_require__(169);
+var google_map_1 = __webpack_require__(173);
+var google_map_circle_1 = __webpack_require__(168);
+var google_map_info_window_1 = __webpack_require__(157);
+var google_map_marker_1 = __webpack_require__(170);
+var google_map_polygon_1 = __webpack_require__(171);
+var google_map_polyline_1 = __webpack_require__(172);
+var google_map_polyline_point_1 = __webpack_require__(158);
+var lazy_maps_api_loader_1 = __webpack_require__(164);
+var lazy_maps_api_loader_2 = __webpack_require__(164);
+var maps_api_loader_1 = __webpack_require__(154);
+var browser_globals_1 = __webpack_require__(174);
 /**
  * @internal
  */
@@ -2343,32 +2343,32 @@ exports.AgmCoreModule = AgmCoreModule;
 
 /***/ }),
 
-/***/ 203:
+/***/ 212:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var google_map_1 = __webpack_require__(164);
+var google_map_1 = __webpack_require__(173);
 exports.SebmGoogleMap = google_map_1.SebmGoogleMap;
-var google_map_circle_1 = __webpack_require__(159);
+var google_map_circle_1 = __webpack_require__(168);
 exports.SebmGoogleMapCircle = google_map_circle_1.SebmGoogleMapCircle;
-var google_map_info_window_1 = __webpack_require__(148);
+var google_map_info_window_1 = __webpack_require__(157);
 exports.SebmGoogleMapInfoWindow = google_map_info_window_1.SebmGoogleMapInfoWindow;
-var google_map_kml_layer_1 = __webpack_require__(160);
+var google_map_kml_layer_1 = __webpack_require__(169);
 exports.SebmGoogleMapKmlLayer = google_map_kml_layer_1.SebmGoogleMapKmlLayer;
-var google_map_marker_1 = __webpack_require__(161);
+var google_map_marker_1 = __webpack_require__(170);
 exports.SebmGoogleMapMarker = google_map_marker_1.SebmGoogleMapMarker;
-var google_map_polygon_1 = __webpack_require__(162);
+var google_map_polygon_1 = __webpack_require__(171);
 exports.SebmGoogleMapPolygon = google_map_polygon_1.SebmGoogleMapPolygon;
-var google_map_polyline_1 = __webpack_require__(163);
+var google_map_polyline_1 = __webpack_require__(172);
 exports.SebmGoogleMapPolyline = google_map_polyline_1.SebmGoogleMapPolyline;
-var google_map_polyline_point_1 = __webpack_require__(149);
+var google_map_polyline_point_1 = __webpack_require__(158);
 exports.SebmGoogleMapPolylinePoint = google_map_polyline_point_1.SebmGoogleMapPolylinePoint;
 //# sourceMappingURL=directives.js.map
 
 /***/ }),
 
-/***/ 204:
+/***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2377,50 +2377,50 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 // main modules
-__export(__webpack_require__(203));
-__export(__webpack_require__(205));
+__export(__webpack_require__(212));
+__export(__webpack_require__(214));
 // Google Maps types
 // core module
 // we explicitly export the module here to prevent this Ionic 2 bug:
 // http://stevemichelotti.com/integrate-angular-2-google-maps-into-ionic-2/
-var core_module_1 = __webpack_require__(202);
+var core_module_1 = __webpack_require__(211);
 exports.AgmCoreModule = core_module_1.AgmCoreModule;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 205:
+/***/ 214:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var google_maps_api_wrapper_1 = __webpack_require__(143);
+var google_maps_api_wrapper_1 = __webpack_require__(152);
 exports.GoogleMapsAPIWrapper = google_maps_api_wrapper_1.GoogleMapsAPIWrapper;
-var circle_manager_1 = __webpack_require__(150);
+var circle_manager_1 = __webpack_require__(159);
 exports.CircleManager = circle_manager_1.CircleManager;
-var info_window_manager_1 = __webpack_require__(151);
+var info_window_manager_1 = __webpack_require__(160);
 exports.InfoWindowManager = info_window_manager_1.InfoWindowManager;
-var marker_manager_1 = __webpack_require__(144);
+var marker_manager_1 = __webpack_require__(153);
 exports.MarkerManager = marker_manager_1.MarkerManager;
-var polygon_manager_1 = __webpack_require__(153);
+var polygon_manager_1 = __webpack_require__(162);
 exports.PolygonManager = polygon_manager_1.PolygonManager;
-var polyline_manager_1 = __webpack_require__(154);
+var polyline_manager_1 = __webpack_require__(163);
 exports.PolylineManager = polyline_manager_1.PolylineManager;
-var kml_layer_manager_1 = __webpack_require__(152);
+var kml_layer_manager_1 = __webpack_require__(161);
 exports.KmlLayerManager = kml_layer_manager_1.KmlLayerManager;
-var lazy_maps_api_loader_1 = __webpack_require__(155);
+var lazy_maps_api_loader_1 = __webpack_require__(164);
 exports.GoogleMapsScriptProtocol = lazy_maps_api_loader_1.GoogleMapsScriptProtocol;
 exports.LAZY_MAPS_API_CONFIG = lazy_maps_api_loader_1.LAZY_MAPS_API_CONFIG;
 exports.LazyMapsAPILoader = lazy_maps_api_loader_1.LazyMapsAPILoader;
-var maps_api_loader_1 = __webpack_require__(145);
+var maps_api_loader_1 = __webpack_require__(154);
 exports.MapsAPILoader = maps_api_loader_1.MapsAPILoader;
-var noop_maps_api_loader_1 = __webpack_require__(206);
+var noop_maps_api_loader_1 = __webpack_require__(215);
 exports.NoOpMapsAPILoader = noop_maps_api_loader_1.NoOpMapsAPILoader;
 //# sourceMappingURL=services.js.map
 
 /***/ }),
 
-/***/ 206:
+/***/ 215:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2447,10 +2447,10 @@ exports.NoOpMapsAPILoader = NoOpMapsAPILoader;
 
 /***/ }),
 
-/***/ 212:
+/***/ 221:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -2462,14 +2462,14 @@ exports.push([module.i, ".sebm-google-map-container {\n  height: 300px; }\n", ""
 
 /***/ }),
 
-/***/ 234:
+/***/ 243:
 /***/ (function(module, exports) {
 
 module.exports = "<appc-page-heading text=\"Google maps\"></appc-page-heading> using <a href=\"https://angular-maps.com/\">angular2-google-maps</a> module.\r\n\r\n<div class=\"alert alert-danger\">\r\n  <strong>CSS styling is required! </strong>\r\n  <p>\r\n    It is really important that you define a height for the css class .sebm-google-map-container. Otherwise, you won't see a\r\n    map on the page!\r\n  </p>\r\n</div>\r\n\r\n<sebm-google-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n  <sebm-google-map-marker [latitude]=\"lat\" [longitude]=\"lng\"></sebm-google-map-marker>\r\n</sebm-google-map>";
 
 /***/ }),
 
-/***/ 270:
+/***/ 279:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2477,10 +2477,10 @@ module.exports = "<appc-page-heading text=\"Google maps\"></appc-page-heading> u
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var core_2 = __webpack_require__(204);
+var core_2 = __webpack_require__(213);
 var shared_module_1 = __webpack_require__(31);
-var google_maps_routes_1 = __webpack_require__(271);
-var google_maps_component_1 = __webpack_require__(183);
+var google_maps_routes_1 = __webpack_require__(280);
+var google_maps_component_1 = __webpack_require__(192);
 var GoogleMapsModule = (function () {
     function GoogleMapsModule() {
     }
@@ -2507,14 +2507,14 @@ exports.GoogleMapsModule = GoogleMapsModule;
 
 /***/ }),
 
-/***/ 271:
+/***/ 280:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var google_maps_component_1 = __webpack_require__(183);
+var router_1 = __webpack_require__(7);
+var google_maps_component_1 = __webpack_require__(192);
 var routes = [
     {
         path: '', component: google_maps_component_1.GoogleMapsComponent
@@ -2525,11 +2525,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 310:
+/***/ 319:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(212);
+        var result = __webpack_require__(221);
 
         if (typeof result === "string") {
             module.exports = result;

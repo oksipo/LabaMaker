@@ -1,8 +1,14 @@
-<!-- header component -->
-<appc-header></appc-header>
+
+<header [UserName]="UserName"
+        [Balance]="Balance"
+        [Rating]="Rating"
+        [UserPic]="UserPic">
+    test
+</header>
 
 <!-- component routing placeholder -->
-<router-outlet></router-outlet>
+<div style="padding-left:10%;padding-right:5%;">
+    <router-outlet ></router-outlet>
+</div>
+<footer></footer>
 
-<!-- footer component -->
-<appc-footer></appc-footer>

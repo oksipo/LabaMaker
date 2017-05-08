@@ -1,6 +1,6 @@
 webpackJsonp([9],{
 
-/***/ 147:
+/***/ 156:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8,9 +8,9 @@ webpackJsonp([9],{
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var Observable_1 = __webpack_require__(7);
-var http_1 = __webpack_require__(5);
-var weather_data_1 = __webpack_require__(294);
+var Observable_1 = __webpack_require__(8);
+var http_1 = __webpack_require__(6);
+var weather_data_1 = __webpack_require__(303);
 var WeatherService = (function () {
     function WeatherService(_http) {
         this._http = _http;
@@ -47,7 +47,7 @@ exports.WeatherService = WeatherService;
 
 /***/ }),
 
-/***/ 196:
+/***/ 205:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77,7 +77,7 @@ exports.WeatherProfileService = WeatherProfileService;
 
 /***/ }),
 
-/***/ 197:
+/***/ 206:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -85,8 +85,8 @@ exports.WeatherProfileService = WeatherProfileService;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var weather_service_1 = __webpack_require__(147);
-var profile_service_1 = __webpack_require__(196);
+var weather_service_1 = __webpack_require__(156);
+var profile_service_1 = __webpack_require__(205);
 var WeatherComponent = (function () {
     function WeatherComponent(_weatherService) {
         this._weatherService = _weatherService;
@@ -109,10 +109,10 @@ exports.WeatherComponent = WeatherComponent;
 
 /***/ }),
 
-/***/ 221:
+/***/ 230:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -124,14 +124,14 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 247:
+/***/ 256:
 /***/ (function(module, exports) {
 
 module.exports = "<h3>Saved Profiles</h3>\r\n<div class=\"row\">\r\n  <form (ngSubmit)=\"onSaveNew()\" class=\"form-inline\">\r\n    <input type=\"text\" [(ngModel)]=\"newProfile.profileName\" name=\"profileName\" placeholder=\"Name\" class=\"form-control\">\r\n    <input type=\"text\" [(ngModel)]=\"newProfile.cities\" name=\"profileCity\" placeholder=\"City\" class=\"form-control\">\r\n    <button class=\"btn btn-primary\" type=\"submit\">Save</button>\r\n  </form>\r\n</div>\r\n\r\n<!--Profile list-->\r\n<div class=\"row\">\r\n  <div class=\"card\" *ngFor=\"let profile of profiles\">\r\n    <div class=\"card-block\">\r\n      <h4 class=\"card-title\">{{ profile.profileName }} - {{ profile.cities }}</h4>\r\n      <p class=\"card-text\"></p>\r\n      <a class=\"btn btn-danger\" (click)=\"onDeleteProfile($event, profile)\">Delete</a>\r\n      <a class=\"btn btn-primary\" (click)=\"onLoadProfile(profile)\">Load</a>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"well\" *ngIf=\"weatherItem\">\r\n    <h2>{{ weatherItem?.name }}</h2>\r\n    <p><span class=\"label label-primary\">Temp </span>&nbsp; {{ weatherItem?.main.temp }}°F</p>\r\n    <p><span class=\"label label-info\">Outlook </span>&nbsp; {{ weatherItem?.weather[0].description }}</p>\r\n  </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 290:
+/***/ 299:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -139,8 +139,8 @@ module.exports = "<h3>Saved Profiles</h3>\r\n<div class=\"row\">\r\n  <form (ngS
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var weather_service_1 = __webpack_require__(147);
-var profile_service_1 = __webpack_require__(196);
+var weather_service_1 = __webpack_require__(156);
+var profile_service_1 = __webpack_require__(205);
 var SidebarComponent = (function () {
     function SidebarComponent(_profileService, _weatherService) {
         this._profileService = _profileService;
@@ -178,8 +178,8 @@ var SidebarComponent = (function () {
 SidebarComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-we-sidebar',
-        styles: [__webpack_require__(319)],
-        template: __webpack_require__(247)
+        styles: [__webpack_require__(328)],
+        template: __webpack_require__(256)
     }),
     tslib_1.__metadata("design:paramtypes", [profile_service_1.WeatherProfileService, weather_service_1.WeatherService])
 ], SidebarComponent);
@@ -188,7 +188,7 @@ exports.SidebarComponent = SidebarComponent;
 
 /***/ }),
 
-/***/ 291:
+/***/ 300:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -216,7 +216,7 @@ exports.WeatherItemComponent = WeatherItemComponent;
 
 /***/ }),
 
-/***/ 292:
+/***/ 301:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -224,7 +224,7 @@ exports.WeatherItemComponent = WeatherItemComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var weather_service_1 = __webpack_require__(147);
+var weather_service_1 = __webpack_require__(156);
 var WeatherListComponent = (function () {
     function WeatherListComponent(_weatherService) {
         this._weatherService = _weatherService;
@@ -246,7 +246,7 @@ exports.WeatherListComponent = WeatherListComponent;
 
 /***/ }),
 
-/***/ 293:
+/***/ 302:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -254,8 +254,8 @@ exports.WeatherListComponent = WeatherListComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var forms_1 = __webpack_require__(8);
-var weather_service_1 = __webpack_require__(147);
+var forms_1 = __webpack_require__(9);
+var weather_service_1 = __webpack_require__(156);
 var WeatherSearchComponent = (function () {
     function WeatherSearchComponent(_weatherService) {
         this._weatherService = _weatherService;
@@ -298,7 +298,7 @@ exports.WeatherSearchComponent = WeatherSearchComponent;
 
 /***/ }),
 
-/***/ 294:
+/***/ 303:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -309,7 +309,7 @@ exports.WEATHER_ITEMS = [];
 
 /***/ }),
 
-/***/ 295:
+/***/ 304:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -318,12 +318,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var weather_routes_1 = __webpack_require__(296);
-var weather_component_1 = __webpack_require__(197);
-var weather_list_component_1 = __webpack_require__(292);
-var weather_item_component_1 = __webpack_require__(291);
-var weather_search_component_1 = __webpack_require__(293);
-var sidebar_component_1 = __webpack_require__(290);
+var weather_routes_1 = __webpack_require__(305);
+var weather_component_1 = __webpack_require__(206);
+var weather_list_component_1 = __webpack_require__(301);
+var weather_item_component_1 = __webpack_require__(300);
+var weather_search_component_1 = __webpack_require__(302);
+var sidebar_component_1 = __webpack_require__(299);
 var WeatherModule = (function () {
     function WeatherModule() {
     }
@@ -350,14 +350,14 @@ exports.WeatherModule = WeatherModule;
 
 /***/ }),
 
-/***/ 296:
+/***/ 305:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var weather_component_1 = __webpack_require__(197);
+var router_1 = __webpack_require__(7);
+var weather_component_1 = __webpack_require__(206);
 var routes = [
     { path: '', component: weather_component_1.WeatherComponent }
 ];
@@ -366,11 +366,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 319:
+/***/ 328:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(221);
+        var result = __webpack_require__(230);
 
         if (typeof result === "string") {
             module.exports = result;

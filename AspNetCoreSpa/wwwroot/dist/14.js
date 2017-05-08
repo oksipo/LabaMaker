@@ -1,6 +1,6 @@
 webpackJsonp([14],{
 
-/***/ 191:
+/***/ 200:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73,8 +73,8 @@ var StripePaymentComponent = (function () {
 StripePaymentComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-stripe-payment',
-        template: __webpack_require__(242),
-        styles: [__webpack_require__(316)]
+        template: __webpack_require__(251),
+        styles: [__webpack_require__(325)]
     }),
     tslib_1.__metadata("design:paramtypes", [core_1.NgZone, utility_service_1.UtilityService])
 ], StripePaymentComponent);
@@ -83,10 +83,10 @@ exports.StripePaymentComponent = StripePaymentComponent;
 
 /***/ }),
 
-/***/ 218:
+/***/ 227:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -98,14 +98,14 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 242:
+/***/ 251:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"card\">\r\n  <h3 class=\"card-header\">Default stripe form</h3>\r\n  <div class=\"card-block\">\r\n    <button (click)=\"openCheckout()\">Purchase</button>\r\n  </div>\r\n</div>\r\n\r\n\r\n<div class=\"card\">\r\n  <h3 class=\"card-header\">Custom stripe implementation</h3>\r\n  <div class=\"card-block\">\r\n    <h4 class=\"card-title\">{{message}}</h4>\r\n\r\n    <form id=\"payment-form\" (submit)=\"getToken()\">\r\n      <div class=\"form-group\">\r\n        <label>Card Number</label>\r\n        <input class=\"form-control\" [(ngModel)]=\"cardNumber\" name=\"card-number\" type=\"text\" size=\"20\" data-stripe=\"number\">\r\n      </div>\r\n\r\n      <div class=\"form-group\">\r\n        <label>\r\n      <span>Expiration (MM/YY)</span>\r\n      <input class=\"form-control\" [(ngModel)]=\"expiryMonth\" name=\"expiry-month\" type=\"text\" size=\"2\" data-stripe=\"exp_month\">\r\n    </label>\r\n        <span> / </span>\r\n        <input class=\"form-control\" [(ngModel)]=\"expiryYear\" name=\"expiry-year\" type=\"text\" size=\"2\" data-stripe=\"exp_year\">\r\n      </div>\r\n\r\n      <div class=\"form-group\">\r\n        <label>\r\n      <span>CVC</span>\r\n      <input class=\"form-control\" [(ngModel)]=\"cvc\" name=\"cvc\" type=\"text\" size=\"4\" data-stripe=\"cvc\">\r\n    </label>\r\n      </div>\r\n\r\n      <input type=\"submit\" value=\"Submit Payment\">\r\n    </form>\r\n  </div>\r\n\r\n</div>\r\n\r\n\r\n<form #form class=\"form-inline\" name=\"_xclick\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\r\n  <input type=\"hidden\" name=\"cmd\" value=\"_xclick\">\r\n  <input type=\"hidden\" name=\"business\" value=\"mmusale93@gmail.com\">\r\n  <input type=\"hidden\" name=\"currency_code\" value=\"USD\">\r\n  <input type=\"hidden\" name=\"item_name\" value=\"Paypal demo charge\">\r\n  <input name=\"item_number\" type=\"hidden\" value=\"0001\" />\r\n  <input type=\"text\" class=\"form-control\" size=\"30\" id=\"paypalAmount\" name=\"amount\" />\r\n  <input type=\"hidden\" name=\"return\" value=\"https://localhost:4200/\" />\r\n  <input type=\"hidden\" name=\"cancel_return\" value=\"https://localhost:4200/\" />\r\n  <input type=\"hidden\" name=\"custom\" value='Title'>\r\n  <!--pass your notification URL-->\r\n  <input name=\"notify_url\" value=\"YOUR NOTIFICATION URL\" type=\"hidden\">\r\n  <br/>\r\n  <br/>\r\n  <input (click)=\"form.submit()\" type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_buynow_LG.gif\" border=\"0\" name=\"submit\"\r\n    alt=\"Make payments with PayPal - it's fast, free and secure!\" />\r\n</form>";
 
 /***/ }),
 
-/***/ 282:
+/***/ 291:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -114,8 +114,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var stripe_payment_routes_1 = __webpack_require__(283);
-var stripe_payment_component_1 = __webpack_require__(191);
+var stripe_payment_routes_1 = __webpack_require__(292);
+var stripe_payment_component_1 = __webpack_require__(200);
 var StripePaymentModule = (function () {
     function StripePaymentModule() {
     }
@@ -139,14 +139,14 @@ exports.StripePaymentModule = StripePaymentModule;
 
 /***/ }),
 
-/***/ 283:
+/***/ 292:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var stripe_payment_component_1 = __webpack_require__(191);
+var router_1 = __webpack_require__(7);
+var stripe_payment_component_1 = __webpack_require__(200);
 var routes = [
     {
         path: '', component: stripe_payment_component_1.StripePaymentComponent
@@ -157,11 +157,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 316:
+/***/ 325:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(218);
+        var result = __webpack_require__(227);
 
         if (typeof result === "string") {
             module.exports = result;

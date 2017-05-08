@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 140:
+/***/ 149:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9,9 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var social_login_component_1 = __webpack_require__(298);
-var login_component_1 = __webpack_require__(198);
-var login_routes_1 = __webpack_require__(297);
+var social_login_component_1 = __webpack_require__(307);
+var login_component_1 = __webpack_require__(207);
+var login_routes_1 = __webpack_require__(306);
 var LoginModule = (function () {
     function LoginModule() {
     }
@@ -28,7 +28,7 @@ exports.LoginModule = LoginModule;
 
 /***/ }),
 
-/***/ 158:
+/***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51,7 +51,7 @@ exports.ControlTextbox = ControlTextbox;
 
 /***/ }),
 
-/***/ 198:
+/***/ 207:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59,9 +59,9 @@ exports.ControlTextbox = ControlTextbox;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var router_1 = __webpack_require__(6);
+var router_1 = __webpack_require__(7);
 var account_service_1 = __webpack_require__(20);
-var control_textbox_1 = __webpack_require__(158);
+var control_textbox_1 = __webpack_require__(167);
 var utility_service_1 = __webpack_require__(17);
 var LoginComponent = (function () {
     function LoginComponent(accountService, router, utilityService) {
@@ -109,8 +109,8 @@ var LoginComponent = (function () {
 LoginComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-login',
-        styles: [__webpack_require__(320)],
-        template: __webpack_require__(248)
+        styles: [__webpack_require__(329)],
+        template: __webpack_require__(257)
     }),
     tslib_1.__metadata("design:paramtypes", [account_service_1.AccountService,
         router_1.Router,
@@ -121,10 +121,10 @@ exports.LoginComponent = LoginComponent;
 
 /***/ }),
 
-/***/ 222:
+/***/ 231:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -136,10 +136,10 @@ exports.push([module.i, ".separator {\n  font-size: 15px;\n  font-weight: 600;\n
 
 /***/ }),
 
-/***/ 223:
+/***/ 232:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -151,28 +151,28 @@ exports.push([module.i, ".social-login-button {\n  margin: 5px; }\n  .social-log
 
 /***/ }),
 
-/***/ 248:
+/***/ 257:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"col-md-6 offset-md-3\">\r\n    <div class=\"card\">\r\n        <div class=\"card-header\">\r\n            Login\r\n        </div>\r\n\r\n        <div class=\"card-block\">\r\n            <appc-error-summary [errors]=\"errors\"></appc-error-summary>\r\n            <appc-dynamic-form (formsubmit)=\"login($event)\" [controls]=\"controls\" [btnText]=\"'Login'\"></appc-dynamic-form>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <p class=\"text-center font-weight-bold\">\r\n        OR\r\n    </p>\r\n\r\n    <div class=\"text-center\">\r\n        <appc-social-login></appc-social-login>\r\n    </div>\r\n\r\n</div>";
 
 /***/ }),
 
-/***/ 249:
+/***/ 258:
 /***/ (function(module, exports) {
 
 module.exports = "<button class=\"btn social-login-button google\" (click)=\"loginGoogle()\">\r\n    <div layout=\"row\" layout-align=\"center center\">\r\n        <span>\r\n                    <i class=\"fa fa-google\" aria-hidden=\"true\"></i>\r\n                    <span>Log in with Google</span>\r\n        </span>\r\n    </div>\r\n</button>\r\n\r\n<button class=\"btn social-login-button facebook\" (click)=\"loginFacebook()\">\r\n    <div layout=\"row\" layout-align=\"center center\">\r\n        <span>\r\n                    <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>\r\n                    <span>Log in with Facebook</span>\r\n        </span>\r\n    </div>\r\n</button>\r\n\r\n<button class=\"btn social-login-button microsoft\" (click)=\"loginMicrosoft()\">\r\n    <div layout=\"row\" layout-align=\"center center\">\r\n        <span>\r\n                    <i class=\"fa fa-windows\" aria-hidden=\"true\"></i>\r\n                    <span>Log in with Microsoft</span>\r\n        </span>\r\n    </div>\r\n</button>\r\n\r\n<button class=\"btn social-login-button twitter\" (click)=\"loginTwitter()\">\r\n    <div layout=\"row\" layout-align=\"center center\">\r\n        <span>\r\n                    <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>\r\n                    <span>Log in with Twitter</span>\r\n        </span>\r\n    </div>\r\n</button>\r\n\r\n<button class=\"btn social-login-button github\" (click)=\"loginGithub()\">\r\n    <div layout=\"row\" layout-align=\"center center\">\r\n        <span>\r\n                    <i class=\"fa fa-github\" aria-hidden=\"true\"></i>\r\n                    <span>Log in with Github</span>\r\n        </span>\r\n    </div>\r\n</button>\r\n\r\n<button class=\"btn social-login-button linkedin\" (click)=\"loginLinkedIn()\">\r\n    <div layout=\"row\" layout-align=\"center center\">\r\n        <span>\r\n                    <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>\r\n                    <span>Log in with LinkedIn</span>\r\n        </span>\r\n    </div>\r\n</button>";
 
 /***/ }),
 
-/***/ 297:
+/***/ 306:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var login_component_1 = __webpack_require__(198);
+var router_1 = __webpack_require__(7);
+var login_component_1 = __webpack_require__(207);
 var routes = [
     { path: '', component: login_component_1.LoginComponent }
 ];
@@ -181,7 +181,7 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 298:
+/***/ 307:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -222,8 +222,8 @@ var SocialLoginComponent = (function () {
 SocialLoginComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-social-login',
-        styles: [__webpack_require__(321)],
-        template: __webpack_require__(249)
+        styles: [__webpack_require__(330)],
+        template: __webpack_require__(258)
     }),
     tslib_1.__metadata("design:paramtypes", [common_1.Location])
 ], SocialLoginComponent);
@@ -232,11 +232,11 @@ exports.SocialLoginComponent = SocialLoginComponent;
 
 /***/ }),
 
-/***/ 320:
+/***/ 329:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(222);
+        var result = __webpack_require__(231);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -247,11 +247,11 @@ exports.SocialLoginComponent = SocialLoginComponent;
 
 /***/ }),
 
-/***/ 321:
+/***/ 330:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(223);
+        var result = __webpack_require__(232);
 
         if (typeof result === "string") {
             module.exports = result;

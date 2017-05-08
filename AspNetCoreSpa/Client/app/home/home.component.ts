@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
-import { routerTransition, hostStyle } from '../router.animations';
+﻿import { Component } from '@angular/core';
+
+
 
 @Component({
-  selector: 'appc-home',
-  styleUrls: ['./home.component.scss'],
-  templateUrl: './home.component.html',
-  animations: [routerTransition()],
-  // tslint:disable-next-line:use-host-property-decorator
-  host: hostStyle()
+    selector: 'home',
+    templateUrl: './home.component.html',
+    styleUrls:['./home.component.css','../../libraries/hover.css']
 })
-export class HomeComponent { }
+export class HomeComponent {
+   
+
+}

@@ -9,6 +9,7 @@ using AspNetCoreSpa.DAL.Repositories.Abstract;
 using AspNetCoreSpa.DAL.Entities;
 using AspNetCoreSpa.DAL.Repositories;
 using AspNetCoreSpa.DAL;
+using DAL.Entities;
 
 namespace AspNetCoreSpa
 {
@@ -77,6 +78,14 @@ namespace AspNetCoreSpa
             {
                 c.SwaggerDoc("v1", new Info { Title = "AspNetCoreSpa", Version = "v1" });
             });
+            services.AddScoped<IEntityBaseRepository<Faculty>, EntityBaseRepository<Faculty>>();
+            services.AddScoped<IEntityBaseRepository<Subject>, EntityBaseRepository<Subject>>();
+            services.AddScoped<IEntityBaseRepository<University>, EntityBaseRepository<University>>();
+            services.AddScoped<IEntityBaseRepository<UserComment>, EntityBaseRepository<UserComment>>();
+            services.AddScoped<IEntityBaseRepository<Work>, EntityBaseRepository<Work>>();
+            services.AddScoped<IEntityBaseRepository<WorkAttachment>, EntityBaseRepository<WorkAttachment>>();
+            services.AddScoped<IEntityBaseRepository<WorkScreen>, EntityBaseRepository<WorkScreen>>();
+            services.AddScoped<IEntityBaseRepository<WorkComment>, EntityBaseRepository<WorkComment>>();
         }
         public void Configure(IApplicationBuilder app)
         {
@@ -115,6 +124,7 @@ namespace AspNetCoreSpa
             // });
 
             app.UseOAuthProviders();
+            
 
             app.UseMvc(routes =>
             {

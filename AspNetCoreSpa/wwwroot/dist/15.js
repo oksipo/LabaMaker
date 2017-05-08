@@ -1,6 +1,6 @@
 webpackJsonp([15],{
 
-/***/ 186:
+/***/ 195:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33,8 +33,8 @@ tslib_1.__decorate([
 MarkdownEditorComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-markdown-editor',
-        template: __webpack_require__(237),
-        styles: [__webpack_require__(313)],
+        template: __webpack_require__(246),
+        styles: [__webpack_require__(322)],
         encapsulation: core_1.ViewEncapsulation.None
     }),
     tslib_1.__metadata("design:paramtypes", [utility_service_1.UtilityService])
@@ -44,10 +44,10 @@ exports.MarkdownEditorComponent = MarkdownEditorComponent;
 
 /***/ }),
 
-/***/ 215:
+/***/ 224:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -59,14 +59,14 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 237:
+/***/ 246:
 /***/ (function(module, exports) {
 
 module.exports = "<h3>\r\n    SimpleMDE Markdown Editor\r\n</h3>\r\n<p>\r\n    Details <a href=\"https://simplemde.com/\">here</a>\r\n</p>\r\n\r\n<textarea #simplemde></textarea>";
 
 /***/ }),
 
-/***/ 274:
+/***/ 283:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75,8 +75,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var markdown_editor_routes_1 = __webpack_require__(275);
-var markdown_editor_component_1 = __webpack_require__(186);
+var markdown_editor_routes_1 = __webpack_require__(284);
+var markdown_editor_component_1 = __webpack_require__(195);
 var MarkdownEditorModule = (function () {
     function MarkdownEditorModule() {
     }
@@ -100,14 +100,14 @@ exports.MarkdownEditorModule = MarkdownEditorModule;
 
 /***/ }),
 
-/***/ 275:
+/***/ 284:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var markdown_editor_component_1 = __webpack_require__(186);
+var router_1 = __webpack_require__(7);
+var markdown_editor_component_1 = __webpack_require__(195);
 var routes = [
     {
         path: '', component: markdown_editor_component_1.MarkdownEditorComponent
@@ -118,11 +118,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 313:
+/***/ 322:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(215);
+        var result = __webpack_require__(224);
 
         if (typeof result === "string") {
             module.exports = result;

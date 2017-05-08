@@ -1,6 +1,6 @@
 webpackJsonp([10],{
 
-/***/ 168:
+/***/ 177:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var AnimationsComponent = (function () {
 AnimationsComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-animation',
-        template: __webpack_require__(225)
+        template: __webpack_require__(234)
     })
 ], AnimationsComponent);
 exports.AnimationsComponent = AnimationsComponent;
@@ -24,7 +24,7 @@ exports.AnimationsComponent = AnimationsComponent;
 
 /***/ }),
 
-/***/ 169:
+/***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55,8 +55,8 @@ var AnimationsBasicExamplesComponent = (function () {
 AnimationsBasicExamplesComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-animations-basic-examples',
-        template: __webpack_require__(226),
-        styles: [__webpack_require__(305)],
+        template: __webpack_require__(235),
+        styles: [__webpack_require__(314)],
         animations: [
             core_1.trigger('signal', [
                 core_1.state('void', core_1.style({
@@ -92,7 +92,7 @@ exports.AnimationsBasicExamplesComponent = AnimationsBasicExamplesComponent;
 
 /***/ }),
 
-/***/ 170:
+/***/ 179:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -125,8 +125,8 @@ var AnimationsRepeatingItemsComponent = (function () {
 AnimationsRepeatingItemsComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-animation-repeating-items',
-        template: __webpack_require__(227),
-        styles: [__webpack_require__(306)],
+        template: __webpack_require__(236),
+        styles: [__webpack_require__(315)],
         animations: [
             animations_1.trigger('focusPanel', [
                 animations_1.state('inactive', animations_1.style({
@@ -178,10 +178,10 @@ exports.AnimationsRepeatingItemsComponent = AnimationsRepeatingItemsComponent;
 
 /***/ }),
 
-/***/ 207:
+/***/ 216:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -193,10 +193,10 @@ exports.push([module.i, ".traffic-light {\n  width: 100px;\n  height: 100px;\n  
 
 /***/ }),
 
-/***/ 208:
+/***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -208,28 +208,28 @@ exports.push([module.i, "/* You can add global styles to this file, and also imp
 
 /***/ }),
 
-/***/ 225:
+/***/ 234:
 /***/ (function(module, exports) {
 
 module.exports = "<appc-page-heading text=\"Animations\"></appc-page-heading>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-12 col-md-3 push-md-9\">\r\n        <div class=\"list-group\">\r\n            <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['basicanimation']\">Basic animations</a>\r\n            <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['repeatinganimations']\">Repeating items</a>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"col-12 col-md-9 pull-md-3 bd-content\">\r\n        <router-outlet></router-outlet>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 226:
+/***/ 235:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\r\n    <div class=\"container\">\r\n        <button (click)=\"toggleAnimation()\" class=\"btn btn-primary\" [@buttonState]=\"buttonState\"> {{buttonState}} </button>\r\n    </div>\r\n</div>\r\n\r\n<h3>Traffic light</h3>\r\n<div class=\"row\">\r\n    <div class=\"container\">\r\n        <div class=\"traffic-light\" *ngIf=\"isHere\" [@signal]=\"signal\"></div>\r\n        <button (click)=\"onGoClick()\" class=\"btn btn-sm btn-primary\">Go </button>\r\n        <button (click)=\"onStopClick()\" class=\"btn btn-sm btn-danger\">Stop </button>\r\n        <button (click)=\"onToggle()\" class=\"btn btn-sm btn-warning\">Toggle </button>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 227:
+/***/ 236:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\r\n    <div class=\"panel\" [@focusPanel]='state'>\r\n        <input type=\"text\" placeholder=\"Add an item here.\" on-focus='toggleFocus()' on-focusout='toggleFocus()' (keyup.enter)='submitItem($event)'>\r\n        <p id=\"subtxt\" [@note]='state'>Hit enter to add</p>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"small-12 medium-6\">\r\n    <div class=\"panel nplr\">\r\n        <div class=\"item-container\" *ngFor=\"let item of ourItems; let i = index\" [attr.data-index]=\"i\" [@itemEnter]=\"state\">\r\n            <div class=\"identifier\"></div>\r\n            <p>{{ item }}</p>\r\n            <a (click)=\"removeItem($event, i)\">X</a>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 256:
+/***/ 265:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -237,11 +237,11 @@ module.exports = "<div class=\"row\">\r\n    <div class=\"panel\" [@focusPanel]=
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var animations_component_1 = __webpack_require__(168);
+var animations_component_1 = __webpack_require__(177);
 var shared_module_1 = __webpack_require__(31);
-var repeating_items_component_1 = __webpack_require__(170);
-var basic_examples_component_1 = __webpack_require__(169);
-var animations_routes_1 = __webpack_require__(257);
+var repeating_items_component_1 = __webpack_require__(179);
+var basic_examples_component_1 = __webpack_require__(178);
+var animations_routes_1 = __webpack_require__(266);
 var AnimationsModule = (function () {
     function AnimationsModule() {
     }
@@ -263,16 +263,16 @@ exports.AnimationsModule = AnimationsModule;
 
 /***/ }),
 
-/***/ 257:
+/***/ 266:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var animations_component_1 = __webpack_require__(168);
-var basic_examples_component_1 = __webpack_require__(169);
-var repeating_items_component_1 = __webpack_require__(170);
+var router_1 = __webpack_require__(7);
+var animations_component_1 = __webpack_require__(177);
+var basic_examples_component_1 = __webpack_require__(178);
+var repeating_items_component_1 = __webpack_require__(179);
 var routes = [
     {
         path: '', component: animations_component_1.AnimationsComponent, children: [
@@ -286,11 +286,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 305:
+/***/ 314:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(207);
+        var result = __webpack_require__(216);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -301,11 +301,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 306:
+/***/ 315:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(208);
+        var result = __webpack_require__(217);
 
         if (typeof result === "string") {
             module.exports = result;

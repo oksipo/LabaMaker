@@ -1,0 +1,25 @@
+﻿.navbar-nav {
+    display: inline;
+    border-radius: 0px;
+}
+
+.container-fluid {
+    width: 100%;
+    border-radius: 0px;
+}
+.navbar-inverse {
+    border-radius: 0px;
+}
+
+.userPic {
+    width: 10%;
+    border-radius: 50%;
+    float: left;
+    margin: 2%;
+}
+.User {
+    color: #9d9d9d;
+}
+.User:hover{
+    color:white;
+}

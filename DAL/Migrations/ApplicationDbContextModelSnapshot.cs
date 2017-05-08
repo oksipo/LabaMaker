@@ -49,6 +49,8 @@ namespace DAL.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
+                    b.Property<double>("Balance");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 

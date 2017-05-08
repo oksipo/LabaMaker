@@ -1,0 +1,26 @@
+﻿.country_flag
+{
+    width:32px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.country_flag_li{
+margin-left:1%;
+}
+.social_button {
+    background-color:transparent;
+    border:none;
+}
+
+.social_icon{
+    width:32px;
+}
+.container-fluid {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.navbar-nav {
+    display: inline;
+    border-radius: 0px;
+}

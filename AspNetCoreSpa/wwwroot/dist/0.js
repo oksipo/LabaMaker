@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 141:
+/***/ 150:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9,11 +9,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var profile_routes_1 = __webpack_require__(303);
-var profile_component_1 = __webpack_require__(199);
-var profile_service_1 = __webpack_require__(157);
-var change_name_component_1 = __webpack_require__(299);
-var change_password_component_1 = __webpack_require__(301);
+var profile_routes_1 = __webpack_require__(312);
+var profile_component_1 = __webpack_require__(208);
+var profile_service_1 = __webpack_require__(166);
+var change_name_component_1 = __webpack_require__(308);
+var change_password_component_1 = __webpack_require__(310);
 var ProfileModule = (function () {
     function ProfileModule() {
     }
@@ -31,7 +31,7 @@ exports.ProfileModule = ProfileModule;
 
 /***/ }),
 
-/***/ 157:
+/***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68,7 +68,7 @@ exports.ProfileService = ProfileService;
 
 /***/ }),
 
-/***/ 199:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -87,7 +87,7 @@ var ProfileComponent = (function () {
 ProfileComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-user-profile',
-        template: __webpack_require__(252)
+        template: __webpack_require__(261)
     })
 ], ProfileComponent);
 exports.ProfileComponent = ProfileComponent;
@@ -95,28 +95,28 @@ exports.ProfileComponent = ProfileComponent;
 
 /***/ }),
 
-/***/ 250:
+/***/ 259:
 /***/ (function(module, exports) {
 
 module.exports = "<appc-page-heading text=\"Change User's name\"></appc-page-heading>\r\n\r\n<form class=\"form-horizontal\" #hf=\"ngForm\">\r\n    <div class=\"form-group\">\r\n        <label for=\"firstName\">First name</label>\r\n        <input type=\"text\" [class.error]=\"!firstName.valid\" class=\"form-control input-lg\" placeholder=\"First name\" [(ngModel)]=\"userNameModel.firstName\"\r\n            name=\"firstName\" ngControl=\"firstName\" required #firstName=\"ngModel\" />\r\n        <label *ngIf=\"!firstName.valid && firstName.touched\" class=\"error\">\r\n                        FirstName is required\r\n            </label>\r\n    </div>\r\n    <div class=\"form-group\">\r\n        <label for=\"lastName\">Last name</label>\r\n        <input type=\"text\" [class.error]=\"!lastName.valid\" class=\"form-control input-lg\" placeholder=\"LastName\" [(ngModel)]=\"userNameModel.lastName\"\r\n            name=\"lastName\" ngControl=\"lastName\" required #lastName=\"ngModel\" />\r\n        <label *ngIf=\"!lastName.valid && lastName.touched\" class=\"error\">\r\n                            LastName is required\r\n                        </label>\r\n    </div>\r\n\r\n    <button class=\"btn btn-primary pull-right\" (click)=\"save()\" [disabled]=\"!hf.form.valid\">Update</button>\r\n</form>";
 
 /***/ }),
 
-/***/ 251:
+/***/ 260:
 /***/ (function(module, exports) {
 
 module.exports = "<appc-page-heading text=\"Change password\"></appc-page-heading>\r\n\r\n<form class=\"form-horizontal\" [formGroup]=\"changePasswordForm\">\r\n    <div class=\"form-group\">\r\n        <label>Old password</label>\r\n        <input type=\"password\" [class.error]=\"!changePasswordForm.get('oldPassword').valid\" class=\"form-control input-lg\" placeholder=\"Old password\"\r\n            formControlName=\"oldPassword\" />\r\n        <span [hidden]=\"changePasswordForm.get('oldPassword').valid || (changePasswordForm.get('oldPassword').pristine && !submitted)\"\r\n            class=\"text-danger\">\r\n                    Old password is required\r\n            </span>\r\n    </div>\r\n    <div class=\"form-group\">\r\n        <label>New password</label>\r\n        <input type=\"password\" [class.error]=\"!changePasswordForm.get('newPassword').valid\" class=\"form-control input-lg\" placeholder=\"New password\"\r\n            formControlName=\"newPassword\" />\r\n        <span [hidden]=\"changePasswordForm.get('newPassword').valid || (changePasswordForm.get('newPassword').pristine && !submitted)\"\r\n            class=\"text-danger\">\r\n                    New password is required\r\n            </span>\r\n    </div>\r\n    <div class=\"form-group\">\r\n        <label>Confirm password</label>\r\n        <input type=\"password\" [class.error]=\"!changePasswordForm.get('confirmPassword').valid\" class=\"form-control input-lg\" placeholder=\"Confirm password\"\r\n            formControlName=\"confirmPassword\" />\r\n        <span [hidden]=\"changePasswordForm.get('confirmPassword').valid || (changePasswordForm.get('confirmPassword').pristine && !submitted)\"\r\n            class=\"text-danger\">\r\n                    Confirm password is required\r\n            </span>\r\n    </div>\r\n\r\n    <button (click)=\"changePassword()\" class=\"btn btn-primary pull-right\">Change password</button>\r\n\r\n</form>";
 
 /***/ }),
 
-/***/ 252:
+/***/ 261:
 /***/ (function(module, exports) {
 
 module.exports = "<!--Alert message-->\r\n<div class=\"row\">\r\n    <ngb-alert *ngIf=\"notificationMessage\" type=\"success\" (close)=\"notificationMessage = null\">{{ notificationMessage }}</ngb-alert>\r\n</div>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col\">\r\n        <appc-change-name (notification)=\"notify($event)\"></appc-change-name>\r\n    </div>\r\n    <div class=\"col\">\r\n        <appc-change-password (notification)=\"notify($event)\"></appc-change-password>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 299:
+/***/ 308:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -124,8 +124,8 @@ module.exports = "<!--Alert message-->\r\n<div class=\"row\">\r\n    <ngb-alert 
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var profile_service_1 = __webpack_require__(157);
-var change_name_model_1 = __webpack_require__(300);
+var profile_service_1 = __webpack_require__(166);
+var change_name_model_1 = __webpack_require__(309);
 var ChangeNameComponent = (function () {
     function ChangeNameComponent(profileService) {
         this.profileService = profileService;
@@ -158,7 +158,7 @@ tslib_1.__decorate([
 ChangeNameComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-change-name',
-        template: __webpack_require__(250)
+        template: __webpack_require__(259)
     }),
     tslib_1.__metadata("design:paramtypes", [profile_service_1.ProfileService])
 ], ChangeNameComponent);
@@ -167,7 +167,7 @@ exports.ChangeNameComponent = ChangeNameComponent;
 
 /***/ }),
 
-/***/ 300:
+/***/ 309:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -185,7 +185,7 @@ exports.ChangeNameModel = ChangeNameModel;
 
 /***/ }),
 
-/***/ 301:
+/***/ 310:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -193,9 +193,9 @@ exports.ChangeNameModel = ChangeNameModel;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var forms_1 = __webpack_require__(8);
-var profile_service_1 = __webpack_require__(157);
-var change_password_model_1 = __webpack_require__(302);
+var forms_1 = __webpack_require__(9);
+var profile_service_1 = __webpack_require__(166);
+var change_password_model_1 = __webpack_require__(311);
 var validation_service_1 = __webpack_require__(22);
 var ChangePasswordComponent = (function () {
     function ChangePasswordComponent(profileService, fb) {
@@ -234,7 +234,7 @@ tslib_1.__decorate([
 ChangePasswordComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-change-password',
-        template: __webpack_require__(251)
+        template: __webpack_require__(260)
     }),
     tslib_1.__metadata("design:paramtypes", [profile_service_1.ProfileService, forms_1.FormBuilder])
 ], ChangePasswordComponent);
@@ -243,7 +243,7 @@ exports.ChangePasswordComponent = ChangePasswordComponent;
 
 /***/ }),
 
-/***/ 302:
+/***/ 311:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -262,14 +262,14 @@ exports.ChangePasswordModel = ChangePasswordModel;
 
 /***/ }),
 
-/***/ 303:
+/***/ 312:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var profile_component_1 = __webpack_require__(199);
+var router_1 = __webpack_require__(7);
+var profile_component_1 = __webpack_require__(208);
 var routes = [
     { path: '', component: profile_component_1.ProfileComponent }
 ];

@@ -14,7 +14,7 @@ namespace AspNetCoreSpa.DAL.Entities
       public int StudNumber { get; set; }
       public int Rating { get; set; }
       public string UserPicPath { get; set; }
-
+      public double Balance { get; set; }
         public List<Work> UploadedWorks { get; set; }
         public List<UserWork> DownloadedWorks { get; set; }
         public List<WorkComment> WorkComments { get; set; }

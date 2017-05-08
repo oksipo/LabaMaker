@@ -1,6 +1,6 @@
 webpackJsonp([13],{
 
-/***/ 181:
+/***/ 190:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31,7 +31,7 @@ var DirectivesHomeComponent = (function () {
 DirectivesHomeComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-directives',
-        template: __webpack_require__(232)
+        template: __webpack_require__(241)
     })
 ], DirectivesHomeComponent);
 exports.DirectivesHomeComponent = DirectivesHomeComponent;
@@ -39,26 +39,26 @@ exports.DirectivesHomeComponent = DirectivesHomeComponent;
 
 /***/ }),
 
-/***/ 232:
+/***/ 241:
 /***/ (function(module, exports) {
 
 module.exports = "<h2>\r\n    Example 1: Host bindings and host listeners</h2>\r\n<appc-basic [first]=\"'This text will be replaced'\"></appc-basic>\r\n<appc-basic></appc-basic>\r\n<appc-basic [first]=\"'This text will be replaced too'\"></appc-basic>\r\n\r\n<h2>Example 2: Structural directives example using directive prefixed with * (astrick)</h2>\r\n\r\n<p *three=\"let message from messages\"> {{message}} </p>";
 
 /***/ }),
 
-/***/ 265:
+/***/ 274:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
-var first_directive_1 = __webpack_require__(267);
-var structural_directive_1 = __webpack_require__(268);
-var directives_home_component_1 = __webpack_require__(181);
+var first_directive_1 = __webpack_require__(276);
+var structural_directive_1 = __webpack_require__(277);
+var directives_home_component_1 = __webpack_require__(190);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var directives_routes_1 = __webpack_require__(266);
+var directives_routes_1 = __webpack_require__(275);
 var DirectivesModule = (function () {
     function DirectivesModule() {
     }
@@ -82,14 +82,14 @@ exports.DirectivesModule = DirectivesModule;
 
 /***/ }),
 
-/***/ 266:
+/***/ 275:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var directives_home_component_1 = __webpack_require__(181);
+var router_1 = __webpack_require__(7);
+var directives_home_component_1 = __webpack_require__(190);
 var routes = [
     {
         path: '', component: directives_home_component_1.DirectivesHomeComponent
@@ -100,7 +100,7 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 267:
+/***/ 276:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -162,7 +162,7 @@ exports.FirstAdvancedDirective = FirstAdvancedDirective;
 
 /***/ }),
 
-/***/ 268:
+/***/ 277:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

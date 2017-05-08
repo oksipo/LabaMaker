@@ -1,6 +1,6 @@
 webpackJsonp([8],{
 
-/***/ 193:
+/***/ 202:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var DatetimeComponent = (function () {
 DatetimeComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-datetime',
-        template: __webpack_require__(244)
+        template: __webpack_require__(253)
     })
 ], DatetimeComponent);
 exports.DatetimeComponent = DatetimeComponent;
@@ -24,7 +24,7 @@ exports.DatetimeComponent = DatetimeComponent;
 
 /***/ }),
 
-/***/ 194:
+/***/ 203:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32,12 +32,12 @@ exports.DatetimeComponent = DatetimeComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var wikipedia_service_1 = __webpack_require__(287);
-var Observable_1 = __webpack_require__(7);
+var wikipedia_service_1 = __webpack_require__(296);
+var Observable_1 = __webpack_require__(8);
 __webpack_require__(35);
-__webpack_require__(325);
-__webpack_require__(326);
-__webpack_require__(327);
+__webpack_require__(334);
+__webpack_require__(335);
+__webpack_require__(336);
 var states = ['Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas', 'California', 'Colorado',
     'Connecticut', 'Delaware', 'District Of Columbia', 'Federated States Of Micronesia', 'Florida', 'Georgia',
     'Guam', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine',
@@ -71,7 +71,7 @@ var TypeaheadComponent = (function () {
 TypeaheadComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-typeahead',
-        template: __webpack_require__(245),
+        template: __webpack_require__(254),
         providers: [wikipedia_service_1.WikipediaService]
     }),
     tslib_1.__metadata("design:paramtypes", [wikipedia_service_1.WikipediaService])
@@ -81,7 +81,7 @@ exports.TypeaheadComponent = TypeaheadComponent;
 
 /***/ }),
 
-/***/ 195:
+/***/ 204:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -97,8 +97,8 @@ var UibootstrapComponent = (function () {
 UibootstrapComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-uibootstrap',
-        template: __webpack_require__(246),
-        styles: [__webpack_require__(318)]
+        template: __webpack_require__(255),
+        styles: [__webpack_require__(327)]
     })
 ], UibootstrapComponent);
 exports.UibootstrapComponent = UibootstrapComponent;
@@ -106,10 +106,10 @@ exports.UibootstrapComponent = UibootstrapComponent;
 
 /***/ }),
 
-/***/ 220:
+/***/ 229:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -121,28 +121,28 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 244:
+/***/ 253:
 /***/ (function(module, exports) {
 
 module.exports = "<appc-page-heading text=\"Date time example\"></appc-page-heading>\r\n\r\n<form class=\"form-inline\">\r\n  <div class=\"form-group\">\r\n    <div class=\"input-group\">\r\n      <input class=\"form-control\" placeholder=\"yyyy-mm-dd\" name=\"dp\" [(ngModel)]=\"model\" ngbDatepicker #d=\"ngbDatepicker\">\r\n      <div class=\"input-group-addon\" (click)=\"d.toggle()\" style=\"cursor: pointer;\">\r\n        <i class=\"fa fa-calendar\"></i>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</form>\r\n\r\n<hr>\r\n<pre>Model: {{ model | json }}</pre>";
 
 /***/ }),
 
-/***/ 245:
+/***/ 254:
 /***/ (function(module, exports) {
 
 module.exports = "A typeahead example that gets values from a static <code>string[]</code>\r\n<ul>\r\n  <li><code>debounceTime</code> operator</li>\r\n  <li>kicks in only if 2+ characters typed</li>\r\n  <li>limits to 10 results</li>\r\n</ul>\r\n\r\n<input type=\"text\" class=\"form-control\" [(ngModel)]=\"model\" [ngbTypeahead]=\"search\" />\r\n<hr>\r\n<pre>Model: {{ model | json }}</pre>\r\n\r\n\r\nA typeahead example that gets values from the <code>WikipediaService</code>\r\n<ul>\r\n  <li>remote data retrieval</li>\r\n  <li><code>debounceTime</code> operator</li>\r\n  <li><code>do</code> operator</li>\r\n  <li><code>distinctUntilChanged</code> operator</li>\r\n  <li><code>switchMap</code> operator</li>\r\n</ul>\r\n\r\n<input type=\"text\" class=\"form-control\" [(ngModel)]=\"wikiModel\" [ngbTypeahead]=\"searchWiki\" placeholder=\"Wikipedia search\" /><span *ngIf=\"_searching\"> searching...</span>\r\n<hr>\r\n\r\n<pre>Model: {{ wikiModel | json }}</pre>";
 
 /***/ }),
 
-/***/ 246:
+/***/ 255:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\r\n  <div class=\"col-12 col-md-3 push-md-9\">\r\n    <div class=\"list-group\">\r\n      <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['datetime']\">Datetime</a>\r\n      <a class=\"list-group-item\" routerLinkActive=\"active\" [routerLink]=\"['typeahead']\">Typeahead</a>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"col-12 col-md-9 pull-md-3 bd-content\">\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 287:
+/***/ 296:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -150,7 +150,7 @@ module.exports = "<div class=\"row\">\r\n  <div class=\"col-12 col-md-3 push-md-
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var http_1 = __webpack_require__(5);
+var http_1 = __webpack_require__(6);
 var WikipediaService = (function () {
     function WikipediaService(_jsonp) {
         this._jsonp = _jsonp;
@@ -177,7 +177,7 @@ exports.WikipediaService = WikipediaService;
 
 /***/ }),
 
-/***/ 288:
+/***/ 297:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -186,10 +186,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var uibootstrap_routes_1 = __webpack_require__(289);
-var uibootstrap_component_1 = __webpack_require__(195);
-var datetime_component_1 = __webpack_require__(193);
-var typeahead_component_1 = __webpack_require__(194);
+var uibootstrap_routes_1 = __webpack_require__(298);
+var uibootstrap_component_1 = __webpack_require__(204);
+var datetime_component_1 = __webpack_require__(202);
+var typeahead_component_1 = __webpack_require__(203);
 var UiBootstrapModule = (function () {
     function UiBootstrapModule() {
     }
@@ -211,16 +211,16 @@ exports.UiBootstrapModule = UiBootstrapModule;
 
 /***/ }),
 
-/***/ 289:
+/***/ 298:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var uibootstrap_component_1 = __webpack_require__(195);
-var datetime_component_1 = __webpack_require__(193);
-var typeahead_component_1 = __webpack_require__(194);
+var router_1 = __webpack_require__(7);
+var uibootstrap_component_1 = __webpack_require__(204);
+var datetime_component_1 = __webpack_require__(202);
+var typeahead_component_1 = __webpack_require__(203);
 var routes = [
     {
         path: '', component: uibootstrap_component_1.UibootstrapComponent, children: [
@@ -234,11 +234,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 318:
+/***/ 327:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(220);
+        var result = __webpack_require__(229);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -249,21 +249,21 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 325:
+/***/ 334:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(569)
 
 /***/ }),
 
-/***/ 326:
+/***/ 335:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(571)
 
 /***/ }),
 
-/***/ 327:
+/***/ 336:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(621)

@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 142:
+/***/ 151:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9,9 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var register_component_1 = __webpack_require__(201);
-var register_confirmation_component_1 = __webpack_require__(200);
-var register_routes_1 = __webpack_require__(304);
+var register_component_1 = __webpack_require__(210);
+var register_confirmation_component_1 = __webpack_require__(209);
+var register_routes_1 = __webpack_require__(313);
 var RegisterModule = (function () {
     function RegisterModule() {
     }
@@ -28,7 +28,7 @@ exports.RegisterModule = RegisterModule;
 
 /***/ }),
 
-/***/ 158:
+/***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51,7 +51,7 @@ exports.ControlTextbox = ControlTextbox;
 
 /***/ }),
 
-/***/ 200:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59,7 +59,7 @@ exports.ControlTextbox = ControlTextbox;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var router_1 = __webpack_require__(6);
+var router_1 = __webpack_require__(7);
 var RegisterConfirmationComponent = (function () {
     function RegisterConfirmationComponent(router, route) {
         this.router = router;
@@ -82,7 +82,7 @@ var RegisterConfirmationComponent = (function () {
 RegisterConfirmationComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-register-confirmation',
-        template: __webpack_require__(253)
+        template: __webpack_require__(262)
     }),
     tslib_1.__metadata("design:paramtypes", [router_1.Router, router_1.ActivatedRoute])
 ], RegisterConfirmationComponent);
@@ -91,7 +91,7 @@ exports.RegisterConfirmationComponent = RegisterConfirmationComponent;
 
 /***/ }),
 
-/***/ 201:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -99,9 +99,9 @@ exports.RegisterConfirmationComponent = RegisterConfirmationComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
-var router_1 = __webpack_require__(6);
+var router_1 = __webpack_require__(7);
 var account_service_1 = __webpack_require__(20);
-var control_textbox_1 = __webpack_require__(158);
+var control_textbox_1 = __webpack_require__(167);
 var RegisterComponent = (function () {
     function RegisterComponent(accountService, router, route) {
         this.accountService = accountService;
@@ -174,7 +174,7 @@ var RegisterComponent = (function () {
 RegisterComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-register',
-        template: __webpack_require__(254)
+        template: __webpack_require__(263)
     }),
     tslib_1.__metadata("design:paramtypes", [account_service_1.AccountService, router_1.Router, router_1.ActivatedRoute])
 ], RegisterComponent);
@@ -183,29 +183,29 @@ exports.RegisterComponent = RegisterComponent;
 
 /***/ }),
 
-/***/ 253:
+/***/ 262:
 /***/ (function(module, exports) {
 
 module.exports = "<div>\r\n    <appc-page-heading text=\"Registration confirmed\">\r\n    </appc-page-heading>\r\n\r\n    <p *ngIf=\"!emailConfirmed\">\r\n        We have sent you a confirmation email, please visit your inbox and confirm by clicking the confirmation link.\r\n    </p>\r\n\r\n    <p *ngIf=\"emailConfirmed\">\r\n        Thank you for confirming your email, please <a routerLink=\"../../login\">Login</a> now.\r\n    </p>\r\n</div>#";
 
 /***/ }),
 
-/***/ 254:
+/***/ 263:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"col-md-6 offset-md-3\">\r\n    <div class=\"card\">\r\n        <div class=\"card-header\">\r\n            Register\r\n        </div>\r\n        \r\n        <div class=\"card-block\">\r\n            <appc-error-summary [errors]=\"errors\"></appc-error-summary>\r\n            <appc-dynamic-form (formsubmit)=\"register($event)\" [controls]=\"controls\" [btnText]=\"'Register'\"></appc-dynamic-form>\r\n\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ }),
 
-/***/ 304:
+/***/ 313:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var register_component_1 = __webpack_require__(201);
-var register_confirmation_component_1 = __webpack_require__(200);
+var router_1 = __webpack_require__(7);
+var register_component_1 = __webpack_require__(210);
+var register_confirmation_component_1 = __webpack_require__(209);
 var routes = [
     { path: '', redirectTo: 'registerhome', pathMatch: 'full' },
     { path: 'registerhome', component: register_component_1.RegisterComponent },

@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 138:
+/***/ 147:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9,9 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var admin_component_1 = __webpack_require__(166);
-var admin_service_1 = __webpack_require__(167);
-var admin_routes_1 = __webpack_require__(255);
+var admin_component_1 = __webpack_require__(175);
+var admin_service_1 = __webpack_require__(176);
+var admin_routes_1 = __webpack_require__(264);
 var AdminModule = (function () {
     function AdminModule() {
     }
@@ -29,7 +29,7 @@ exports.AdminModule = AdminModule;
 
 /***/ }),
 
-/***/ 166:
+/***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38,7 +38,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var data_service_1 = __webpack_require__(19);
-var admin_service_1 = __webpack_require__(167);
+var admin_service_1 = __webpack_require__(176);
 var AdminComponent = (function () {
     function AdminComponent(adminService, apiGateway) {
         this.adminService = adminService;
@@ -60,7 +60,7 @@ var AdminComponent = (function () {
 AdminComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-admin',
-        template: __webpack_require__(224)
+        template: __webpack_require__(233)
     }),
     tslib_1.__metadata("design:paramtypes", [admin_service_1.AdminService, data_service_1.DataService])
 ], AdminComponent);
@@ -69,7 +69,7 @@ exports.AdminComponent = AdminComponent;
 
 /***/ }),
 
-/***/ 167:
+/***/ 176:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -97,21 +97,21 @@ exports.AdminService = AdminService;
 
 /***/ }),
 
-/***/ 224:
+/***/ 233:
 /***/ (function(module, exports) {
 
 module.exports = "<button class=\"btn btn-primary\" (click)=\"doAdminOperation()\">\r\n        Do Admin Operation\r\n    </button>\r\n<span>{{message?.message}}</span>\r\n\r\n<p [hidden]=\"!loading\">\r\n    <i class=\"fa fa-spinner fa-spin fa-5x\"></i>\r\n</p>";
 
 /***/ }),
 
-/***/ 255:
+/***/ 264:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var admin_component_1 = __webpack_require__(166);
+var router_1 = __webpack_require__(7);
+var admin_component_1 = __webpack_require__(175);
 var routes = [
     { path: '', component: admin_component_1.AdminComponent }
 ];

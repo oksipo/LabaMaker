@@ -1,39 +1,30 @@
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { StoreModule } from '@ngrx/store';
 import { HttpModule } from '@angular/http';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { SharedModule } from './shared/shared.module';
-import { CoreModule } from './core/core.module';
-import { HomeModule } from './home/home.module';
-
-import { ApiTranslationLoader } from './shared/services/api-translation-loader.service';
-
-import { routing } from './app.routes';
-import { AppService } from './app.service';
-import { appReducer } from './app-store';
+import { RouterModule, Routes } from '@angular/router';
+import { AccordionModule } from 'primeng/primeng';  
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header.component';
+import { FooterComponent } from './footer.component';
+import { HomeComponent } from './home/home.component'
+import { SharedModule } from './shared/shared.module';
+
+const AppRoutes: Routes = [
+    { path: 'home', component: HomeComponent }
+];
 
 @NgModule({
-    declarations: [AppComponent],
+    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent],
     imports: [
+        AccordionModule,
         BrowserAnimationsModule,
         BrowserModule,
-        routing,
         // FormsModule,
         HttpModule,
-        // Only module that app module loads
-        CoreModule.forRoot(),
-        SharedModule.forRoot(),
-        HomeModule,
-        StoreModule.provideStore(appReducer),
-        StoreDevtoolsModule.instrumentOnlyWithExtension(),
-        TranslateModule.forRoot({ loader: { provide: TranslateLoader, useClass: ApiTranslationLoader } })
-    ],
+        SharedModule,
+        RouterModule.forRoot(AppRoutes)],
     providers: [
-        AppService
     ],
     bootstrap: [AppComponent]
 })

@@ -1,6 +1,6 @@
 webpackJsonp([12],{
 
-/***/ 192:
+/***/ 201:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24,8 +24,8 @@ var TextEditorComponent = (function () {
 TextEditorComponent = tslib_1.__decorate([
     core_1.Component({
         selector: 'appc-text-editor',
-        template: __webpack_require__(243),
-        styles: [__webpack_require__(317)]
+        template: __webpack_require__(252),
+        styles: [__webpack_require__(326)]
     })
 ], TextEditorComponent);
 exports.TextEditorComponent = TextEditorComponent;
@@ -33,10 +33,10 @@ exports.TextEditorComponent = TextEditorComponent;
 
 /***/ }),
 
-/***/ 219:
+/***/ 228:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)(undefined);
+exports = module.exports = __webpack_require__(5)(undefined);
 // imports
 
 
@@ -48,14 +48,14 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 243:
+/***/ 252:
 /***/ (function(module, exports) {
 
 module.exports = "<h3>\r\n    Tinymce text editor\r\n</h3>\r\n<p>\r\n    How to implement in <a href=\"https://www.tinymce.com/docs/integrations/angular2/\">angular</a>\r\n</p>\r\n<appc-simple-tiny [elementId]=\"'my-editor-id'\" (onEditorKeyup)=\"keyupHandlerFunction($event)\">\r\n</appc-simple-tiny>";
 
 /***/ }),
 
-/***/ 284:
+/***/ 293:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -124,7 +124,7 @@ exports.SimpleTinyComponent = SimpleTinyComponent;
 
 /***/ }),
 
-/***/ 285:
+/***/ 294:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -133,9 +133,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(0);
 var shared_module_1 = __webpack_require__(31);
-var text_editor_routes_1 = __webpack_require__(286);
-var text_editor_component_1 = __webpack_require__(192);
-var simple_tiny_component_1 = __webpack_require__(284);
+var text_editor_routes_1 = __webpack_require__(295);
+var text_editor_component_1 = __webpack_require__(201);
+var simple_tiny_component_1 = __webpack_require__(293);
 var TextEditorModule = (function () {
     function TextEditorModule() {
     }
@@ -160,14 +160,14 @@ exports.TextEditorModule = TextEditorModule;
 
 /***/ }),
 
-/***/ 286:
+/***/ 295:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = __webpack_require__(6);
-var text_editor_component_1 = __webpack_require__(192);
+var router_1 = __webpack_require__(7);
+var text_editor_component_1 = __webpack_require__(201);
 var routes = [
     {
         path: '', component: text_editor_component_1.TextEditorComponent
@@ -178,11 +178,11 @@ exports.routing = router_1.RouterModule.forChild(routes);
 
 /***/ }),
 
-/***/ 317:
+/***/ 326:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(219);
+        var result = __webpack_require__(228);
 
         if (typeof result === "string") {
             module.exports = result;
