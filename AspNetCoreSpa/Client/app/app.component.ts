@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'main-app',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  styleUrls:['../../wwwroot/styles/primeng.css']
 })
 export class AppComponent {
      UserName="MyUserName";

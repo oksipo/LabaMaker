@@ -1,0 +1,1905 @@
+2017-05-15 00:01:02.568 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:01:02.626 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:01:02.632 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:01:02.641 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:01:02.652 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 18.3814ms
+2017-05-15 00:01:02.667 +03:00 [Information] Request finished in 90.5642ms 200 text/html; charset=utf-8
+2017-05-15 00:01:02.840 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:01:02.843 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=w_ZhOO4YIIAzjHNKKOGr6cGugnhaRE-bsRnSdw8_-z8  
+2017-05-15 00:01:02.876 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:01:02.888 +03:00 [Information] Request finished in 139.8797ms 404 
+2017-05-15 00:01:03.194 +03:00 [Information] Request finished in 350.9487ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:01:05.255 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-15 00:01:05.264 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-15 00:01:05.343 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-15 00:01:05.375 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-15 00:01:05.408 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-15 00:01:05.434 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-15 00:01:05.481 +03:00 [Information] Request finished in 189.4413ms 200 image/png; charset=UTF-8
+2017-05-15 00:01:05.496 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:01:05.574 +03:00 [Information] Request finished in 259.5153ms 200 image/png; charset=UTF-8
+2017-05-15 00:01:05.593 +03:00 [Information] Request finished in 296.1513ms 200 image/png; charset=UTF-8
+2017-05-15 00:01:05.616 +03:00 [Information] Request finished in 320.2516ms 200 image/png; charset=UTF-8
+2017-05-15 00:01:05.621 +03:00 [Information] Request finished in 224.6357ms 200 image/png; charset=UTF-8
+2017-05-15 00:01:05.632 +03:00 [Information] Request finished in 317.4625ms 200 image/png; charset=UTF-8
+2017-05-15 00:01:07.443 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-15 00:01:07.446 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:01:07.451 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:01:07.455 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:01:08.564 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-15 00:01:08.564 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1122.4516ms
+2017-05-15 00:01:08.579 +03:00 [Information] Request finished in 1138.9438ms 200 application/json; charset=utf-8
+2017-05-15 00:25:47.420 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 00:25:58.476 +03:00 [Information] Executed DbCommand (351ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:25:58.579 +03:00 [Information] Executed DbCommand (96ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:25:58.735 +03:00 [Information] Executed DbCommand (107ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:26:00.087 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 00:26:04.611 +03:00 [Information] Executed DbCommand (169ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:26:04.679 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:26:04.747 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:26:04.819 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:26:04.892 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:26:08.130 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:26:08.130 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 00:26:09.033 +03:00 [Information] Request finished in 917.2275ms 200 
+2017-05-15 00:26:10.912 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:26:14.095 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:26:44.899 +03:00 [Information] webpack built 8b8ec03aac884ed3db62 in 60047ms
+2017-05-15 00:27:05.238 +03:00 [Information] 
+2017-05-15 00:27:05.306 +03:00 [Error] 
+2017-05-15 00:27:05.588 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 00:27:05.805 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 00:27:05.815 +03:00 [Information] Hash: 8b8ec03aac884ed3db62
+Version: webpack 2.4.1
+Time: 60047ms
+                               Asset       Size  Chunks                    Chunk Names
+4d74fc94f016eda56a66f7275558068d.png  152 bytes          [emitted]         
+567f57385ea3dde2c9aec797d07850d2.gif    13.1 kB          [emitted]         
+3b2166422573863d86eb379a9a322fb8.png    5.43 kB          [emitted]         
+895d6d4d4ea7f3bc226859a6eb468ed3.png  273 bytes          [emitted]         
+c253bb009083ee25bee41d6d4769d0fe.png    21.4 kB          [emitted]         
+12aea3ad13dadcfd18f47ebc6893c4f6.png    14.5 kB          [emitted]         
+7392186acd82834af0cb190ecbe3d69f.png      38 kB          [emitted]         
+7a2a21bd634868499f2f488a03d8b6df.png     141 kB          [emitted]         
+2032fec226141cb79fd156c3e0f90e01.png    48.7 kB          [emitted]         
+8732a6660b528fadfaeb35bcf568875f.gif    9.43 kB          [emitted]         
+64ca45e5df0f0261431766d0701ac7b3.png    1.56 kB          [emitted]         
+                             main.js    3.24 MB       0  [emitted]  [big]  main
+chunk    {0} main.js (main) 1.22 MB [entry] [rendered]
+   [24] ./Client/app/main.ts 1.05 kB {0} [built]
+        [] -> factory:125ms building:34562ms = 34687ms
+   [25] (webpack)-hot-middleware/client.js?path=%2F__webpack_hmr 6.68 kB {0} [built]
+        [] -> factory:89ms building:409ms = 498ms
+  [149] delegated ./node_modules/rxjs/add/operator/map.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:401ms building:0ms dependencies:0ms = 401ms
+  [151] delegated ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:523ms building:0ms dependencies:1ms = 524ms
+  [176] delegated ./node_modules/rxjs/add/observable/interval.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:388ms building:1ms = 389ms
+  [177] delegated ./node_modules/rxjs/add/observable/merge.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:396ms building:0ms dependencies:4ms = 400ms
+  [178] delegated ./node_modules/rxjs/add/observable/throw.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:394ms building:0ms dependencies:0ms = 394ms
+  [179] delegated ./node_modules/rxjs/add/operator/bufferCount.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:413ms building:11ms dependencies:0ms = 424ms
+  [180] delegated ./node_modules/rxjs/add/operator/catch.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:429ms building:0ms dependencies:0ms = 429ms
+  [181] delegated ./node_modules/rxjs/add/operator/debounceTime.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:425ms building:0ms dependencies:0ms = 425ms
+  [182] delegated ./node_modules/rxjs/add/operator/finally.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:428ms building:0ms dependencies:0ms = 428ms
+  [183] delegated ./node_modules/rxjs/add/operator/first.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:402ms building:0ms dependencies:0ms = 402ms
+  [184] delegated ./node_modules/rxjs/add/operator/mapTo.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:403ms building:0ms dependencies:0ms = 403ms
+  [185] delegated ./node_modules/rxjs/add/operator/scan.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:408ms building:2ms dependencies:1ms = 411ms
+  [188] multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts 40 bytes {0} [built]
+         factory:1ms building:1ms = 2ms
+     + 174 hidden modules
+
+WARNING in ./Client/app/Services/FacultyService.ts
+There are multiple modules with names that only differ in casing.
+This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
+Use equal casing. Compare these module identifiers:
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\FacultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\allWorks\works.component.ts
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\facultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\shared\shared.module.ts
+
+ERROR in ./Client/app/Services/facultyService.ts
+Module build failed: Error: Final loader didn't return a Buffer or String
+    at runLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\webpack\lib\NormalModule.js:201:46)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:370:3
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:211:10)
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:218:10)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:233:3
+    at Object.context.callback (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:111:13)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\index.ts:27:14
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ @ ./Client/app/shared/shared.module.ts 8:23-60
+ @ ./Client/app/app.module.ts
+ @ ./Client/app/main.ts
+ @ multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts
+2017-05-15 00:27:06.831 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 00:27:06.836 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:27:06.839 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:27:06.843 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:27:06.850 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:28:19.214 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:28:39.513 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 145715.8178ms
+2017-05-15 00:28:39.525 +03:00 [Information] Request finished in 151580.5215ms 200 text/html; charset=utf-8
+2017-05-15 00:32:03.825 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 00:32:08.357 +03:00 [Information] Executed DbCommand (145ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:32:08.546 +03:00 [Information] Executed DbCommand (120ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:32:08.749 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:32:10.339 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 00:32:16.090 +03:00 [Information] Executed DbCommand (102ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:32:16.193 +03:00 [Information] Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:32:16.280 +03:00 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:32:16.398 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:32:16.522 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:32:19.676 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:32:19.676 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 00:32:20.498 +03:00 [Information] Request finished in 727.8545ms 200 
+2017-05-15 00:32:22.411 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:32:24.624 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:32:55.289 +03:00 [Information] 
+2017-05-15 00:32:55.338 +03:00 [Error] 
+2017-05-15 00:32:55.655 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 00:32:55.659 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 00:32:55.669 +03:00 [Information] webpack built 8b8ec03aac884ed3db62 in 66271ms
+2017-05-15 00:33:06.898 +03:00 [Information] Hash: 8b8ec03aac884ed3db62
+Version: webpack 2.4.1
+Time: 66271ms
+                               Asset       Size  Chunks                    Chunk Names
+4d74fc94f016eda56a66f7275558068d.png  152 bytes          [emitted]         
+567f57385ea3dde2c9aec797d07850d2.gif    13.1 kB          [emitted]         
+3b2166422573863d86eb379a9a322fb8.png    5.43 kB          [emitted]         
+895d6d4d4ea7f3bc226859a6eb468ed3.png  273 bytes          [emitted]         
+c253bb009083ee25bee41d6d4769d0fe.png    21.4 kB          [emitted]         
+12aea3ad13dadcfd18f47ebc6893c4f6.png    14.5 kB          [emitted]         
+7392186acd82834af0cb190ecbe3d69f.png      38 kB          [emitted]         
+7a2a21bd634868499f2f488a03d8b6df.png     141 kB          [emitted]         
+2032fec226141cb79fd156c3e0f90e01.png    48.7 kB          [emitted]         
+8732a6660b528fadfaeb35bcf568875f.gif    9.43 kB          [emitted]         
+64ca45e5df0f0261431766d0701ac7b3.png    1.56 kB          [emitted]         
+                             main.js    3.24 MB       0  [emitted]  [big]  main
+chunk    {0} main.js (main) 1.22 MB [entry] [rendered]
+   [24] ./Client/app/main.ts 1.05 kB {0} [built]
+        [] -> factory:778ms building:34711ms = 35489ms
+   [25] (webpack)-hot-middleware/client.js?path=%2F__webpack_hmr 6.68 kB {0} [built]
+        [] -> factory:591ms building:6567ms = 7158ms
+  [149] delegated ./node_modules/rxjs/add/operator/map.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:200ms building:1ms dependencies:0ms = 201ms
+  [151] delegated ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:476ms building:0ms dependencies:0ms = 476ms
+  [176] delegated ./node_modules/rxjs/add/observable/interval.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:116ms building:0ms = 116ms
+  [177] delegated ./node_modules/rxjs/add/observable/merge.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:120ms building:0ms dependencies:1ms = 121ms
+  [178] delegated ./node_modules/rxjs/add/observable/throw.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:118ms building:1ms dependencies:0ms = 119ms
+  [179] delegated ./node_modules/rxjs/add/operator/bufferCount.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:275ms building:0ms dependencies:0ms = 275ms
+  [180] delegated ./node_modules/rxjs/add/operator/catch.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:418ms building:0ms dependencies:0ms = 418ms
+  [181] delegated ./node_modules/rxjs/add/operator/debounceTime.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:377ms building:0ms dependencies:0ms = 377ms
+  [182] delegated ./node_modules/rxjs/add/operator/finally.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:472ms building:0ms dependencies:0ms = 472ms
+  [183] delegated ./node_modules/rxjs/add/operator/first.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:199ms building:0ms dependencies:1ms = 200ms
+  [184] delegated ./node_modules/rxjs/add/operator/mapTo.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:201ms building:0ms dependencies:0ms = 201ms
+  [185] delegated ./node_modules/rxjs/add/operator/scan.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:274ms building:1ms dependencies:0ms = 275ms
+  [188] multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts 40 bytes {0} [built]
+         factory:1ms building:1ms = 2ms
+     + 174 hidden modules
+
+WARNING in ./Client/app/Services/FacultyService.ts
+There are multiple modules with names that only differ in casing.
+This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
+Use equal casing. Compare these module identifiers:
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\FacultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\allWorks\works.component.ts
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\facultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\shared\shared.module.ts
+
+ERROR in ./Client/app/Services/facultyService.ts
+Module build failed: Error: Final loader didn't return a Buffer or String
+    at runLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\webpack\lib\NormalModule.js:201:46)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:370:3
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:211:10)
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:218:10)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:233:3
+    at Object.context.callback (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:111:13)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\index.ts:27:14
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ @ ./Client/app/shared/shared.module.ts 8:23-60
+ @ ./Client/app/app.module.ts
+ @ ./Client/app/main.ts
+ @ multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts
+2017-05-15 00:33:06.914 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 00:33:06.917 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:33:06.919 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:33:06.922 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:33:06.935 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:33:21.254 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:33:22.389 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 58031.9177ms
+2017-05-15 00:33:22.472 +03:00 [Information] Request finished in 62954.1065ms 200 text/html; charset=utf-8
+2017-05-15 00:33:22.588 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:33:22.697 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=pj19gCYP1Vha4ATVg8DKrLIfXvNTwC1-kWSRS5QTTEQ  
+2017-05-15 00:33:22.954 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:33:23.021 +03:00 [Information] Request finished in 398.0743ms 404 
+2017-05-15 00:33:23.325 +03:00 [Information] Request finished in 576.6677ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:33:24.980 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:33:34.973 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:33:34.999 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:33:35.006 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:33:35.014 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:33:35.024 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 15.1857ms
+2017-05-15 00:33:35.050 +03:00 [Information] Request finished in 55.4112ms 200 text/html; charset=utf-8
+2017-05-15 00:33:35.060 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=pj19gCYP1Vha4ATVg8DKrLIfXvNTwC1-kWSRS5QTTEQ  
+2017-05-15 00:33:35.064 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:33:35.076 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:33:35.173 +03:00 [Information] Request finished in 16.5056ms 404 
+2017-05-15 00:33:35.907 +03:00 [Information] Request finished in 849.1644ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:33:36.353 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:33:36.587 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2017-05-15 00:33:36.616 +03:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\favicon.ico"'
+2017-05-15 00:33:36.709 +03:00 [Information] Request finished in 118.2916ms 200 image/x-icon
+2017-05-15 00:35:56.233 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 00:35:57.661 +03:00 [Information] Executed DbCommand (602ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:35:57.753 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:35:57.870 +03:00 [Information] Executed DbCommand (105ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:35:58.120 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 00:36:00.380 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:36:00.482 +03:00 [Information] Executed DbCommand (95ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:36:00.557 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:36:00.646 +03:00 [Information] Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:36:00.724 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:36:01.562 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:36:01.562 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 00:36:01.918 +03:00 [Information] Request finished in 492.1167ms 200 
+2017-05-15 00:36:02.295 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:36:03.115 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:36:23.383 +03:00 [Information] 
+2017-05-15 00:36:23.544 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 00:36:23.583 +03:00 [Information] webpack built 8b8ec03aac884ed3db62 in 29551ms
+2017-05-15 00:36:23.585 +03:00 [Error] 
+2017-05-15 00:36:23.589 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 00:36:30.656 +03:00 [Information] Hash: 8b8ec03aac884ed3db62
+Version: webpack 2.4.1
+Time: 29551ms
+                               Asset       Size  Chunks                    Chunk Names
+4d74fc94f016eda56a66f7275558068d.png  152 bytes          [emitted]         
+567f57385ea3dde2c9aec797d07850d2.gif    13.1 kB          [emitted]         
+3b2166422573863d86eb379a9a322fb8.png    5.43 kB          [emitted]         
+895d6d4d4ea7f3bc226859a6eb468ed3.png  273 bytes          [emitted]         
+c253bb009083ee25bee41d6d4769d0fe.png    21.4 kB          [emitted]         
+12aea3ad13dadcfd18f47ebc6893c4f6.png    14.5 kB          [emitted]         
+7392186acd82834af0cb190ecbe3d69f.png      38 kB          [emitted]         
+7a2a21bd634868499f2f488a03d8b6df.png     141 kB          [emitted]         
+2032fec226141cb79fd156c3e0f90e01.png    48.7 kB          [emitted]         
+8732a6660b528fadfaeb35bcf568875f.gif    9.43 kB          [emitted]         
+64ca45e5df0f0261431766d0701ac7b3.png    1.56 kB          [emitted]         
+                             main.js    3.24 MB       0  [emitted]  [big]  main
+chunk    {0} main.js (main) 1.22 MB [entry] [rendered]
+   [24] ./Client/app/main.ts 1.05 kB {0} [built]
+        [] -> factory:242ms building:11596ms = 11838ms
+   [25] (webpack)-hot-middleware/client.js?path=%2F__webpack_hmr 6.68 kB {0} [built]
+        [] -> factory:102ms building:120ms = 222ms
+  [149] delegated ./node_modules/rxjs/add/operator/map.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:165ms building:1ms dependencies:1ms = 167ms
+  [151] delegated ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:155ms building:1ms = 156ms
+  [176] delegated ./node_modules/rxjs/add/observable/interval.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:174ms building:0ms dependencies:0ms = 174ms
+  [177] delegated ./node_modules/rxjs/add/observable/merge.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:175ms building:0ms dependencies:0ms = 175ms
+  [178] delegated ./node_modules/rxjs/add/observable/throw.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:174ms building:1ms dependencies:0ms = 175ms
+  [179] delegated ./node_modules/rxjs/add/operator/bufferCount.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:171ms building:0ms dependencies:0ms = 171ms
+  [180] delegated ./node_modules/rxjs/add/operator/catch.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:173ms building:0ms dependencies:0ms = 173ms
+  [181] delegated ./node_modules/rxjs/add/operator/debounceTime.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:171ms building:0ms dependencies:0ms = 171ms
+  [182] delegated ./node_modules/rxjs/add/operator/finally.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:172ms building:0ms dependencies:1ms = 173ms
+  [183] delegated ./node_modules/rxjs/add/operator/first.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:168ms building:0ms dependencies:0ms = 168ms
+  [184] delegated ./node_modules/rxjs/add/operator/mapTo.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:169ms building:0ms dependencies:0ms = 169ms
+  [185] delegated ./node_modules/rxjs/add/operator/scan.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:170ms building:0ms dependencies:0ms = 170ms
+  [188] multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts 40 bytes {0} [built]
+         factory:1ms building:2ms = 3ms
+     + 174 hidden modules
+
+WARNING in ./Client/app/Services/FacultyService.ts
+There are multiple modules with names that only differ in casing.
+This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
+Use equal casing. Compare these module identifiers:
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\FacultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\allWorks\works.component.ts
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\facultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\shared\shared.module.ts
+
+ERROR in ./Client/app/Services/facultyService.ts
+Module build failed: Error: Final loader didn't return a Buffer or String
+    at runLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\webpack\lib\NormalModule.js:201:46)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:370:3
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:211:10)
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:218:10)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:233:3
+    at Object.context.callback (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:111:13)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\index.ts:27:14
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ @ ./Client/app/shared/shared.module.ts 8:23-60
+ @ ./Client/app/app.module.ts
+ @ ./Client/app/main.ts
+ @ multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts
+2017-05-15 00:36:30.779 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 00:36:30.899 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:36:30.908 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:36:30.931 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:36:31.009 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:36:31.152 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:36:32.862 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 29827.312ms
+2017-05-15 00:36:32.979 +03:00 [Information] Request finished in 31550.0848ms 200 text/html; charset=utf-8
+2017-05-15 00:36:33.196 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:36:33.884 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=pj19gCYP1Vha4ATVg8DKrLIfXvNTwC1-kWSRS5QTTEQ  
+2017-05-15 00:36:34.010 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:36:34.395 +03:00 [Information] Request finished in 847.2914ms 404 
+2017-05-15 00:36:35.071 +03:00 [Information] Request finished in 1325.3953ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:36:37.348 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:39:51.542 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 00:39:53.479 +03:00 [Information] Executed DbCommand (185ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:39:53.577 +03:00 [Information] Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:39:53.670 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:39:53.817 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 00:39:55.434 +03:00 [Information] Executed DbCommand (244ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:39:55.698 +03:00 [Information] Executed DbCommand (218ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:39:55.788 +03:00 [Information] Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:39:55.982 +03:00 [Information] Executed DbCommand (176ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:39:56.054 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:39:56.684 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:39:56.684 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 00:39:57.016 +03:00 [Information] Request finished in 380.4218ms 200 
+2017-05-15 00:39:57.326 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:39:58.157 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:40:22.683 +03:00 [Information] 
+2017-05-15 00:40:22.748 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 00:40:22.784 +03:00 [Information] webpack built 8b8ec03aac884ed3db62 in 32738ms
+2017-05-15 00:40:22.785 +03:00 [Error] 
+2017-05-15 00:40:22.788 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 00:40:24.134 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:40:27.187 +03:00 [Information] Hash: 8b8ec03aac884ed3db62
+Version: webpack 2.4.1
+Time: 32738ms
+                               Asset       Size  Chunks                    Chunk Names
+4d74fc94f016eda56a66f7275558068d.png  152 bytes          [emitted]         
+567f57385ea3dde2c9aec797d07850d2.gif    13.1 kB          [emitted]         
+3b2166422573863d86eb379a9a322fb8.png    5.43 kB          [emitted]         
+895d6d4d4ea7f3bc226859a6eb468ed3.png  273 bytes          [emitted]         
+c253bb009083ee25bee41d6d4769d0fe.png    21.4 kB          [emitted]         
+12aea3ad13dadcfd18f47ebc6893c4f6.png    14.5 kB          [emitted]         
+7392186acd82834af0cb190ecbe3d69f.png      38 kB          [emitted]         
+7a2a21bd634868499f2f488a03d8b6df.png     141 kB          [emitted]         
+2032fec226141cb79fd156c3e0f90e01.png    48.7 kB          [emitted]         
+8732a6660b528fadfaeb35bcf568875f.gif    9.43 kB          [emitted]         
+64ca45e5df0f0261431766d0701ac7b3.png    1.56 kB          [emitted]         
+                             main.js    3.24 MB       0  [emitted]  [big]  main
+chunk    {0} main.js (main) 1.22 MB [entry] [rendered]
+   [24] ./Client/app/main.ts 1.05 kB {0} [built]
+        [] -> factory:204ms building:13336ms = 13540ms
+   [25] (webpack)-hot-middleware/client.js?path=%2F__webpack_hmr 6.68 kB {0} [built]
+        [] -> factory:87ms building:107ms = 194ms
+  [149] delegated ./node_modules/rxjs/add/operator/map.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:114ms building:1ms = 115ms
+  [151] delegated ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:127ms building:0ms dependencies:0ms = 127ms
+  [176] delegated ./node_modules/rxjs/add/observable/interval.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:125ms building:0ms dependencies:0ms = 125ms
+  [177] delegated ./node_modules/rxjs/add/observable/merge.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:126ms building:0ms dependencies:0ms = 126ms
+  [178] delegated ./node_modules/rxjs/add/observable/throw.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:126ms building:0ms dependencies:0ms = 126ms
+  [179] delegated ./node_modules/rxjs/add/operator/bufferCount.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:121ms building:0ms dependencies:0ms = 121ms
+  [180] delegated ./node_modules/rxjs/add/operator/catch.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:125ms building:0ms dependencies:0ms = 125ms
+  [181] delegated ./node_modules/rxjs/add/operator/debounceTime.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:122ms building:1ms dependencies:0ms = 123ms
+  [182] delegated ./node_modules/rxjs/add/operator/finally.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:124ms building:0ms dependencies:0ms = 124ms
+  [183] delegated ./node_modules/rxjs/add/operator/first.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:117ms building:0ms dependencies:0ms = 117ms
+  [184] delegated ./node_modules/rxjs/add/operator/mapTo.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:119ms building:0ms dependencies:0ms = 119ms
+  [185] delegated ./node_modules/rxjs/add/operator/scan.js from dll-reference vendor_lib 42 bytes {0} [not cacheable] [built]
+        [] -> factory:120ms building:0ms dependencies:0ms = 120ms
+  [188] multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts 40 bytes {0} [built]
+         factory:1ms building:1ms = 2ms
+     + 174 hidden modules
+
+WARNING in ./Client/app/Services/FacultyService.ts
+There are multiple modules with names that only differ in casing.
+This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
+Use equal casing. Compare these module identifiers:
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\FacultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\allWorks\works.component.ts
+* F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\Services\facultyService.ts
+    Used by 1 module(s), i. e.
+    F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\ng-router-loader\index.js??ref--0-0!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\awesome-typescript-loader\dist\entry.js!F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\angular2-template-loader\index.js!F:\Eleks\LabaMaker\AspNetCoreSpa\Client\app\shared\shared.module.ts
+
+ERROR in ./Client/app/Services/facultyService.ts
+Module build failed: Error: Final loader didn't return a Buffer or String
+    at runLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\webpack\lib\NormalModule.js:201:46)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:370:3
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:211:10)
+    at iterateNormalLoaders (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:218:10)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:233:3
+    at Object.context.callback (F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\loader-runner\lib\LoaderRunner.js:111:13)
+    at F:\Eleks\LabaMaker\AspNetCoreSpa\node_modules\index.ts:27:14
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ @ ./Client/app/shared/shared.module.ts 8:23-60
+ @ ./Client/app/app.module.ts
+ @ ./Client/app/main.ts
+ @ multi webpack-hot-middleware/client?path=%2F__webpack_hmr ./Client/app/main.ts
+2017-05-15 00:40:27.222 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 00:40:27.232 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:40:27.236 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:40:27.253 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:40:27.260 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:40:27.855 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 29859.4107ms
+2017-05-15 00:40:28.185 +03:00 [Information] Request finished in 31577.7051ms 200 text/html; charset=utf-8
+2017-05-15 00:40:28.470 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:40:28.907 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=pj19gCYP1Vha4ATVg8DKrLIfXvNTwC1-kWSRS5QTTEQ  
+2017-05-15 00:40:28.948 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:40:28.954 +03:00 [Information] Request finished in 483.8761ms 404 
+2017-05-15 00:40:29.510 +03:00 [Information] Request finished in 570.0607ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:40:31.728 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:43:34.771 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 00:43:41.925 +03:00 [Information] Executed DbCommand (178ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:43:42.131 +03:00 [Information] Executed DbCommand (199ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:43:42.271 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:43:44.160 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 00:43:48.008 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:43:48.094 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:43:48.212 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:43:48.315 +03:00 [Information] Executed DbCommand (96ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:43:48.388 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:43:50.342 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 00:43:50.342 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:43:50.774 +03:00 [Information] Request finished in 494.1007ms 200 
+2017-05-15 00:43:51.956 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:43:55.350 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:44:23.330 +03:00 [Information] 
+2017-05-15 00:44:23.342 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 00:44:23.388 +03:00 [Error] 
+2017-05-15 00:44:23.539 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 00:44:23.555 +03:00 [Information] webpack built c4cb8d823dc10da84cf4 in 51328ms
+2017-05-15 00:44:29.055 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 00:44:29.058 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:44:29.060 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:44:29.063 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:44:29.070 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:44:56.009 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:44:57.742 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 62682.1368ms
+2017-05-15 00:44:57.928 +03:00 [Information] Request finished in 67695.6756ms 200 text/html; charset=utf-8
+2017-05-15 00:44:58.925 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=dNTku5bF4d3212X9z3G8m1ltpCyNP9nTsLoSjuVYAeQ  
+2017-05-15 00:44:59.149 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:44:59.205 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:44:59.230 +03:00 [Information] Request finished in 250.308ms 404 
+2017-05-15 00:44:59.931 +03:00 [Information] Request finished in 887.9471ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:45:03.652 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:46:09.468 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:46:09.468 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js.map  
+2017-05-15 00:46:09.468 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js.map  
+2017-05-15 00:46:12.533 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:46:15.782 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:46:16.025 +03:00 [Information] Request finished in 8713.8646ms 404 
+2017-05-15 00:46:28.081 +03:00 [Information] The file "/dist/polyfills.dll.js.map" was not modified
+2017-05-15 00:46:28.087 +03:00 [Information] The file "/dist/vendor.dll.js.map" was not modified
+2017-05-15 00:46:28.748 +03:00 [Information] Request finished in 20965.0509ms 304 text/plain
+2017-05-15 00:46:28.752 +03:00 [Information] Request finished in 20965.0509ms 304 text/plain
+2017-05-15 00:51:47.346 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 00:51:52.176 +03:00 [Information] Executed DbCommand (208ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:51:52.284 +03:00 [Information] Executed DbCommand (99ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:51:52.405 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:51:53.538 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 00:51:56.604 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:51:56.725 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:51:56.821 +03:00 [Information] Executed DbCommand (89ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:51:57.278 +03:00 [Information] Executed DbCommand (379ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 00:51:57.404 +03:00 [Information] Executed DbCommand (123ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 00:52:00.894 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 00:52:00.894 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 00:52:01.282 +03:00 [Information] Request finished in 520.7867ms 200 
+2017-05-15 00:52:02.196 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:52:04.614 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:52:29.341 +03:00 [Information] 
+2017-05-15 00:52:29.355 +03:00 [Error] 
+2017-05-15 00:52:29.441 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 00:52:29.447 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 00:52:29.450 +03:00 [Information] webpack built 750709c56afd847fe2a3 in 43293ms
+2017-05-15 00:52:34.354 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 00:52:34.399 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:52:34.403 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 00:52:34.407 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:52:34.412 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 00:53:29.912 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 00:53:31.153 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 86873.9584ms
+2017-05-15 00:53:31.259 +03:00 [Information] Request finished in 90498.3504ms 200 text/html; charset=utf-8
+2017-05-15 00:53:31.481 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=K9HyU5XWfDcTMeFrTOZi1oT0P_KtmAlaoNwH4S1SIlk  
+2017-05-15 00:53:31.492 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js?v=jFLJMe4Q5pDE-XMQUfljdvkQ2GRVSh4L4JndgcVON6M  
+2017-05-15 00:53:31.589 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 00:53:31.592 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js?v=OnJxLVa33-H66tLZT0UFzEbFIYW9hWACnsxA2QEtvoE  
+2017-05-15 00:53:31.675 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:53:31.691 +03:00 [Information] The file "/dist/polyfills.dll.js" was not modified
+2017-05-15 00:53:31.749 +03:00 [Information] Request finished in 228.5429ms 304 application/javascript
+2017-05-15 00:53:31.766 +03:00 [Information] The file "/dist/vendor.dll.js" was not modified
+2017-05-15 00:53:31.788 +03:00 [Information] Request finished in 180.5607ms 304 application/javascript
+2017-05-15 00:53:31.933 +03:00 [Information] Request finished in 367.4583ms 404 
+2017-05-15 00:53:32.149 +03:00 [Information] Request finished in 676.1331ms 200 application/javascript; charset=UTF-8
+2017-05-15 00:53:35.496 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-15 00:53:35.501 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-15 00:53:35.505 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-15 00:53:35.509 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-15 00:53:35.519 +03:00 [Information] Request finished in 24.1828ms 200 image/png; charset=UTF-8
+2017-05-15 00:53:35.523 +03:00 [Information] Request finished in 21.9251ms 200 image/png; charset=UTF-8
+2017-05-15 00:53:35.529 +03:00 [Information] Request finished in 22.5066ms 200 image/png; charset=UTF-8
+2017-05-15 00:53:35.535 +03:00 [Information] Request finished in 25.816ms 200 image/png; charset=UTF-8
+2017-05-15 00:53:35.589 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-15 00:53:35.594 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-15 00:53:35.601 +03:00 [Information] Request finished in 10.3506ms 200 image/png; charset=UTF-8
+2017-05-15 00:53:35.605 +03:00 [Information] Request finished in 11.3623ms 200 image/png; charset=UTF-8
+2017-05-15 00:53:38.792 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 00:53:46.120 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-15 00:53:46.125 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:53:46.225 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 00:53:46.335 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:53:48.168 +03:00 [Information] Executed DbCommand (703ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-15 00:53:48.337 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 2184.9491ms
+2017-05-15 00:53:48.357 +03:00 [Information] Request finished in 2267.4789ms 200 application/json; charset=utf-8
+2017-05-15 00:53:52.201 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-15 00:53:52.219 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:53:52.369 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-15 00:53:52.555 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:53:53.002 +03:00 [Information] Executed DbCommand (173ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 00:53:53.019 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 792.4371ms
+2017-05-15 00:53:53.096 +03:00 [Information] Request finished in 830.3433ms 200 application/json; charset=utf-8
+2017-05-15 00:54:00.137 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/-1  
+2017-05-15 00:54:00.140 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:54:00.149 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["-1"]) - ModelState is Valid
+2017-05-15 00:54:00.153 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:54:00.245 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 00:54:00.249 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 103.7185ms
+2017-05-15 00:54:00.253 +03:00 [Information] Request finished in 115.2275ms 200 application/json; charset=utf-8
+2017-05-15 00:54:04.906 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-15 00:54:04.914 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:54:04.918 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-15 00:54:04.921 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:54:05.369 +03:00 [Information] Executed DbCommand (444ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 00:54:05.372 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 454.6009ms
+2017-05-15 00:54:05.380 +03:00 [Information] Request finished in 469.4631ms 200 application/json; charset=utf-8
+2017-05-15 00:54:11.224 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/-1  
+2017-05-15 00:54:11.234 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:54:11.237 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["-1"]) - ModelState is Valid
+2017-05-15 00:54:11.240 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:54:11.315 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 00:54:11.320 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 79.7229ms
+2017-05-15 00:54:11.333 +03:00 [Information] Request finished in 101.1546ms 200 application/json; charset=utf-8
+2017-05-15 00:54:12.619 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-15 00:54:12.623 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 00:54:12.632 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-15 00:54:12.637 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 00:54:12.821 +03:00 [Information] Executed DbCommand (181ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 00:54:12.824 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 198.7493ms
+2017-05-15 00:54:12.831 +03:00 [Information] Request finished in 207.9033ms 200 application/json; charset=utf-8
+2017-05-15 01:37:05.614 +03:00 [Information] Executed DbCommand (524ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 01:37:06.299 +03:00 [Information] Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 01:37:06.549 +03:00 [Information] Executed DbCommand (126ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 01:37:08.026 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 01:37:13.696 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 01:37:13.953 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 01:37:14.022 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 01:37:14.178 +03:00 [Information] Executed DbCommand (92ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 01:37:14.290 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 01:37:14.395 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 01:37:26.353 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 01:37:26.353 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 01:37:27.311 +03:00 [Information] Request finished in 994.3288ms 200 
+2017-05-15 01:37:30.016 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 01:37:35.179 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 01:38:31.025 +03:00 [Information] 
+2017-05-15 01:38:31.080 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 01:38:31.084 +03:00 [Error] 
+2017-05-15 01:38:31.170 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 01:38:31.854 +03:00 [Information] webpack built 264993b34364761524e8 in 105775ms
+2017-05-15 01:38:45.108 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 01:38:45.473 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 01:38:45.475 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 01:38:45.478 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 01:38:45.481 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 01:39:00.144 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 01:39:01.088 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 86216.4643ms
+2017-05-15 01:39:01.135 +03:00 [Information] Request finished in 95001.4443ms 200 text/html; charset=utf-8
+2017-05-15 01:39:01.570 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=oHqAbJhpRKSxeoPkAguEkAso12wK0_sBwd9pd4q6Oi4  
+2017-05-15 01:39:01.758 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 01:39:01.793 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 01:39:01.804 +03:00 [Information] Request finished in 89.1266ms 404 
+2017-05-15 01:39:03.009 +03:00 [Information] Request finished in 1444.9373ms 200 application/javascript; charset=UTF-8
+2017-05-15 01:39:05.098 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-15 01:39:05.101 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-15 01:39:05.129 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-15 01:39:05.134 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-15 01:39:05.137 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 01:39:05.146 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-15 01:39:05.185 +03:00 [Information] Request finished in 74.1379ms 200 image/png; charset=UTF-8
+2017-05-15 01:39:05.197 +03:00 [Information] Request finished in 90.8103ms 200 image/png; charset=UTF-8
+2017-05-15 01:39:05.202 +03:00 [Information] Request finished in 92.1116ms 200 image/png; charset=UTF-8
+2017-05-15 01:39:05.215 +03:00 [Information] Request finished in 65.1693ms 200 image/png; charset=UTF-8
+2017-05-15 01:39:05.218 +03:00 [Information] Request finished in 83.9137ms 200 image/png; charset=UTF-8
+2017-05-15 01:39:05.294 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-15 01:39:05.298 +03:00 [Information] Request finished in 4.5412ms 200 image/png; charset=UTF-8
+2017-05-15 01:39:11.455 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/  
+2017-05-15 01:39:11.623 +03:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"'
+2017-05-15 01:39:11.650 +03:00 [Information] Request finished in 184.9984ms 200 text/html
+2017-05-15 01:39:11.840 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css  
+2017-05-15 01:39:11.847 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css  
+2017-05-15 01:39:11.940 +03:00 [Information] The file "/css/typography.css" was not modified
+2017-05-15 01:39:11.974 +03:00 [Information] The file "/css/screen.css" was not modified
+2017-05-15 01:39:11.985 +03:00 [Information] Request finished in 126.8004ms 304 text/css
+2017-05-15 01:39:11.988 +03:00 [Information] Request finished in 148.3798ms 304 text/css
+2017-05-15 01:39:11.991 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css  
+2017-05-15 01:39:11.994 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js  
+2017-05-15 01:39:11.997 +03:00 [Information] The file "/css/reset.css" was not modified
+2017-05-15 01:39:12.001 +03:00 [Information] Request finished in 10.1973ms 304 text/css
+2017-05-15 01:39:12.004 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js  
+2017-05-15 01:39:12.054 +03:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-05-15 01:39:12.061 +03:00 [Information] Request finished in 63.4073ms 304 application/javascript
+2017-05-15 01:39:12.064 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js  
+2017-05-15 01:39:12.066 +03:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-05-15 01:39:12.072 +03:00 [Information] Request finished in 65.1882ms 304 application/javascript
+2017-05-15 01:39:12.074 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js  
+2017-05-15 01:39:12.162 +03:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-05-15 01:39:12.169 +03:00 [Information] Request finished in 100.9756ms 304 application/javascript
+2017-05-15 01:39:12.172 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js  
+2017-05-15 01:39:12.191 +03:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-05-15 01:39:12.195 +03:00 [Information] Request finished in 119.9228ms 304 application/javascript
+2017-05-15 01:39:12.206 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js  
+2017-05-15 01:39:12.670 +03:00 [Information] The file "/lib/marked.js" was not modified
+2017-05-15 01:39:12.721 +03:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-05-15 01:39:12.734 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js  
+2017-05-15 01:39:12.772 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js  
+2017-05-15 01:39:12.774 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js  
+2017-05-15 01:39:12.804 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js  
+2017-05-15 01:39:12.864 +03:00 [Information] Request finished in 537.2647ms 304 application/javascript
+2017-05-15 01:39:12.899 +03:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-05-15 01:39:12.946 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js  
+2017-05-15 01:39:12.955 +03:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-05-15 01:39:12.966 +03:00 [Information] Request finished in 501.5385ms 304 application/javascript
+2017-05-15 01:39:12.989 +03:00 [Information] Request finished in 197.401ms 304 application/javascript
+2017-05-15 01:39:12.997 +03:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-05-15 01:39:13.005 +03:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-05-15 01:39:13.021 +03:00 [Information] Request finished in 293.5463ms 304 application/javascript
+2017-05-15 01:39:13.028 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js  
+2017-05-15 01:39:13.031 +03:00 [Information] Request finished in 759.316ms 304 application/javascript
+2017-05-15 01:39:13.055 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js  
+2017-05-15 01:39:13.067 +03:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-05-15 01:39:13.079 +03:00 [Information] Request finished in 798.4519ms 304 application/javascript
+2017-05-15 01:39:13.091 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js  
+2017-05-15 01:39:13.114 +03:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-05-15 01:39:13.137 +03:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-05-15 01:39:13.156 +03:00 [Information] Request finished in 35.5219ms 304 application/javascript
+2017-05-15 01:39:13.170 +03:00 [Information] Request finished in 171.1583ms 304 application/javascript
+2017-05-15 01:39:13.176 +03:00 [Information] Request finished in 127.7948ms 304 application/javascript
+2017-05-15 01:39:13.179 +03:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-05-15 01:39:13.187 +03:00 [Information] Request finished in 315.1632ms 304 application/javascript
+2017-05-15 01:39:13.470 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png  
+2017-05-15 01:39:13.518 +03:00 [Information] The file "/images/logo_small.png" was not modified
+2017-05-15 01:39:13.528 +03:00 [Information] Request finished in 52.5862ms 304 image/png
+2017-05-15 01:39:13.564 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css  
+2017-05-15 01:39:13.648 +03:00 [Information] The file "/css/print.css" was not modified
+2017-05-15 01:39:13.663 +03:00 [Information] Request finished in 88.2606ms 304 text/css
+2017-05-15 01:39:14.979 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2017-05-15 01:39:15.251 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+2017-05-15 01:39:15.406 +03:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-05-15 01:39:15.406 +03:00 [Information] Request finished in 244.9755ms 304 image/png
+2017-05-15 01:39:15.861 +03:00 [Information] Request finished in 916.2608ms 200 application/json
+2017-05-15 01:39:23.757 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/throbber.gif  
+2017-05-15 01:39:23.760 +03:00 [Information] The file "/images/throbber.gif" was not modified
+2017-05-15 01:39:23.765 +03:00 [Information] Request finished in 7.6752ms 304 image/gif
+2017-05-15 01:39:25.026 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+2017-05-15 01:39:25.032 +03:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-05-15 01:39:25.046 +03:00 [Information] Request finished in 12.811ms 304 image/png
+2017-05-15 01:39:34.581 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+2017-05-15 01:39:34.585 +03:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-05-15 01:39:34.589 +03:00 [Information] Request finished in 10.1459ms 304 image/png
+2017-05-15 01:39:36.170 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects  
+2017-05-15 01:39:36.176 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 01:39:36.197 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjects (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 01:39:36.240 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 01:39:40.063 +03:00 [Information] Executed DbCommand (103ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 01:39:40.637 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjects (AspNetCoreSpa)" in 4444.7291ms
+2017-05-15 01:39:40.640 +03:00 [Information] Request finished in 4473.1771ms 200 application/json; charset=utf-8
+2017-05-15 01:40:04.407 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+2017-05-15 01:40:04.410 +03:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-05-15 01:40:04.414 +03:00 [Information] Request finished in 8.0726ms 304 image/png
+2017-05-15 01:40:09.871 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/byFaculty/1  
+2017-05-15 01:40:09.874 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 01:40:09.973 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsByFaculty (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-15 01:40:10.108 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 01:40:10.642 +03:00 [Information] Executed DbCommand (214ms) [Parameters=[@__FacultyId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE [x].[FacultyId] = @__FacultyId_0
+2017-05-15 01:40:10.649 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsByFaculty (AspNetCoreSpa)" in 768.3759ms
+2017-05-15 01:40:10.654 +03:00 [Information] Request finished in 780.9045ms 200 application/json; charset=utf-8
+2017-05-15 01:40:23.739 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/byFaculty/1/0  
+2017-05-15 01:40:23.743 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 01:40:23.751 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsByFacultyAndCourse (AspNetCoreSpa)" with arguments (["1", "0"]) - ModelState is Valid
+2017-05-15 01:40:23.757 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 01:40:24.033 +03:00 [Information] Executed DbCommand (265ms) [Parameters=[@__FacultyId_0='?', @__Course_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__FacultyId_0) AND ([x].[Course] = @__Course_1)
+2017-05-15 01:40:24.040 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsByFacultyAndCourse (AspNetCoreSpa)" in 289.6786ms
+2017-05-15 01:40:24.048 +03:00 [Information] Request finished in 307.7815ms 200 application/json; charset=utf-8
+2017-05-15 22:39:46.498 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 22:39:49.094 +03:00 [Information] Executed DbCommand (160ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:39:49.170 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:39:49.265 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 22:39:49.618 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 22:39:50.821 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:39:50.906 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:39:50.988 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 22:39:51.060 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:39:51.145 +03:00 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 22:39:52.197 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 22:39:52.197 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 22:39:52.648 +03:00 [Information] Request finished in 554.7704ms 200 
+2017-05-15 22:39:54.296 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 22:39:56.292 +03:00 [Error] An unhandled exception has occurred while executing the request
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)'
+Error: The literal section '?' is invalid. Literal sections cannot contain the '?' character.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at AspNetCoreSpa.Server.Extensions.ApplicationBuilderExtensions.<>c__DisplayClass2_0.<<UseXsrf>b__0>d.MoveNext() in F:\Eleks\LabaMaker\AspNetCoreSpa\Server\Extensions\ApplicationBuilderExtensions.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-05-15 22:39:56.737 +03:00 [Information] Request finished in 4684.0261ms 500 text/html; charset=utf-8
+2017-05-15 22:40:04.266 +03:00 [Information] 
+2017-05-15 22:40:04.282 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 22:40:04.356 +03:00 [Error] 
+2017-05-15 22:40:04.363 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 22:40:04.468 +03:00 [Information] webpack built 264993b34364761524e8 in 18889ms
+2017-05-15 22:40:04.901 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 22:40:05.343 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 22:40:05.527 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 22:40:05.617 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 22:40:05.682 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 22:42:37.567 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 22:42:39.487 +03:00 [Information] Executed DbCommand (153ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:42:39.566 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:42:39.656 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 22:42:39.827 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 22:42:40.727 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:42:40.824 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:42:40.928 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 22:42:40.998 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 22:42:41.078 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 22:42:41.601 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 22:42:41.601 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 22:42:41.915 +03:00 [Information] Request finished in 346.828ms 200 
+2017-05-15 22:42:42.230 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 22:42:43.217 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 22:42:51.735 +03:00 [Error] 
+2017-05-15 22:42:51.999 +03:00 [Error] [at-loader] Checking finished with 5 errors
+2017-05-15 22:42:52.025 +03:00 [Information] 
+2017-05-15 22:42:52.164 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 22:42:52.298 +03:00 [Information] webpack built 264993b34364761524e8 in 14321ms
+2017-05-15 22:42:52.391 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:5:10 
+    TS6133: 'IUniversity' is declared but never used. 
+
+2017-05-15 22:42:52.523 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:58 
+    TS2339: Property 'name' does not exist on type 'IUniversity'. 
+
+2017-05-15 22:42:52.653 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:26:73 
+    TS2339: Property 'id' does not exist on type 'IUniversity'. 
+
+2017-05-15 22:42:52.824 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:33:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 22:42:52.989 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:39:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 22:42:53.115 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 22:42:54.432 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 11441.0592ms
+2017-05-15 22:42:54.483 +03:00 [Information] Request finished in 12902.4941ms 200 text/html; charset=utf-8
+2017-05-15 22:42:54.519 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/themes/lightness/theme.css  
+2017-05-15 22:42:54.592 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 22:42:54.611 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/primeng.css  
+2017-05-15 22:42:54.656 +03:00 [Information] The file "/styles/primeng.css" was not modified
+2017-05-15 22:42:54.670 +03:00 [Information] The file "/styles/themes/lightness/theme.css" was not modified
+2017-05-15 22:42:54.698 +03:00 [Information] Request finished in 190.4621ms 304 text/css
+2017-05-15 22:42:54.727 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=oHqAbJhpRKSxeoPkAguEkAso12wK0_sBwd9pd4q6Oi4  
+2017-05-15 22:42:54.745 +03:00 [Information] Request finished in 207.0582ms 304 text/css
+2017-05-15 22:42:54.794 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js?v=OnJxLVa33-H66tLZT0UFzEbFIYW9hWACnsxA2QEtvoE  
+2017-05-15 22:42:54.822 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js?v=jFLJMe4Q5pDE-XMQUfljdvkQ2GRVSh4L4JndgcVON6M  
+2017-05-15 22:42:54.852 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 22:42:54.857 +03:00 [Information] The file "/dist/polyfills.dll.js" was not modified
+2017-05-15 22:42:54.865 +03:00 [Information] Request finished in 158.7177ms 304 application/javascript
+2017-05-15 22:42:54.885 +03:00 [Information] Request finished in 389.6096ms 404 
+2017-05-15 22:42:54.925 +03:00 [Information] The file "/dist/vendor.dll.js" was not modified
+2017-05-15 22:42:55.058 +03:00 [Information] Request finished in 187.7986ms 304 application/javascript
+2017-05-15 22:42:56.664 +03:00 [Information] Request finished in 1961.3966ms 200 application/javascript; charset=UTF-8
+2017-05-15 22:42:58.576 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-15 22:42:58.601 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-15 22:42:58.611 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-15 22:42:58.620 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-15 22:42:58.630 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-15 22:42:58.639 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-15 22:42:58.656 +03:00 [Information] Request finished in 122.2761ms 200 image/png; charset=UTF-8
+2017-05-15 22:42:58.659 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 22:42:59.063 +03:00 [Information] Request finished in 451.8803ms 200 image/png; charset=UTF-8
+2017-05-15 22:42:59.083 +03:00 [Information] Request finished in 469.1864ms 200 image/png; charset=UTF-8
+2017-05-15 22:42:59.089 +03:00 [Information] Request finished in 471.1498ms 200 image/png; charset=UTF-8
+2017-05-15 22:42:59.094 +03:00 [Information] Request finished in 466.6564ms 200 image/png; charset=UTF-8
+2017-05-15 22:42:59.098 +03:00 [Information] Request finished in 463.4876ms 200 image/png; charset=UTF-8
+2017-05-15 22:43:11.675 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/  
+2017-05-15 22:43:11.829 +03:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"'
+2017-05-15 22:43:11.842 +03:00 [Information] Request finished in 169.1031ms 200 text/html
+2017-05-15 22:43:12.301 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css  
+2017-05-15 22:43:12.334 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css  
+2017-05-15 22:43:12.370 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js  
+2017-05-15 22:43:12.397 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css  
+2017-05-15 22:43:12.425 +03:00 [Information] The file "/css/screen.css" was not modified
+2017-05-15 22:43:12.447 +03:00 [Information] Request finished in 86.721ms 304 text/css
+2017-05-15 22:43:12.480 +03:00 [Information] The file "/css/typography.css" was not modified
+2017-05-15 22:43:12.531 +03:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-05-15 22:43:12.559 +03:00 [Information] The file "/css/reset.css" was not modified
+2017-05-15 22:43:12.580 +03:00 [Information] Request finished in 349.4682ms 304 text/css
+2017-05-15 22:43:12.598 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js  
+2017-05-15 22:43:12.629 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js  
+2017-05-15 22:43:12.657 +03:00 [Information] Request finished in 196.2592ms 304 application/javascript
+2017-05-15 22:43:12.679 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js  
+2017-05-15 22:43:12.693 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js  
+2017-05-15 22:43:12.709 +03:00 [Information] Request finished in 346.3275ms 304 text/css
+2017-05-15 22:43:12.726 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js  
+2017-05-15 22:43:12.762 +03:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-05-15 22:43:12.792 +03:00 [Information] Request finished in 314.7479ms 304 application/javascript
+2017-05-15 22:43:12.843 +03:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-05-15 22:43:12.896 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js  
+2017-05-15 22:43:12.950 +03:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-05-15 22:43:13.039 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js  
+2017-05-15 22:43:13.067 +03:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-05-15 22:43:13.080 +03:00 [Information] Request finished in 190.3633ms 304 application/javascript
+2017-05-15 22:43:13.107 +03:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-05-15 22:43:13.140 +03:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-05-15 22:43:13.160 +03:00 [Information] Request finished in 369.723ms 304 application/javascript
+2017-05-15 22:43:13.201 +03:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-05-15 22:43:13.237 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js  
+2017-05-15 22:43:13.272 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js  
+2017-05-15 22:43:13.291 +03:00 [Information] Request finished in 348.6015ms 304 application/javascript
+2017-05-15 22:43:13.313 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js  
+2017-05-15 22:43:13.331 +03:00 [Information] Request finished in 491.706ms 304 application/javascript
+2017-05-15 22:43:13.346 +03:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-05-15 22:43:13.363 +03:00 [Information] Request finished in 861.185ms 304 application/javascript
+2017-05-15 22:43:13.396 +03:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-05-15 22:43:13.427 +03:00 [Information] Request finished in 236.0442ms 304 application/javascript
+2017-05-15 22:43:13.443 +03:00 [Information] Request finished in 962.5489ms 304 application/javascript
+2017-05-15 22:43:13.455 +03:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-05-15 22:43:13.487 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js  
+2017-05-15 22:43:13.511 +03:00 [Information] Request finished in 265.8302ms 304 application/javascript
+2017-05-15 22:43:13.542 +03:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-05-15 22:43:13.608 +03:00 [Information] Request finished in 211.1925ms 304 application/javascript
+2017-05-15 22:43:13.617 +03:00 [Information] Request finished in 163.9333ms 304 application/javascript
+2017-05-15 22:43:13.664 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js  
+2017-05-15 22:43:13.724 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js  
+2017-05-15 22:43:13.743 +03:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-05-15 22:43:13.764 +03:00 [Information] Request finished in 380.1479ms 304 application/javascript
+2017-05-15 22:43:13.793 +03:00 [Information] The file "/lib/marked.js" was not modified
+2017-05-15 22:43:13.801 +03:00 [Information] Request finished in 349.7689ms 304 application/javascript
+2017-05-15 22:43:13.860 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png  
+2017-05-15 22:43:13.894 +03:00 [Information] The file "/images/logo_small.png" was not modified
+2017-05-15 22:43:13.903 +03:00 [Information] Request finished in 42.9846ms 304 image/png
+2017-05-15 22:43:13.916 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css  
+2017-05-15 22:43:13.946 +03:00 [Information] The file "/css/print.css" was not modified
+2017-05-15 22:43:13.954 +03:00 [Information] Request finished in 34.3845ms 304 text/css
+2017-05-15 22:43:13.973 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2017-05-15 22:43:14.338 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+2017-05-15 22:43:14.374 +03:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-05-15 22:43:14.393 +03:00 [Information] Request finished in 63.6964ms 304 image/png
+2017-05-15 22:43:14.647 +03:00 [Information] Request finished in 668.7144ms 200 application/json
+2017-05-15 22:43:19.561 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/throbber.gif  
+2017-05-15 22:43:19.565 +03:00 [Information] The file "/images/throbber.gif" was not modified
+2017-05-15 22:43:19.570 +03:00 [Information] Request finished in 6.7709ms 304 image/gif
+2017-05-15 22:43:19.842 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+2017-05-15 22:43:19.846 +03:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-05-15 22:43:19.852 +03:00 [Information] Request finished in 14.9222ms 304 image/png
+2017-05-15 22:43:28.336 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-15 22:43:28.339 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 22:43:28.463 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-15 22:43:45.204 +03:00 [Information] Executed DbCommand (88ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 22:43:45.458 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 22:43:53.176 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 22:43:53.272 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 22:43:55.412 +03:00 [Information] Connection id ""0HL4RPA6CP6HF"" communication error.
+Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvException: Error -4081 ECANCELED operation canceled
+2017-05-15 22:43:57.355 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 22:43:59.908 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 22:43:59.927 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 31569.569ms
+2017-05-15 22:43:59.936 +03:00 [Information] Request finished in 31599.6012ms 200 application/json; charset=utf-8
+2017-05-15 22:44:14.361 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&-1&-1  
+2017-05-15 22:44:14.371 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 22:44:14.376 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "-1", "-1"]) - ModelState is Valid
+2017-05-15 22:44:28.112 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:28.135 +03:00 [Warning] The LINQ expression '({from Faculty y in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[DAL.Entities.Faculty]) where ([y].Id == [x].FacultyId) select [y].UniversityId => First()} == __University_0)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:28.143 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:28.269 +03:00 [Information] Executed DbCommand (88ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+2017-05-15 22:44:28.541 +03:00 [Information] Executed DbCommand (143ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:28.618 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:28.686 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:28.757 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:28.834 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:28.915 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:29.024 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+2017-05-15 22:44:29.087 +03:00 [Information] Executed DbCommand (60ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:29.156 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:29.226 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:29.292 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:29.359 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:29.428 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:42.639 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+2017-05-15 22:44:42.706 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:42.776 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:42.840 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:42.916 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:42.990 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:43.088 +03:00 [Information] Executed DbCommand (84ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:43.092 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 22:44:43.101 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 28720.561ms
+2017-05-15 22:44:43.119 +03:00 [Information] Request finished in 28744.4476ms 200 application/json; charset=utf-8
+2017-05-15 22:44:53.719 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&2&2  
+2017-05-15 22:44:53.724 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 22:44:53.727 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "2", "2"]) - ModelState is Valid
+2017-05-15 22:44:55.574 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:55.579 +03:00 [Warning] The LINQ expression '({from Faculty y in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[DAL.Entities.Faculty]) where ([y].Id == [x].FacultyId) select [y].UniversityId => First()} == __University_0)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:55.585 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:55.588 +03:00 [Warning] The LINQ expression '([x].FacultyId == __Faculty_1)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:55.592 +03:00 [Warning] The LINQ expression '([x].Course == __Course_2)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 22:44:55.683 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[@__Faculty_1='?', @__Course_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_1) AND ([x].[Course] = @__Course_2)
+2017-05-15 22:44:55.758 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-15 22:44:55.762 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 22:44:55.785 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 2038.4943ms
+2017-05-15 22:44:55.836 +03:00 [Information] Request finished in 2069.3103ms 200 application/json; charset=utf-8
+2017-05-15 23:25:07.738 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 23:25:09.622 +03:00 [Information] Executed DbCommand (155ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:25:09.705 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:25:09.783 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:25:09.941 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 23:25:11.396 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:25:11.466 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:25:11.530 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:25:11.600 +03:00 [Information] Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:25:11.678 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:25:12.231 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 23:25:12.233 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 23:25:12.611 +03:00 [Information] Request finished in 404.8748ms 200 
+2017-05-15 23:25:12.879 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:25:13.768 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:25:18.646 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 23:25:19.846 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:25:19.851 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 6251.5069ms
+2017-05-15 23:25:19.912 +03:00 [Information] Request finished in 7734.3818ms 200 text/html; charset=utf-8
+2017-05-15 23:25:19.942 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=oHqAbJhpRKSxeoPkAguEkAso12wK0_sBwd9pd4q6Oi4  
+2017-05-15 23:25:20.936 +03:00 [Information] 
+2017-05-15 23:25:20.944 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 23:25:21.027 +03:00 [Error] 
+2017-05-15 23:25:21.055 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-15 23:25:21.069 +03:00 [Information] webpack built 63682f7e16b7c8218226 in 14276ms
+2017-05-15 23:25:21.297 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:25:21.337 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:25:21.803 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:25:22.212 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:25:22.432 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:25:23.217 +03:00 [Information] Request finished in 2614.5637ms 404 
+2017-05-15 23:25:24.426 +03:00 [Information] Request finished in 4512.3914ms 200 application/javascript; charset=UTF-8
+2017-05-15 23:25:26.133 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-15 23:25:26.242 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-15 23:25:26.283 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-15 23:25:26.336 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-15 23:25:26.362 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-15 23:25:26.408 +03:00 [Information] Request finished in 268.2848ms 200 image/png; charset=UTF-8
+2017-05-15 23:25:26.525 +03:00 [Information] Request finished in 183.2996ms 200 image/png; charset=UTF-8
+2017-05-15 23:25:26.570 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-15 23:25:26.592 +03:00 [Information] Request finished in 300.1559ms 200 image/png; charset=UTF-8
+2017-05-15 23:25:26.614 +03:00 [Information] Request finished in 353.7645ms 200 image/png; charset=UTF-8
+2017-05-15 23:25:26.625 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 23:25:26.634 +03:00 [Information] Request finished in 436.5361ms 200 image/png; charset=UTF-8
+2017-05-15 23:25:26.643 +03:00 [Information] Request finished in 522.7914ms 200 image/png; charset=UTF-8
+2017-05-15 23:34:22.784 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/-1  
+2017-05-15 23:34:22.794 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-15 23:34:22.797 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:34:22.800 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:34:22.804 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-15 23:34:22.808 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:34:22.852 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:34:22.901 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:34:23.015 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["-1"]) - ModelState is Valid
+2017-05-15 23:34:23.015 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-15 23:34:23.230 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:34:24.329 +03:00 [Information] Executed DbCommand (174ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 23:34:24.367 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 1539.8284ms
+2017-05-15 23:34:24.384 +03:00 [Information] Request finished in 1627.0311ms 200 application/json; charset=utf-8
+2017-05-15 23:34:24.430 +03:00 [Information] Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 23:34:24.525 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:34:24.552 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 1723.2241ms
+2017-05-15 23:34:24.570 +03:00 [Information] Request finished in 1811.1841ms 200 application/json; charset=utf-8
+2017-05-15 23:34:24.573 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-15 23:34:24.590 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1762.6295ms
+2017-05-15 23:34:24.603 +03:00 [Information] Request finished in 1814.0222ms 200 application/json; charset=utf-8
+2017-05-15 23:34:51.855 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-15 23:34:51.862 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&0&3  
+2017-05-15 23:34:51.881 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:34:51.883 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:34:51.909 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-15 23:34:51.910 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "0", "3"]) - ModelState is Valid
+2017-05-15 23:34:51.913 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:34:51.991 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 23:34:52.003 +03:00 [Warning] The LINQ expression '({from Faculty y in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[DAL.Entities.Faculty]) where ([y].Id == [x].FacultyId) select [y].UniversityId => First()} == __University_0)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 23:34:52.012 +03:00 [Information] Executed DbCommand (86ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-15 23:34:52.018 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 23:34:52.024 +03:00 [Warning] The LINQ expression '([x].FacultyId == __Faculty_1)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 23:34:52.047 +03:00 [Warning] The LINQ expression '([x].Course == __Course_2)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-15 23:34:52.053 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 165.2532ms
+2017-05-15 23:34:52.067 +03:00 [Information] Request finished in 215.1265ms 200 application/json; charset=utf-8
+2017-05-15 23:34:52.149 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[@__Faculty_1='?', @__Course_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_1) AND ([x].[Course] = @__Course_2)
+2017-05-15 23:34:52.152 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:34:52.155 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 267.4824ms
+2017-05-15 23:34:52.160 +03:00 [Information] Request finished in 308.1302ms 200 application/json; charset=utf-8
+2017-05-15 23:34:54.249 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&1&3  
+2017-05-15 23:34:54.255 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:34:54.264 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "1", "3"]) - ModelState is Valid
+2017-05-15 23:34:54.356 +03:00 [Information] Executed DbCommand (87ms) [Parameters=[@__Faculty_1='?', @__Course_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_1) AND ([x].[Course] = @__Course_2)
+2017-05-15 23:34:54.360 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:34:54.367 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 104.5821ms
+2017-05-15 23:34:54.373 +03:00 [Information] Request finished in 122.6929ms 200 application/json; charset=utf-8
+2017-05-15 23:37:55.218 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 23:37:57.309 +03:00 [Information] Executed DbCommand (157ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:37:57.399 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:37:57.492 +03:00 [Information] Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:37:57.629 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 23:37:58.628 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:37:58.705 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:37:58.814 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:37:58.892 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:37:58.964 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:37:59.381 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 23:37:59.381 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 23:37:59.652 +03:00 [Information] Request finished in 311.7703ms 200 
+2017-05-15 23:37:59.849 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:38:00.848 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:38:06.065 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 23:38:07.064 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 6319.0371ms
+2017-05-15 23:38:07.111 +03:00 [Information] Request finished in 7775.416ms 200 text/html; charset=utf-8
+2017-05-15 23:38:07.142 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=YrRXRonjEULHfKm2BvprXfJCny54Cp0Q0_W75s8bRxk  
+2017-05-15 23:38:07.222 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:38:08.967 +03:00 [Information] 
+2017-05-15 23:38:08.975 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 23:38:09.025 +03:00 [Error] 
+2017-05-15 23:38:09.029 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-15 23:38:09.122 +03:00 [Information] webpack built f4b73e63899213553b80 in 14969ms
+2017-05-15 23:38:09.646 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:38:10.045 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:38:10.102 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:38:10.158 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:38:10.375 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:38:11.076 +03:00 [Information] Request finished in 2998.3525ms 404 
+2017-05-15 23:38:12.716 +03:00 [Information] Request finished in 5607.2523ms 200 application/javascript; charset=UTF-8
+2017-05-15 23:38:14.321 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 23:38:40.605 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:38:40.611 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:38:40.614 +03:00 [Information] Request finished in 10.0104ms 404 
+2017-05-15 23:38:40.787 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js.map  
+2017-05-15 23:38:40.822 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js.map  
+2017-05-15 23:38:40.896 +03:00 [Information] The file "/dist/polyfills.dll.js.map" was not modified
+2017-05-15 23:38:40.901 +03:00 [Information] The file "/dist/vendor.dll.js.map" was not modified
+2017-05-15 23:38:40.935 +03:00 [Information] Request finished in 95.0844ms 304 text/plain
+2017-05-15 23:38:40.937 +03:00 [Information] Request finished in 142.3428ms 304 text/plain
+2017-05-15 23:38:41.054 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/themes/lightness/theme.css.map  
+2017-05-15 23:38:41.058 +03:00 [Information] The file "/styles/themes/lightness/theme.css.map" was not modified
+2017-05-15 23:38:41.063 +03:00 [Information] Request finished in 8.1437ms 304 text/plain
+2017-05-15 23:39:32.704 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 23:39:35.850 +03:00 [Information] Executed DbCommand (185ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:39:35.960 +03:00 [Information] Executed DbCommand (100ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:39:36.161 +03:00 [Information] Executed DbCommand (100ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:39:36.481 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 23:39:38.326 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:39:38.413 +03:00 [Information] Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:39:38.513 +03:00 [Information] Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:39:38.643 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:39:38.761 +03:00 [Information] Executed DbCommand (86ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:39:39.411 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 23:39:39.411 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 23:39:39.910 +03:00 [Information] Request finished in 390.9528ms 200 
+2017-05-15 23:39:40.222 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:39:41.685 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:39:47.540 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 23:39:48.802 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 7418.9488ms
+2017-05-15 23:39:48.831 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=6Bzhm0Og72FZNcrN7F1ecEhlDZo9vIk-FRc0973p9J4  
+2017-05-15 23:39:48.855 +03:00 [Information] Request finished in 9480.651ms 200 text/html; charset=utf-8
+2017-05-15 23:39:48.861 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:39:48.957 +03:00 [Information] 
+2017-05-15 23:39:48.965 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 23:39:49.019 +03:00 [Error] 
+2017-05-15 23:39:49.088 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-15 23:39:49.166 +03:00 [Information] webpack built 4c91a208f288c9e8919d in 17433ms
+2017-05-15 23:39:50.268 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:39:50.532 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:39:50.691 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:39:50.843 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:39:50.891 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:39:51.896 +03:00 [Information] Request finished in 2526.4185ms 404 
+2017-05-15 23:39:53.752 +03:00 [Information] Request finished in 4956.1221ms 200 application/javascript; charset=UTF-8
+2017-05-15 23:39:55.999 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-15 23:39:56.048 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-15 23:39:56.083 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-15 23:39:56.264 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-15 23:39:56.323 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-15 23:39:56.393 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-15 23:39:56.409 +03:00 [Information] Request finished in 630.536ms 200 image/png; charset=UTF-8
+2017-05-15 23:39:56.427 +03:00 [Information] Request finished in 410.3345ms 200 image/png; charset=UTF-8
+2017-05-15 23:39:56.443 +03:00 [Information] Request finished in 377.034ms 200 image/png; charset=UTF-8
+2017-05-15 23:39:56.449 +03:00 [Information] Request finished in 316.8634ms 200 image/png; charset=UTF-8
+2017-05-15 23:39:56.494 +03:00 [Information] Request finished in 166.2705ms 200 image/png; charset=UTF-8
+2017-05-15 23:39:56.511 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 23:39:56.558 +03:00 [Information] Request finished in 153.6945ms 200 image/png; charset=UTF-8
+2017-05-15 23:45:03.492 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-15 23:45:03.495 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-15 23:45:03.522 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:45:03.525 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:45:03.563 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:45:03.614 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:45:03.703 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-15 23:45:04.160 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-15 23:45:04.247 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:45:04.282 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 728.1904ms
+2017-05-15 23:45:04.294 +03:00 [Information] Request finished in 795.0715ms 200 application/json; charset=utf-8
+2017-05-15 23:45:04.395 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-15 23:45:04.401 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:45:04.407 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:45:04.410 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:45:04.498 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-15 23:45:04.511 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 106.0478ms
+2017-05-15 23:45:04.523 +03:00 [Information] Request finished in 117.934ms 200 application/json; charset=utf-8
+2017-05-15 23:45:04.669 +03:00 [Information] Executed DbCommand (89ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-15 23:45:04.681 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1136.9601ms
+2017-05-15 23:45:04.692 +03:00 [Information] Request finished in 1193.6036ms 200 application/json; charset=utf-8
+2017-05-15 23:45:08.910 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&1&-1  
+2017-05-15 23:45:08.921 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:45:08.926 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "1", "-1"]) - ModelState is Valid
+2017-05-15 23:45:09.211 +03:00 [Information] Executed DbCommand (139ms) [Parameters=[@__Faculty_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE [x].[FacultyId] = @__Faculty_0
+2017-05-15 23:45:09.218 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:45:09.223 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 295.1232ms
+2017-05-15 23:45:09.233 +03:00 [Information] Request finished in 320.7264ms 200 application/json; charset=utf-8
+2017-05-15 23:45:14.223 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&1&1  
+2017-05-15 23:45:14.229 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:45:14.234 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "1", "1"]) - ModelState is Valid
+2017-05-15 23:45:14.313 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[@__Faculty_0='?', @__Course_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_0) AND ([x].[Course] = @__Course_1)
+2017-05-15 23:45:14.315 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:45:14.323 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 85.6377ms
+2017-05-15 23:45:14.342 +03:00 [Information] Request finished in 107.4783ms 200 application/json; charset=utf-8
+2017-05-15 23:45:16.558 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&1&2  
+2017-05-15 23:45:16.563 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:45:16.567 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "1", "2"]) - ModelState is Valid
+2017-05-15 23:45:16.655 +03:00 [Information] Executed DbCommand (76ms) [Parameters=[@__Faculty_0='?', @__Course_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_0) AND ([x].[Course] = @__Course_1)
+2017-05-15 23:45:16.659 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-15 23:45:16.663 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 96.6844ms
+2017-05-15 23:45:16.671 +03:00 [Information] Request finished in 108.0215ms 200 application/json; charset=utf-8
+2017-05-15 23:48:18.393 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:48:18.575 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:48:18.621 +03:00 [Information] Request finished in 241.3949ms 404 
+2017-05-15 23:52:54.824 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 23:52:57.594 +03:00 [Information] Executed DbCommand (238ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:52:57.733 +03:00 [Information] Executed DbCommand (130ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:52:57.923 +03:00 [Information] Executed DbCommand (178ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:52:58.047 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 23:52:58.863 +03:00 [Information] Executed DbCommand (96ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:52:59.458 +03:00 [Information] Executed DbCommand (591ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:52:59.783 +03:00 [Information] Executed DbCommand (320ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:53:01.705 +03:00 [Information] Executed DbCommand (1,902ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:53:06.614 +03:00 [Information] 
+2017-05-15 23:53:06.622 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 23:53:06.710 +03:00 [Error] 
+2017-05-15 23:53:06.731 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-15 23:53:06.739 +03:00 [Information] webpack built e57a57b6a225325e4f1c in 12851ms
+2017-05-15 23:53:07.022 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:53:07.079 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:53:07.156 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:53:07.193 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:53:07.886 +03:00 [Information] Executed DbCommand (6,061ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:53:09.237 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 23:53:09.234 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 23:53:09.725 +03:00 [Information] Request finished in 758.8965ms 200 
+2017-05-15 23:53:09.939 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:53:10.763 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:53:14.637 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 23:53:15.372 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 4734.2771ms
+2017-05-15 23:53:15.407 +03:00 [Information] Request finished in 6514.8215ms 200 text/html; charset=utf-8
+2017-05-15 23:53:15.423 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:53:15.466 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=7YGGhMmdcH4jYZ4l0YRQ0TTEI1RNVLJNyOsFfgT51mc  
+2017-05-15 23:53:15.512 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:53:15.526 +03:00 [Information] Request finished in 101.7345ms 404 
+2017-05-15 23:53:16.361 +03:00 [Information] Request finished in 885.3311ms 200 application/javascript; charset=UTF-8
+2017-05-15 23:53:18.409 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 23:53:54.305 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:53:54.325 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:53:54.393 +03:00 [Information] Request finished in 26.9119ms 404 
+2017-05-15 23:55:57.741 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 23:56:03.119 +03:00 [Information] Executed DbCommand (308ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:56:03.314 +03:00 [Information] Executed DbCommand (169ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:56:03.569 +03:00 [Information] Executed DbCommand (237ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:56:04.342 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-15 23:56:07.036 +03:00 [Information] Executed DbCommand (404ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:56:07.841 +03:00 [Information] Executed DbCommand (781ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:56:08.064 +03:00 [Information] Executed DbCommand (218ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:56:08.257 +03:00 [Information] Executed DbCommand (172ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-15 23:56:09.138 +03:00 [Information] Executed DbCommand (873ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-15 23:56:10.328 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-15 23:56:10.328 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-15 23:56:10.853 +03:00 [Information] Request finished in 601.8451ms 200 
+2017-05-15 23:56:11.295 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:56:11.908 +03:00 [Information] 
+2017-05-15 23:56:12.009 +03:00 [Error] 
+2017-05-15 23:56:12.024 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 23:56:12.056 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-15 23:56:12.277 +03:00 [Information] webpack built e1581c6e09123c66860f in 15298ms
+2017-05-15 23:56:12.669 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:56:13.040 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:56:13.254 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:56:13.513 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:56:13.870 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-15 23:56:22.084 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-15 23:56:23.031 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 10458.5335ms
+2017-05-15 23:56:23.061 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:56:23.099 +03:00 [Information] Request finished in 12840.1503ms 200 text/html; charset=utf-8
+2017-05-15 23:56:23.118 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=yLLAcSdjZoA9wm1wyiIqP76S7o0YUZS_ZoN8tuEm1xE  
+2017-05-15 23:56:23.234 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:56:23.267 +03:00 [Information] Request finished in 244.6494ms 404 
+2017-05-15 23:56:24.698 +03:00 [Information] Request finished in 1633.6179ms 200 application/javascript; charset=UTF-8
+2017-05-15 23:56:26.384 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-15 23:57:02.582 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-15 23:57:02.595 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-15 23:57:02.623 +03:00 [Information] Request finished in 45.0168ms 404 
+2017-05-15 23:59:44.950 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-15 23:59:56.074 +03:00 [Information] 
+2017-05-15 23:59:56.080 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-15 23:59:56.164 +03:00 [Error] 
+2017-05-15 23:59:56.280 +03:00 [Information] webpack built fe8d3f8feaec2700a73f in 12297ms
+2017-05-15 23:59:56.280 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-15 23:59:56.402 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:59:56.422 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:59:56.503 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:59:56.511 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-15 23:59:59.779 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.

@@ -145,6 +145,8 @@ namespace DAL.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<int>("Course");
+
                     b.Property<int>("FacultyId");
 
                     b.Property<string>("Name");

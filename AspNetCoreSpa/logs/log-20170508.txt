@@ -1505,3 +1505,196 @@ ORDER BY [MigrationId];
 2017-05-08 23:02:40.678 +03:00 [Information] Request finished in 147.9142ms 200 image/png; charset=UTF-8
 2017-05-08 23:03:05.953 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js.map  
 2017-05-08 23:03:06.854 +03:00 [Information] Request finished in 948.3097ms 200 application/json; charset=UTF-8
+2017-05-08 23:42:54.281 +03:00 [Information] Executed DbCommand (426ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:42:54.714 +03:00 [Information] Executed DbCommand (120ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:42:54.921 +03:00 [Information] Executed DbCommand (170ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:42:55.499 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-08 23:42:59.656 +03:00 [Information] DLL: Bundling done, all DLLs are valid.
+2017-05-08 23:42:59.761 +03:00 [Information] webpack building...
+2017-05-08 23:43:00.298 +03:00 [Information] Executed DbCommand (456ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:43:00.587 +03:00 [Information] Executed DbCommand (286ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:43:00.729 +03:00 [Information] Executed DbCommand (138ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:43:00.993 +03:00 [Information] Executed DbCommand (212ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:43:01.409 +03:00 [Information] Executed DbCommand (277ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:43:08.119 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-08 23:43:08.119 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-08 23:43:08.223 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-08 23:43:10.403 +03:00 [Information] Request finished in 2201.3831ms 200 
+2017-05-08 23:43:21.150 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-08 23:43:22.837 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js  
+2017-05-08 23:43:50.508 +03:00 [Information] 
+2017-05-08 23:43:50.544 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-08 23:43:50.544 +03:00 [Information] 
+2017-05-08 23:43:50.548 +03:00 [Information] [at-loader] Ok, 0.032 sec.
+2017-05-08 23:43:50.696 +03:00 [Information] webpack built d7edb956fdc475328ad8 in 69847ms
+2017-05-08 23:43:55.507 +03:00 [Information] Request finished in 32667.2422ms 200 application/javascript; charset=UTF-8
+2017-05-08 23:43:55.707 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-08 23:43:55.850 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-08 23:43:57.377 +03:00 [Information] webpack building...
+2017-05-08 23:43:57.470 +03:00 [Information] 
+2017-05-08 23:43:57.488 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-08 23:43:57.489 +03:00 [Information] 
+2017-05-08 23:43:57.494 +03:00 [Information] [at-loader] Ok, 0.001 sec.
+2017-05-08 23:43:57.504 +03:00 [Information] webpack built d7edb956fdc475328ad8 in 1832ms
+2017-05-08 23:44:27.428 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-08 23:44:28.119 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 67151.004ms
+2017-05-08 23:44:28.135 +03:00 [Information] Request finished in 80485.2827ms 200 text/html; charset=utf-8
+2017-05-08 23:44:28.542 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=KJpVJ9GUkdM6m78qM4GXbltyD2-Vt8OKpktxbZBUwjg  
+2017-05-08 23:44:28.553 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-08 23:44:28.811 +03:00 [Information] Request finished in 262.7361ms 200 application/javascript; charset=UTF-8
+2017-05-08 23:44:28.823 +03:00 [Information] Request finished in 262.1511ms 404 
+2017-05-08 23:44:33.506 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-08 23:44:33.538 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-08 23:44:33.542 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-08 23:44:33.898 +03:00 [Information] Request finished in 10.8112ms 200 image/png; charset=UTF-8
+2017-05-08 23:44:33.898 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-08 23:44:33.938 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-08 23:44:33.962 +03:00 [Information] Request finished in 452.6004ms 200 image/png; charset=UTF-8
+2017-05-08 23:44:33.968 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-08 23:44:33.973 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-08 23:44:33.990 +03:00 [Information] Request finished in 85.4652ms 200 image/png; charset=UTF-8
+2017-05-08 23:44:33.998 +03:00 [Information] Request finished in 93.6027ms 200 image/png; charset=UTF-8
+2017-05-08 23:44:34.034 +03:00 [Information] Request finished in 106.3652ms 200 image/png; charset=UTF-8
+2017-05-08 23:44:34.038 +03:00 [Information] Request finished in 80.8383ms 200 image/png; charset=UTF-8
+2017-05-08 23:45:00.096 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-08 23:45:00.100 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/13f92edf06ab8881047c894ae8fa2cdb.png  
+2017-05-08 23:45:00.120 +03:00 [Information] Request finished in 41.9117ms 200 image/png; charset=UTF-8
+2017-05-08 23:45:00.161 +03:00 [Information] Request finished in 44.6522ms 200 image/png; charset=UTF-8
+2017-05-08 23:45:13.551 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-08 23:45:13.608 +03:00 [Information] Request finished in 60.9256ms 404 
+2017-05-08 23:45:13.679 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js.map  
+2017-05-08 23:45:14.247 +03:00 [Information] Request finished in 551.791ms 200 application/json; charset=UTF-8
+2017-05-08 23:54:13.076 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-08 23:54:15.421 +03:00 [Information] Executed DbCommand (257ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:54:15.626 +03:00 [Information] Executed DbCommand (200ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:54:15.838 +03:00 [Information] Executed DbCommand (193ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:54:15.935 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-08 23:54:16.908 +03:00 [Information] Executed DbCommand (209ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:54:17.180 +03:00 [Information] Executed DbCommand (262ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:54:17.286 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:54:17.629 +03:00 [Information] Executed DbCommand (339ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:54:17.847 +03:00 [Information] Executed DbCommand (214ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:54:18.426 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-08 23:54:18.461 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-08 23:54:18.705 +03:00 [Information] Request finished in 404.9426ms 200 
+2017-05-08 23:54:20.442 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-08 23:54:24.545 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-08 23:54:25.483 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 5260.8363ms
+2017-05-08 23:54:25.538 +03:00 [Information] Request finished in 7224.4191ms 200 text/html; charset=utf-8
+2017-05-08 23:54:25.552 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-08 23:54:25.599 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=KJpVJ9GUkdM6m78qM4GXbltyD2-Vt8OKpktxbZBUwjg  
+2017-05-08 23:54:25.881 +03:00 [Information] 
+2017-05-08 23:54:25.913 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-08 23:54:25.913 +03:00 [Information] 
+2017-05-08 23:54:25.917 +03:00 [Information] [at-loader] Ok, 0.032 sec.
+2017-05-08 23:54:25.983 +03:00 [Information] webpack built 6d8838806811b7a4bf40 in 13717ms
+2017-05-08 23:54:31.074 +03:00 [Information] Request finished in 5468.7166ms 404 
+2017-05-08 23:54:31.766 +03:00 [Information] Request finished in 6082.6959ms 200 application/javascript; charset=UTF-8
+2017-05-08 23:54:32.923 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-08 23:54:32.967 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-08 23:54:32.991 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-08 23:54:33.011 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-08 23:54:33.023 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-08 23:54:33.052 +03:00 [Information] Request finished in 267.7167ms 200 image/png; charset=UTF-8
+2017-05-08 23:54:33.086 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-08 23:54:33.125 +03:00 [Information] Request finished in 261.9757ms 200 image/png; charset=UTF-8
+2017-05-08 23:54:33.155 +03:00 [Information] Request finished in 345.9899ms 200 image/png; charset=UTF-8
+2017-05-08 23:54:33.161 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-08 23:54:33.207 +03:00 [Information] Request finished in 402.0013ms 200 image/png; charset=UTF-8
+2017-05-08 23:54:33.231 +03:00 [Information] Request finished in 369.724ms 200 image/png; charset=UTF-8
+2017-05-08 23:54:33.254 +03:00 [Information] Request finished in 332.943ms 200 image/png; charset=UTF-8
+2017-05-08 23:55:02.617 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/13f92edf06ab8881047c894ae8fa2cdb.png  
+2017-05-08 23:55:02.621 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-08 23:55:02.681 +03:00 [Information] Request finished in 74.1684ms 200 image/png; charset=UTF-8
+2017-05-08 23:55:02.689 +03:00 [Information] Request finished in 79.2142ms 200 image/png; charset=UTF-8
+2017-05-08 23:58:18.846 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-08 23:58:21.935 +03:00 [Information] Executed DbCommand (479ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:58:22.324 +03:00 [Information] Executed DbCommand (372ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:58:22.632 +03:00 [Information] Executed DbCommand (282ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:58:23.033 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-08 23:58:24.834 +03:00 [Information] Executed DbCommand (582ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:58:25.128 +03:00 [Information] Executed DbCommand (256ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:58:25.506 +03:00 [Information] Executed DbCommand (374ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:58:25.935 +03:00 [Information] Executed DbCommand (414ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-08 23:58:26.167 +03:00 [Information] Executed DbCommand (210ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-08 23:58:26.938 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-08 23:58:26.938 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-08 23:58:27.361 +03:00 [Information] Request finished in 501.2803ms 200 
+2017-05-08 23:58:28.366 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-08 23:58:31.711 +03:00 [Information] 
+2017-05-08 23:58:31.716 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-08 23:58:31.747 +03:00 [Information] 
+2017-05-08 23:58:31.773 +03:00 [Information] [at-loader] Ok, 0.041 sec.
+2017-05-08 23:58:31.889 +03:00 [Information] webpack built 76cd92cba647871d1b9c in 13744ms
+2017-05-08 23:58:33.830 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-08 23:58:35.500 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 7161.9192ms
+2017-05-08 23:58:35.531 +03:00 [Information] Request finished in 8708.2998ms 200 text/html; charset=utf-8
+2017-05-08 23:58:35.585 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-08 23:58:35.592 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=sHDuUcEZw0dcHpZct65FKr-zFtWG_xt27_DHPztllr0  
+2017-05-08 23:58:35.693 +03:00 [Information] Request finished in 110.522ms 404 
+2017-05-08 23:58:37.415 +03:00 [Information] Request finished in 1772.5313ms 200 application/javascript; charset=UTF-8
+2017-05-08 23:58:38.338 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-08 23:58:38.412 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-08 23:58:38.428 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-08 23:58:38.450 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-08 23:58:38.492 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-08 23:58:38.497 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-08 23:58:38.507 +03:00 [Information] Request finished in 184.4724ms 200 image/png; charset=UTF-8
+2017-05-08 23:58:38.511 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-08 23:58:38.557 +03:00 [Information] Request finished in 54.2443ms 200 image/png; charset=UTF-8
+2017-05-08 23:58:38.600 +03:00 [Information] Request finished in 63.5922ms 200 image/png; charset=UTF-8
+2017-05-08 23:58:38.607 +03:00 [Information] Request finished in 166.2708ms 200 image/png; charset=UTF-8
+2017-05-08 23:58:38.621 +03:00 [Information] Request finished in 207.0822ms 200 image/png; charset=UTF-8
+2017-05-08 23:58:38.623 +03:00 [Information] Request finished in 112.3452ms 200 image/png; charset=UTF-8
+2017-05-08 23:59:08.173 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-08 23:59:08.185 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-08 23:59:08.262 +03:00 [Information] Request finished in 28.4638ms 200 image/png; charset=UTF-8
+2017-05-08 23:59:08.269 +03:00 [Information] Request finished in 88.9592ms 200 image/png; charset=UTF-8

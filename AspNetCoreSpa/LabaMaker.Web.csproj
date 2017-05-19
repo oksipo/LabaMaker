@@ -27,6 +27,95 @@
       <ContentWithTargetPath Include="@(DistFiles)" TargetPath="%(Identity)" CopyToPublishDirectory="Always" />
     </ItemGroup>
   </Target>
+
+  <ItemGroup>
+    <Content Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\styles\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\styles\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\styles\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\styles\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\styles\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\styles\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\styles\images\line.gif" />
+    <Content Include="wwwroot\styles\images\loading.gif" />
+    <Content Include="wwwroot\styles\images\password-meter.png" />
+    <Content Include="wwwroot\styles\themes\bootstrap\theme.css" />
+    <Content Include="wwwroot\styles\themes\cruze\theme.css" />
+    <Content Include="wwwroot\styles\themes\cruze\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\cruze\theme.scss" />
+    <Content Include="wwwroot\styles\themes\cupertino\theme.css" />
+    <Content Include="wwwroot\styles\themes\cupertino\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\cupertino\theme.scss" />
+    <Content Include="wwwroot\styles\themes\darkness\theme.css" />
+    <Content Include="wwwroot\styles\themes\darkness\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\darkness\theme.scss" />
+    <Content Include="wwwroot\styles\themes\flick\theme.css" />
+    <Content Include="wwwroot\styles\themes\flick\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\flick\theme.scss" />
+    <Content Include="wwwroot\styles\themes\home\theme.css" />
+    <Content Include="wwwroot\styles\themes\home\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\home\theme.scss" />
+    <Content Include="wwwroot\styles\themes\kasper\theme.css" />
+    <Content Include="wwwroot\styles\themes\kasper\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\kasper\theme.scss" />
+    <Content Include="wwwroot\styles\themes\lightness\theme.css" />
+    <Content Include="wwwroot\styles\themes\lightness\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\lightness\theme.scss" />
+    <Content Include="wwwroot\styles\themes\ludvig\theme.css" />
+    <Content Include="wwwroot\styles\themes\ludvig\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\ludvig\theme.scss" />
+    <Content Include="wwwroot\styles\themes\omega\fonts\roboto-v15-latin-regular.eot" />
+    <Content Include="wwwroot\styles\themes\omega\fonts\roboto-v15-latin-regular.svg" />
+    <Content Include="wwwroot\styles\themes\omega\fonts\roboto-v15-latin-regular.ttf" />
+    <Content Include="wwwroot\styles\themes\omega\fonts\roboto-v15-latin-regular.woff" />
+    <Content Include="wwwroot\styles\themes\omega\fonts\roboto-v15-latin-regular.woff2" />
+    <Content Include="wwwroot\styles\themes\omega\images\icons_16.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\slider_handles%402x.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\slider_handles.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-icons_222222_256x240.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-icons_454545_256x240.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="wwwroot\styles\themes\omega\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="wwwroot\styles\themes\omega\theme.css" />
+    <Content Include="wwwroot\styles\themes\omega\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\omega\theme.scss" />
+    <Content Include="wwwroot\styles\themes\pepper-grinder\theme.css" />
+    <Content Include="wwwroot\styles\themes\pepper-grinder\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\pepper-grinder\theme.scss" />
+    <Content Include="wwwroot\styles\themes\redmond\theme.css" />
+    <Content Include="wwwroot\styles\themes\redmond\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\redmond\theme.scss" />
+    <Content Include="wwwroot\styles\themes\rocket\theme.css" />
+    <Content Include="wwwroot\styles\themes\rocket\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\rocket\theme.scss" />
+    <Content Include="wwwroot\styles\themes\south-street\theme.css" />
+    <Content Include="wwwroot\styles\themes\south-street\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\south-street\theme.scss" />
+    <Content Include="wwwroot\styles\themes\start\theme.css" />
+    <Content Include="wwwroot\styles\themes\start\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\start\theme.scss" />
+    <Content Include="wwwroot\styles\themes\trontastic\theme.css" />
+    <Content Include="wwwroot\styles\themes\trontastic\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\trontastic\theme.scss" />
+    <Content Include="wwwroot\styles\themes\voclain\theme.css" />
+    <Content Include="wwwroot\styles\themes\voclain\theme.css.map" />
+    <Content Include="wwwroot\styles\themes\voclain\theme.scss" />
+    <Content Include="wwwroot\styles\themes\_theme.scss" />
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="AspNet.Security.OAuth.Introspection" Version="1.0.0-beta1-final" />
@@ -64,6 +153,7 @@
     <PackageReference Include="Microsoft.AspNetCore.AngularServices" Version="1.1.0-beta-000002" />
     <PackageReference Include="AspNet.Security.OAuth.GitHub" Version="1.0.0-beta3-final" />
     <PackageReference Include="AspNet.Security.OAuth.LinkedIn" Version="1.0.0-beta3-final" />
+    <PackageReference Include="morelinq" Version="2.4.1" />
     <PackageReference Include="OpenIddict" Version="1.0.0-*" />
     <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="1.0.0-*" />
     <PackageReference Include="OpenIddict.Mvc" Version="1.0.0-*" />
@@ -96,6 +186,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DAL\Labamaker.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="wwwroot\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\styles\heading.css" />
+    <None Include="wwwroot\styles\primeng.css" />
+    <None Include="wwwroot\styles\vendor.css" />
+    <None Include="wwwroot\styles\_variables.scss" />
   </ItemGroup>
 
 </Project>

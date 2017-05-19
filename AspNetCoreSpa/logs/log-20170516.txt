@@ -1,0 +1,1524 @@
+2017-05-16 00:00:32.905 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 00:00:44.553 +03:00 [Information] Executed DbCommand (1,088ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:00:46.748 +03:00 [Information] Executed DbCommand (2,162ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:00:48.530 +03:00 [Information] Executed DbCommand (1,764ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 00:00:48.874 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 00:00:48.960 +03:00 [Information] 
+2017-05-16 00:00:48.998 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 00:00:49.123 +03:00 [Information] webpack built fe8d3f8feaec2700a73f in 17416ms
+2017-05-16 00:00:49.128 +03:00 [Error] 
+2017-05-16 00:00:49.191 +03:00 [Error] [at-loader] Checking finished with 4 errors
+2017-05-16 00:00:49.699 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:36:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-16 00:00:49.940 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:44:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-16 00:00:50.168 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:50:21 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-16 00:00:50.313 +03:00 [Information] [at-loader] ./Client/app/allWorks/works.component.ts:57:17 
+    TS7006: Parameter 'x' implicitly has an 'any' type. 
+
+2017-05-16 00:00:52.286 +03:00 [Information] Executed DbCommand (164ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:00:52.602 +03:00 [Information] Executed DbCommand (311ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:00:52.756 +03:00 [Information] Executed DbCommand (138ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 00:00:53.041 +03:00 [Information] Executed DbCommand (275ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:00:53.192 +03:00 [Information] Executed DbCommand (120ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 00:00:53.789 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 00:00:53.789 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 00:00:54.074 +03:00 [Information] Request finished in 353.0882ms 200 
+2017-05-16 00:00:54.350 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:00:55.038 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:00:58.338 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 00:00:59.055 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 4100.095ms
+2017-05-16 00:00:59.075 +03:00 [Information] Request finished in 5385.9995ms 200 text/html; charset=utf-8
+2017-05-16 00:00:59.089 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=SMzTjTSC1JFtR83OkI2PtMdA2_6lS0FRGCu-80YxH-c  
+2017-05-16 00:00:59.094 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 00:00:59.143 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:00:59.154 +03:00 [Information] Request finished in 58.0909ms 404 
+2017-05-16 00:00:59.666 +03:00 [Information] Request finished in 576.1022ms 200 application/javascript; charset=UTF-8
+2017-05-16 00:01:02.007 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 00:01:02.021 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 00:01:02.037 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 00:01:02.058 +03:00 [Information] Request finished in 58.5342ms 200 image/png; charset=UTF-8
+2017-05-16 00:01:02.086 +03:00 [Information] Request finished in 62.2122ms 200 image/png; charset=UTF-8
+2017-05-16 00:01:02.090 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 00:01:02.094 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 00:01:02.105 +03:00 [Information] Request finished in 100.0045ms 200 image/png; charset=UTF-8
+2017-05-16 00:01:02.121 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 00:01:02.133 +03:00 [Information] Request finished in 122.2907ms 200 image/png; charset=UTF-8
+2017-05-16 00:01:02.143 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 00:01:02.200 +03:00 [Information] Request finished in 127.5249ms 200 image/png; charset=UTF-8
+2017-05-16 00:01:02.211 +03:00 [Information] Request finished in 215.3162ms 200 image/png; charset=UTF-8
+2017-05-16 00:01:09.221 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 00:01:09.268 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:01:09.275 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-16 00:01:09.281 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 00:01:09.283 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:01:09.288 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:01:09.345 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:01:09.379 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:01:09.405 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 00:01:09.418 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 00:01:09.468 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-16 00:01:12.481 +03:00 [Information] Executed DbCommand (2,389ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 00:01:12.618 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 3308.5229ms
+2017-05-16 00:01:12.624 +03:00 [Information] Request finished in 3392.6476ms 200 application/json; charset=utf-8
+2017-05-16 00:01:15.585 +03:00 [Information] Executed DbCommand (2,809ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 00:01:15.602 +03:00 [Information] Executed DbCommand (2,967ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 00:01:15.639 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 6299.8363ms
+2017-05-16 00:01:15.664 +03:00 [Information] Request finished in 6453.8367ms 200 application/json; charset=utf-8
+2017-05-16 00:01:15.670 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 00:01:15.721 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 6383.6454ms
+2017-05-16 00:01:15.752 +03:00 [Information] Request finished in 6484.2848ms 200 application/json; charset=utf-8
+2017-05-16 00:47:51.388 +03:00 [Information] Executed DbCommand (194ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:47:51.927 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:47:52.088 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 00:47:52.528 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 00:47:53.976 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:47:54.082 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:47:54.165 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 00:47:54.244 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 00:47:54.333 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 00:47:55.965 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 00:47:55.965 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 00:47:57.086 +03:00 [Information] Request finished in 1120.3174ms 200 
+2017-05-16 00:47:58.187 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:48:00.214 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:48:00.798 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js  
+2017-05-16 00:48:03.684 +03:00 [Information] DLL: Bundling done, all DLLs are valid.
+2017-05-16 00:48:03.732 +03:00 [Information] webpack building...
+2017-05-16 00:48:06.260 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 00:48:48.229 +03:00 [Information] webpack built 7e4654804dd16bc4e11d in 61432ms
+2017-05-16 00:48:49.409 +03:00 [Information] 
+2017-05-16 00:48:50.258 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 00:48:50.268 +03:00 [Information] 
+2017-05-16 00:48:50.320 +03:00 [Information] [at-loader] Ok, 0.088 sec.
+2017-05-16 00:48:50.357 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-16 00:48:50.426 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-16 00:48:50.666 +03:00 [Information] webpack building...
+2017-05-16 00:48:51.762 +03:00 [Information] webpack built 7e4654804dd16bc4e11d in 1662ms
+2017-05-16 00:48:51.809 +03:00 [Information] 
+2017-05-16 00:48:51.962 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 00:48:51.975 +03:00 [Information] 
+2017-05-16 00:48:52.123 +03:00 [Information] [at-loader] Ok, 0.001 sec.
+2017-05-16 00:48:53.534 +03:00 [Information] Request finished in 52738.0318ms 200 application/javascript; charset=UTF-8
+2017-05-16 00:49:11.073 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 00:49:12.384 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 72656.008ms
+2017-05-16 00:49:12.418 +03:00 [Information] Request finished in 76542.0155ms 200 text/html; charset=utf-8
+2017-05-16 00:49:12.628 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 00:49:12.720 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=IGplO-paqyr-NiDJn1aXqJS9GXHVC_L2GIe_qHrulz4  
+2017-05-16 00:49:12.731 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:49:12.873 +03:00 [Information] Request finished in 117.9656ms 404 
+2017-05-16 00:49:13.470 +03:00 [Information] Request finished in 818.8364ms 200 application/javascript; charset=UTF-8
+2017-05-16 00:49:16.689 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 00:49:16.694 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 00:49:16.700 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 00:49:16.723 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 00:49:16.785 +03:00 [Information] Request finished in 44.6802ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:16.803 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 00:49:16.809 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 00:49:16.844 +03:00 [Information] Request finished in 47.7767ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:16.887 +03:00 [Information] Request finished in 169.0004ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:16.908 +03:00 [Information] Request finished in 57.7049ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:16.962 +03:00 [Information] Request finished in 253.0864ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:16.965 +03:00 [Information] Request finished in 258.9222ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:17.328 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 00:49:55.071 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 00:49:55.080 +03:00 [Information] Request finished in 7.6013ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:55.100 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 00:49:55.160 +03:00 [Information] Request finished in 39.4152ms 200 image/png; charset=UTF-8
+2017-05-16 00:49:56.100 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 00:49:56.105 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-16 00:49:56.138 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:49:56.157 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:49:56.185 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:49:56.250 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 00:49:56.306 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-16 00:49:57.076 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 00:49:57.184 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 00:49:57.205 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 1037.033ms
+2017-05-16 00:49:57.214 +03:00 [Information] Request finished in 1106.9691ms 200 application/json; charset=utf-8
+2017-05-16 00:49:57.373 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 00:49:57.392 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:49:57.398 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 00:49:57.402 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:49:57.406 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 00:49:57.418 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1250.1092ms
+2017-05-16 00:49:57.422 +03:00 [Information] Request finished in 1332.2985ms 200 application/json; charset=utf-8
+2017-05-16 00:49:57.491 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 00:49:57.534 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 107.7224ms
+2017-05-16 00:49:57.570 +03:00 [Information] Request finished in 163.4703ms 200 application/json; charset=utf-8
+2017-05-16 00:50:01.457 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 00:50:01.467 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:50:01.470 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 00:50:01.475 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 00:50:01.482 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 8.7588ms
+2017-05-16 00:50:01.518 +03:00 [Information] Request finished in 29.8836ms 200 text/html; charset=utf-8
+2017-05-16 00:50:01.545 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=IGplO-paqyr-NiDJn1aXqJS9GXHVC_L2GIe_qHrulz4  
+2017-05-16 00:50:01.549 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 00:50:01.574 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 00:50:01.591 +03:00 [Information] Request finished in 52.9575ms 404 
+2017-05-16 00:50:02.226 +03:00 [Information] Request finished in 705.9631ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:05:36.344 +03:00 [Information] Executed DbCommand (172ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:05:36.640 +03:00 [Information] Executed DbCommand (90ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:05:36.748 +03:00 [Information] Executed DbCommand (81ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:05:37.334 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 01:05:40.604 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:05:40.698 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:05:40.800 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:05:40.900 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:05:41.009 +03:00 [Information] Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:05:42.609 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 01:05:42.609 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 01:05:43.091 +03:00 [Information] Request finished in 477.9334ms 200 
+2017-05-16 01:05:45.823 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:05:47.613 +03:00 [Information] DLL: Bundling done, all DLLs are valid.
+2017-05-16 01:05:47.618 +03:00 [Information] webpack building...
+2017-05-16 01:05:53.196 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:05:55.135 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js  
+2017-05-16 01:05:57.133 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 01:06:43.953 +03:00 [Information] 
+2017-05-16 01:06:43.962 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:06:44.000 +03:00 [Information] 
+2017-05-16 01:06:44.003 +03:00 [Information] [at-loader] Ok, 0.052 sec.
+2017-05-16 01:06:44.095 +03:00 [Information] webpack built 4d972173a26db6ed0c94 in 73957ms
+2017-05-16 01:06:46.935 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-16 01:06:48.419 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-16 01:06:48.437 +03:00 [Information] webpack building...
+2017-05-16 01:06:49.157 +03:00 [Information] 
+2017-05-16 01:06:50.212 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:06:50.212 +03:00 [Information] 
+2017-05-16 01:06:50.252 +03:00 [Information] [at-loader] Ok, 0.001 sec.
+2017-05-16 01:06:50.277 +03:00 [Information] webpack built 4d972173a26db6ed0c94 in 2482ms
+2017-05-16 01:06:51.234 +03:00 [Information] Request finished in 56161.7605ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:07:15.112 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 01:07:16.572 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 84098.0403ms
+2017-05-16 01:07:16.612 +03:00 [Information] Request finished in 94074.1743ms 200 text/html; charset=utf-8
+2017-05-16 01:07:16.932 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:07:16.951 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:07:16.959 +03:00 [Information] Request finished in 27.4468ms 404 
+2017-05-16 01:07:17.031 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=gyku6-zv9hebL3xt2JpcOJQe4KM0b1k3qMRrwPbdKL0  
+2017-05-16 01:07:17.362 +03:00 [Information] Request finished in 330.4705ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:07:25.106 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 01:07:25.110 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 01:07:25.116 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 01:07:25.240 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 01:07:25.245 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 01:07:25.250 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 01:07:25.264 +03:00 [Information] Request finished in 135.054ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.278 +03:00 [Information] Request finished in 141.0944ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.280 +03:00 [Information] Request finished in 192.1205ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.287 +03:00 [Information] Request finished in 37.8504ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.296 +03:00 [Information] Request finished in 42.5927ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.355 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 01:07:25.362 +03:00 [Information] Request finished in 6.0519ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.395 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 01:07:25.411 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 01:07:25.417 +03:00 [Information] Request finished in 18.1309ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:25.472 +03:00 [Information] Request finished in 59.8375ms 200 image/png; charset=UTF-8
+2017-05-16 01:07:41.650 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 01:07:41.668 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:07:41.675 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 01:07:41.680 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:07:41.716 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:07:41.719 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:07:41.776 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:07:41.781 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:07:42.653 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-16 01:07:42.657 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:07:42.785 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-16 01:07:43.320 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 01:07:43.480 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1780.2302ms
+2017-05-16 01:07:43.521 +03:00 [Information] Request finished in 1836.4127ms 200 application/json; charset=utf-8
+2017-05-16 01:07:43.554 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 01:07:43.571 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:07:43.602 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 924.4824ms
+2017-05-16 01:07:43.635 +03:00 [Information] Request finished in 952.6973ms 200 application/json; charset=utf-8
+2017-05-16 01:07:43.749 +03:00 [Information] Executed DbCommand (98ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 01:07:43.776 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 2078.3054ms
+2017-05-16 01:07:43.807 +03:00 [Information] Request finished in 2127.4356ms 200 application/json; charset=utf-8
+2017-05-16 01:09:39.777 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 01:09:41.231 +03:00 [Information] Executed DbCommand (144ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:09:41.350 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:09:41.441 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:09:41.618 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 01:09:43.138 +03:00 [Information] Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:09:43.213 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:09:43.290 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:09:43.365 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:09:43.453 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:09:44.556 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 01:09:44.556 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 01:09:44.942 +03:00 [Information] Request finished in 496.2666ms 200 
+2017-05-16 01:09:45.308 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:09:46.319 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:09:51.261 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 01:09:52.579 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 6110.9232ms
+2017-05-16 01:09:52.607 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:09:52.683 +03:00 [Information] Request finished in 8171.5639ms 200 text/html; charset=utf-8
+2017-05-16 01:09:52.699 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=gyku6-zv9hebL3xt2JpcOJQe4KM0b1k3qMRrwPbdKL0  
+2017-05-16 01:10:14.347 +03:00 [Information] 
+2017-05-16 01:10:14.438 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:10:14.472 +03:00 [Information] webpack built 89d29dbd2fe9fae25ce3 in 36408ms
+2017-05-16 01:10:14.474 +03:00 [Error] 
+2017-05-16 01:10:14.492 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-16 01:10:17.102 +03:00 [Information] [at-loader] ./Client/app/main.ts:21:10 
+    TS2305: Module '"F:/Eleks/LabaMaker/AspNetCoreSpa/Client/app/app.module"' has no exported member 'AppModule'. 
+
+2017-05-16 01:10:17.500 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:10:17.818 +03:00 [Information] Request finished in 25296.0892ms 404 
+2017-05-16 01:10:21.236 +03:00 [Information] Request finished in 28691.654ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:10:22.649 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 01:10:34.758 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:10:34.770 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:10:34.774 +03:00 [Information] Request finished in 18.4801ms 404 
+2017-05-16 01:11:45.701 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 01:11:47.566 +03:00 [Information] Executed DbCommand (150ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:11:47.642 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:11:47.729 +03:00 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:11:47.879 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 01:11:49.683 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:11:49.804 +03:00 [Information] Executed DbCommand (111ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:11:49.889 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:11:49.959 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:11:50.041 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:11:50.978 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 01:11:50.972 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 01:11:51.459 +03:00 [Information] Request finished in 599.9476ms 200 
+2017-05-16 01:11:51.895 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:11:52.939 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:12:01.670 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 01:12:02.984 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:12:02.985 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 10122.4306ms
+2017-05-16 01:12:03.032 +03:00 [Information] Request finished in 12168.3912ms 200 text/html; charset=utf-8
+2017-05-16 01:12:03.050 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=8B24_4JYrNASLac70_M69VSL8NTSETceQkuNVhG5hlY  
+2017-05-16 01:12:04.308 +03:00 [Information] 
+2017-05-16 01:12:04.368 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:12:04.376 +03:00 [Information] 
+2017-05-16 01:12:04.385 +03:00 [Information] [at-loader] Ok, 0.073 sec.
+2017-05-16 01:12:04.506 +03:00 [Information] webpack built 4d972173a26db6ed0c94 in 20533ms
+2017-05-16 01:12:05.305 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:12:05.639 +03:00 [Information] Request finished in 2363.1816ms 404 
+2017-05-16 01:12:08.920 +03:00 [Information] Request finished in 5932.4536ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:12:11.144 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 01:12:11.283 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 01:12:11.579 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 01:12:11.749 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 01:12:12.071 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 01:12:12.201 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 01:12:12.481 +03:00 [Information] Request finished in 988.491ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:12.703 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 01:12:12.720 +03:00 [Information] Request finished in 783.7052ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:12.773 +03:00 [Information] Request finished in 223.2043ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:12.793 +03:00 [Information] Request finished in 1209.8556ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:12.801 +03:00 [Information] Request finished in 568.8591ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:12.805 +03:00 [Information] Request finished in 319.5913ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:13.486 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 01:12:13.539 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 01:12:13.560 +03:00 [Information] Request finished in 88.3151ms 200 image/png; charset=UTF-8
+2017-05-16 01:12:13.587 +03:00 [Information] Request finished in 122.7162ms 200 image/png; charset=UTF-8
+2017-05-16 01:23:09.893 +03:00 [Information] Executed DbCommand (129ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:23:10.075 +03:00 [Information] Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:23:10.159 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:23:10.382 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 01:23:11.639 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:23:11.713 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:23:11.804 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:23:11.885 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:23:11.976 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:23:14.124 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 01:23:14.124 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 01:23:14.497 +03:00 [Information] Request finished in 453.8039ms 200 
+2017-05-16 01:23:14.832 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:23:16.805 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:23:16.998 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js  
+2017-05-16 01:23:19.455 +03:00 [Information] DLL: Bundling done, all DLLs are valid.
+2017-05-16 01:23:19.461 +03:00 [Information] webpack building...
+2017-05-16 01:23:20.205 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 01:23:45.164 +03:00 [Information] 
+2017-05-16 01:23:45.170 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:23:45.245 +03:00 [Information] 
+2017-05-16 01:23:45.249 +03:00 [Information] [at-loader] Ok, 0.086 sec.
+2017-05-16 01:23:45.255 +03:00 [Information] webpack built 614f6eda5a51a874a368 in 39696ms
+2017-05-16 01:23:47.739 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-16 01:23:47.855 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-16 01:23:48.961 +03:00 [Information] webpack building...
+2017-05-16 01:23:48.963 +03:00 [Information] 
+2017-05-16 01:23:49.050 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:23:49.050 +03:00 [Information] 
+2017-05-16 01:23:49.089 +03:00 [Information] [at-loader] Ok, 0.001 sec.
+2017-05-16 01:23:49.439 +03:00 [Information] webpack built 614f6eda5a51a874a368 in 1317ms
+2017-05-16 01:23:51.353 +03:00 [Information] Request finished in 34174.5146ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:23:58.155 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 01:23:58.922 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 42232.064ms
+2017-05-16 01:23:58.932 +03:00 [Information] Request finished in 44945.316ms 200 text/html; charset=utf-8
+2017-05-16 01:23:59.007 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:23:59.023 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=0suiIQb2s1EtxUMtZYOJlTDcMWyrAt3XBC9RJjI2Ids  
+2017-05-16 01:23:59.036 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:23:59.117 +03:00 [Information] Request finished in 80.0654ms 404 
+2017-05-16 01:23:59.257 +03:00 [Information] Request finished in 238.7508ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:24:01.469 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 01:24:01.472 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 01:24:01.483 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 01:24:01.493 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 01:24:01.562 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 01:24:01.580 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 01:24:01.587 +03:00 [Information] Request finished in 118.9584ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.605 +03:00 [Information] Request finished in 119.5502ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.617 +03:00 [Information] Request finished in 118.9098ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.625 +03:00 [Information] Request finished in 139.688ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.655 +03:00 [Information] Request finished in 110.7056ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.659 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 01:24:01.664 +03:00 [Information] Request finished in 93.7728ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.685 +03:00 [Information] Request finished in 48.3053ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:01.713 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 01:24:01.737 +03:00 [Information] Request finished in 22.0582ms 200 image/png; charset=UTF-8
+2017-05-16 01:24:02.613 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 01:24:19.958 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 01:24:19.963 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 01:24:19.993 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:24:20.003 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-16 01:24:20.011 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:24:20.021 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:24:20.031 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:24:20.035 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:24:20.068 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:24:20.075 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:24:20.147 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-16 01:24:23.005 +03:00 [Information] Executed DbCommand (126ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 01:24:23.215 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 01:24:23.332 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:24:23.340 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 3310.6906ms
+2017-05-16 01:24:23.367 +03:00 [Information] Request finished in 3385.2845ms 200 application/json; charset=utf-8
+2017-05-16 01:24:23.375 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 3340.1468ms
+2017-05-16 01:24:23.382 +03:00 [Information] Request finished in 3411.0081ms 200 application/json; charset=utf-8
+2017-05-16 01:24:23.710 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 01:24:23.735 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 3693.9718ms
+2017-05-16 01:24:23.752 +03:00 [Information] Request finished in 3779.8964ms 200 application/json; charset=utf-8
+2017-05-16 01:24:37.190 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:24:37.197 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:24:37.200 +03:00 [Information] Request finished in 9.0516ms 404 
+2017-05-16 01:26:59.479 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 01:27:02.162 +03:00 [Information] Executed DbCommand (154ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:27:02.248 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:27:02.345 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:27:02.848 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 01:27:05.942 +03:00 [Information] Executed DbCommand (97ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:27:06.033 +03:00 [Information] Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:27:06.102 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:27:06.169 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 01:27:06.241 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 01:27:09.232 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 01:27:09.232 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 01:27:10.354 +03:00 [Information] Request finished in 1328.7244ms 200 
+2017-05-16 01:27:11.194 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:27:12.981 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:27:41.426 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 01:27:47.965 +03:00 [Information] 
+2017-05-16 01:27:48.105 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 01:27:48.106 +03:00 [Information] 
+2017-05-16 01:27:48.116 +03:00 [Information] [at-loader] Ok, 0.06 sec.
+2017-05-16 01:27:48.163 +03:00 [Information] webpack built 7dc3547450e570fb6429 in 50583ms
+2017-05-16 01:27:48.816 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 36082.591ms
+2017-05-16 01:27:48.917 +03:00 [Information] Request finished in 39953.7403ms 200 text/html; charset=utf-8
+2017-05-16 01:27:49.175 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 01:27:49.406 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=jCwvnmubhqdyEcDSzygj7GJNz0PGhi7QIRYAPW2BcMc  
+2017-05-16 01:27:55.219 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:27:55.344 +03:00 [Information] Request finished in 6156.7622ms 404 
+2017-05-16 01:27:57.463 +03:00 [Information] Request finished in 8206.3198ms 200 application/javascript; charset=UTF-8
+2017-05-16 01:28:07.922 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 01:28:07.924 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 01:28:07.946 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 01:28:07.986 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 01:28:07.993 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 01:28:07.997 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 01:28:08.058 +03:00 [Information] Request finished in 122.6656ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.093 +03:00 [Information] Request finished in 174.8899ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.120 +03:00 [Information] Request finished in 161.305ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.140 +03:00 [Information] Request finished in 203.5998ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.150 +03:00 [Information] Request finished in 253.5893ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.165 +03:00 [Information] Request finished in 264.1848ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.167 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 01:28:08.178 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 01:28:08.267 +03:00 [Information] Request finished in 52.2812ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.268 +03:00 [Information] Request finished in 78.8972ms 200 image/png; charset=UTF-8
+2017-05-16 01:28:08.692 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 01:31:39.098 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 01:31:39.101 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:39.125 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 01:31:39.141 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:39.173 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/-1&-1&-1  
+2017-05-16 01:31:39.176 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:31:39.179 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:39.211 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:39.235 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 01:31:39.239 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:39.330 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["-1", "-1", "-1"]) - ModelState is Valid
+2017-05-16 01:31:40.156 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 01:31:40.261 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1136.3517ms
+2017-05-16 01:31:40.261 +03:00 [Information] Request finished in 1173.2927ms 200 application/json; charset=utf-8
+2017-05-16 01:31:40.327 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 01:31:40.344 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 1197.2844ms
+2017-05-16 01:31:40.349 +03:00 [Information] Request finished in 1227.9621ms 200 application/json; charset=utf-8
+2017-05-16 01:31:40.578 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 01:31:40.593 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:40.614 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 1422.9591ms
+2017-05-16 01:31:40.622 +03:00 [Information] Request finished in 1481.5443ms 200 application/json; charset=utf-8
+2017-05-16 01:31:42.059 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-16 01:31:42.065 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&0&-1  
+2017-05-16 01:31:42.069 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:42.072 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:42.075 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-16 01:31:42.078 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "0", "-1"]) - ModelState is Valid
+2017-05-16 01:31:42.100 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:42.291 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:42.313 +03:00 [Warning] The LINQ expression '({from Faculty y in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[DAL.Entities.Faculty]) where ([y].Id == [x].FacultyId) select [y].UniversityId => First()} == __University_0)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:42.327 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:42.334 +03:00 [Warning] The LINQ expression '([x].FacultyId == __Faculty_1)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:42.475 +03:00 [Information] Executed DbCommand (80ms) [Parameters=[@__Faculty_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE [x].[FacultyId] = @__Faculty_1
+2017-05-16 01:31:42.501 +03:00 [Information] Executed DbCommand (180ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-16 01:31:42.524 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:42.560 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 450.8378ms
+2017-05-16 01:31:42.560 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 449.9564ms
+2017-05-16 01:31:42.586 +03:00 [Information] Request finished in 507.9833ms 200 application/json; charset=utf-8
+2017-05-16 01:31:42.595 +03:00 [Information] Request finished in 508.2591ms 200 application/json; charset=utf-8
+2017-05-16 01:31:43.697 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&2&-1  
+2017-05-16 01:31:43.700 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:43.704 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "2", "-1"]) - ModelState is Valid
+2017-05-16 01:31:43.785 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[@__Faculty_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE [x].[FacultyId] = @__Faculty_1
+2017-05-16 01:31:43.932 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 01:31:44.008 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 01:31:44.014 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:44.019 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 313.4375ms
+2017-05-16 01:31:44.026 +03:00 [Information] Request finished in 327.8426ms 200 application/json; charset=utf-8
+2017-05-16 01:31:45.193 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&2&1  
+2017-05-16 01:31:45.199 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:45.202 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "2", "1"]) - ModelState is Valid
+2017-05-16 01:31:45.207 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:45.211 +03:00 [Warning] The LINQ expression '({from Faculty y in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[DAL.Entities.Faculty]) where ([y].Id == [x].FacultyId) select [y].UniversityId => First()} == __University_0)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:45.215 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:45.220 +03:00 [Warning] The LINQ expression '([x].FacultyId == __Faculty_1)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:45.223 +03:00 [Warning] The LINQ expression '([x].Course == __Course_2)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 01:31:45.303 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[@__Faculty_1='?', @__Course_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_1) AND ([x].[Course] = @__Course_2)
+2017-05-16 01:31:45.377 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 01:31:45.380 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:45.384 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 181.3717ms
+2017-05-16 01:31:45.390 +03:00 [Information] Request finished in 193.446ms 200 application/json; charset=utf-8
+2017-05-16 01:31:49.194 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&1&1  
+2017-05-16 01:31:49.199 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:49.202 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "1", "1"]) - ModelState is Valid
+2017-05-16 01:31:49.288 +03:00 [Information] Executed DbCommand (80ms) [Parameters=[@__Faculty_1='?', @__Course_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_1) AND ([x].[Course] = @__Course_2)
+2017-05-16 01:31:49.354 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 01:31:49.357 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:49.360 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 157.8087ms
+2017-05-16 01:31:49.364 +03:00 [Information] Request finished in 169.798ms 200 application/json; charset=utf-8
+2017-05-16 01:31:51.041 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/2  
+2017-05-16 01:31:51.049 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:51.053 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["2"]) - ModelState is Valid
+2017-05-16 01:31:51.055 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:51.060 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/2&0&1  
+2017-05-16 01:31:51.064 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 01:31:51.067 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["2", "0", "1"]) - ModelState is Valid
+2017-05-16 01:31:51.130 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-16 01:31:51.159 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 80.5738ms
+2017-05-16 01:31:51.159 +03:00 [Information] Executed DbCommand (62ms) [Parameters=[@__Faculty_1='?', @__Course_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+WHERE ([x].[FacultyId] = @__Faculty_1) AND ([x].[Course] = @__Course_2)
+2017-05-16 01:31:51.172 +03:00 [Information] Request finished in 131.705ms 200 application/json; charset=utf-8
+2017-05-16 01:31:51.175 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 01:31:51.180 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 111.1176ms
+2017-05-16 01:31:51.183 +03:00 [Information] Request finished in 150.6905ms 200 application/json; charset=utf-8
+2017-05-16 22:15:37.604 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 22:15:43.590 +03:00 [Information] Executed DbCommand (212ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:15:43.680 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:15:43.816 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:15:44.974 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 22:15:53.795 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:15:53.886 +03:00 [Information] Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:15:53.959 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:15:54.040 +03:00 [Information] Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:15:54.121 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:15:57.036 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 22:15:57.036 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 22:15:57.768 +03:00 [Information] Request finished in 925.0762ms 200 
+2017-05-16 22:15:59.346 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:16:02.106 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 22:16:40.290 +03:00 [Information] 
+2017-05-16 22:16:40.336 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 22:16:40.343 +03:00 [Information] 
+2017-05-16 22:16:40.347 +03:00 [Information] [at-loader] Ok, 0.059 sec.
+2017-05-16 22:16:40.569 +03:00 [Information] webpack built e04ca49f7e04f89e9150 in 69098ms
+2017-05-16 22:16:54.195 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 22:16:55.728 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 53857.4797ms
+2017-05-16 22:16:55.791 +03:00 [Information] Request finished in 59056.199ms 200 text/html; charset=utf-8
+2017-05-16 22:16:56.080 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:16:56.096 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=G-G5OVzsvfDttItlKK83ktmZ6zIALifja4-4WWNI3jQ  
+2017-05-16 22:16:56.130 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/themes/lightness/theme.css  
+2017-05-16 22:16:56.132 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js?v=jFLJMe4Q5pDE-XMQUfljdvkQ2GRVSh4L4JndgcVON6M  
+2017-05-16 22:16:56.289 +03:00 [Information] The file "/styles/themes/lightness/theme.css" was not modified
+2017-05-16 22:16:56.293 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/primeng.css  
+2017-05-16 22:16:56.302 +03:00 [Information] The file "/styles/primeng.css" was not modified
+2017-05-16 22:16:56.313 +03:00 [Information] Request finished in 78.1035ms 304 text/css
+2017-05-16 22:16:56.322 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js?v=OnJxLVa33-H66tLZT0UFzEbFIYW9hWACnsxA2QEtvoE  
+2017-05-16 22:16:56.329 +03:00 [Information] Request finished in 194.7722ms 304 text/css
+2017-05-16 22:16:56.351 +03:00 [Information] Sending file. Request path: '"/dist/polyfills.dll.js"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\polyfills.dll.js"'
+2017-05-16 22:16:56.366 +03:00 [Information] Sending file. Request path: '"/dist/vendor.dll.js"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\vendor.dll.js"'
+2017-05-16 22:16:56.468 +03:00 [Information] Request finished in 318.5551ms 200 application/javascript
+2017-05-16 22:16:56.986 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:16:57.009 +03:00 [Information] Request finished in 932.8226ms 404 
+2017-05-16 22:16:57.788 +03:00 [Information] Request finished in 1693.5443ms 200 application/javascript; charset=UTF-8
+2017-05-16 22:17:00.453 +03:00 [Information] Request finished in 4215.9629ms 200 application/javascript
+2017-05-16 22:17:03.107 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 22:19:17.533 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:19:17.592 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:19:17.632 +03:00 [Information] Request finished in 79.3958ms 404 
+2017-05-16 22:19:17.637 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js.map  
+2017-05-16 22:19:17.650 +03:00 [Information] Sending file. Request path: '"/dist/polyfills.dll.js.map"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\polyfills.dll.js.map"'
+2017-05-16 22:19:17.834 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js.map  
+2017-05-16 22:19:17.887 +03:00 [Information] Request finished in 205.2306ms 200 text/plain
+2017-05-16 22:19:17.907 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/themes/lightness/theme.css.map  
+2017-05-16 22:19:17.934 +03:00 [Information] The file "/styles/themes/lightness/theme.css.map" was not modified
+2017-05-16 22:19:17.941 +03:00 [Information] Request finished in 64.225ms 304 text/plain
+2017-05-16 22:19:17.945 +03:00 [Information] Sending file. Request path: '"/dist/vendor.dll.js.map"'. Physical path: '"F:\Eleks\LabaMaker\AspNetCoreSpa\wwwroot\dist\vendor.dll.js.map"'
+2017-05-16 22:19:21.099 +03:00 [Information] Request finished in 3278.008ms 200 text/plain
+2017-05-16 22:22:03.085 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 22:22:04.801 +03:00 [Information] Executed DbCommand (157ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:22:04.880 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:22:04.982 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:22:05.111 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 22:22:06.979 +03:00 [Information] Executed DbCommand (84ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:22:07.046 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:22:07.131 +03:00 [Information] Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:22:07.205 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:22:07.289 +03:00 [Information] Executed DbCommand (81ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:22:08.244 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 22:22:08.244 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 22:22:08.646 +03:00 [Information] Request finished in 502.763ms 200 
+2017-05-16 22:22:09.018 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:22:09.932 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 22:22:38.559 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 22:22:39.992 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 30183.3569ms
+2017-05-16 22:22:39.995 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=G-G5OVzsvfDttItlKK83ktmZ6zIALifja4-4WWNI3jQ  
+2017-05-16 22:22:40.028 +03:00 [Information] Request finished in 31896.7744ms 200 text/html; charset=utf-8
+2017-05-16 22:22:40.070 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:22:41.425 +03:00 [Information] 
+2017-05-16 22:22:41.429 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 22:22:41.472 +03:00 [Information] 
+2017-05-16 22:22:41.488 +03:00 [Information] [at-loader] Ok, 0.051 sec.
+2017-05-16 22:22:41.577 +03:00 [Information] webpack built 2a59ea219547e01585b0 in 40276ms
+2017-05-16 22:22:42.503 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:22:43.126 +03:00 [Information] Request finished in 2777.5015ms 404 
+2017-05-16 22:22:44.460 +03:00 [Information] Request finished in 4334.676ms 200 application/javascript; charset=UTF-8
+2017-05-16 22:22:45.352 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 22:25:27.485 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:25:27.510 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:25:27.546 +03:00 [Information] Request finished in 32.3116ms 404 
+2017-05-16 22:28:15.009 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 22:28:16.283 +03:00 [Information] Executed DbCommand (133ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:28:16.354 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:28:16.431 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:28:16.527 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 22:28:18.081 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:28:18.145 +03:00 [Information] Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:28:18.247 +03:00 [Information] Executed DbCommand (98ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:28:18.363 +03:00 [Information] Executed DbCommand (93ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:28:18.440 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:28:19.284 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 22:28:19.284 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 22:28:19.690 +03:00 [Information] Request finished in 524.6601ms 200 
+2017-05-16 22:28:19.964 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:28:20.642 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 22:28:27.477 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 22:28:28.457 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 7889.9474ms
+2017-05-16 22:28:28.520 +03:00 [Information] 
+2017-05-16 22:28:28.549 +03:00 [Information] Request finished in 9338.8838ms 200 text/html; charset=utf-8
+2017-05-16 22:28:28.553 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 22:28:28.553 +03:00 [Information] 
+2017-05-16 22:28:28.566 +03:00 [Information] [at-loader] Ok, 0.075 sec.
+2017-05-16 22:28:28.587 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:28:28.595 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=UMJHX6NZDu7so4iAU8SlhPsy1gDB_8TgohqSfnSbAtY  
+2017-05-16 22:28:28.637 +03:00 [Information] webpack built f841e10d4c698023515f in 14993ms
+2017-05-16 22:28:29.525 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:28:29.976 +03:00 [Information] Request finished in 1346.4907ms 404 
+2017-05-16 22:28:30.108 +03:00 [Information] Request finished in 1523.6064ms 200 application/javascript; charset=UTF-8
+2017-05-16 22:28:32.554 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 22:29:13.079 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:29:13.091 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:29:13.126 +03:00 [Information] Request finished in 22.7452ms 404 
+2017-05-16 22:34:43.318 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 22:34:48.261 +03:00 [Information] Executed DbCommand (166ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:34:48.333 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:34:48.454 +03:00 [Information] Executed DbCommand (84ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:34:48.908 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 22:34:51.229 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:34:51.309 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:34:51.374 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:34:51.453 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 22:34:51.523 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 22:34:54.088 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 22:34:54.088 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 22:34:54.518 +03:00 [Information] Request finished in 531.224ms 200 
+2017-05-16 22:34:56.528 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:34:59.015 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 22:35:26.528 +03:00 [Information] 
+2017-05-16 22:35:26.591 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 22:35:26.591 +03:00 [Information] 
+2017-05-16 22:35:26.595 +03:00 [Information] [at-loader] Ok, 0.065 sec.
+2017-05-16 22:35:27.126 +03:00 [Information] webpack built 4403e47d3eeac8d66c1d in 46000ms
+2017-05-16 22:36:04.982 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 22:36:07.526 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 68766.8459ms
+2017-05-16 22:36:07.602 +03:00 [Information] Request finished in 73636.5552ms 200 text/html; charset=utf-8
+2017-05-16 22:36:07.745 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 22:36:07.879 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=Yc1JOx3txWoUSQDQh0GOBoOtNBNgaCqyjrXZVclHZcg  
+2017-05-16 22:36:07.909 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:36:07.917 +03:00 [Information] Request finished in 174.0982ms 404 
+2017-05-16 22:36:09.058 +03:00 [Information] Request finished in 1191.9439ms 200 application/javascript; charset=UTF-8
+2017-05-16 22:36:21.423 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 22:36:21.674 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 22:36:21.848 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 22:36:22.440 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 22:36:22.543 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 22:36:22.752 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 22:36:22.796 +03:00 [Information] Request finished in 1080.2934ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:22.823 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 22:36:22.858 +03:00 [Information] Request finished in 1483.3699ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:24.090 +03:00 [Information] Request finished in 1395.2155ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:24.136 +03:00 [Information] Request finished in 1250.7535ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:24.196 +03:00 [Information] Request finished in 838.1383ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:24.203 +03:00 [Information] Request finished in 2299.7138ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:24.503 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 22:36:24.506 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 22:36:24.587 +03:00 [Information] Request finished in 24.1935ms 200 image/png; charset=UTF-8
+2017-05-16 22:36:24.592 +03:00 [Information] Request finished in 82.5559ms 200 image/png; charset=UTF-8
+2017-05-16 22:37:20.167 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-16 22:37:20.169 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 22:37:20.193 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:20.196 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:20.214 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 22:37:20.253 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:20.320 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-16 22:37:21.652 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 22:37:21.655 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:21.660 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 22:37:21.666 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:22.932 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 22:37:23.059 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:23.075 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 2863.2922ms
+2017-05-16 22:37:23.085 +03:00 [Information] Request finished in 2932.9348ms 200 application/json; charset=utf-8
+2017-05-16 22:37:23.141 +03:00 [Information] Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 22:37:23.153 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 2941.7395ms
+2017-05-16 22:37:23.167 +03:00 [Information] Request finished in 3010.2601ms 200 application/json; charset=utf-8
+2017-05-16 22:37:23.327 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 22:37:23.337 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 1678.2369ms
+2017-05-16 22:37:23.344 +03:00 [Information] Request finished in 1688.576ms 200 application/json; charset=utf-8
+2017-05-16 22:37:41.667 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-16 22:37:41.704 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:41.705 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&0&0  
+2017-05-16 22:37:41.729 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:41.732 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-16 22:37:41.755 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "0", "0"]) - ModelState is Valid
+2017-05-16 22:37:41.761 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:42.071 +03:00 [Information] Executed DbCommand (135ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-16 22:37:42.098 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 367.1227ms
+2017-05-16 22:37:42.124 +03:00 [Information] Request finished in 436.8076ms 200 application/json; charset=utf-8
+2017-05-16 22:37:42.186 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 22:37:42.204 +03:00 [Warning] The LINQ expression '({from Faculty y in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[DAL.Entities.Faculty]) where ([y].Id == [x].FacultyId) select [y].UniversityId => First()} == __University_0)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 22:37:42.213 +03:00 [Warning] The LINQ expression 'First()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-16 22:37:42.295 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+2017-05-16 22:37:42.454 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:42.539 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:42.651 +03:00 [Information] Executed DbCommand (109ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:42.738 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:42.802 +03:00 [Information] Executed DbCommand (60ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:42.874 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:42.877 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:42.881 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 1143.6525ms
+2017-05-16 22:37:42.886 +03:00 [Information] Request finished in 1203.9566ms 200 application/json; charset=utf-8
+2017-05-16 22:37:58.460 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/2  
+2017-05-16 22:37:58.465 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:58.492 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["2"]) - ModelState is Valid
+2017-05-16 22:37:58.492 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/2&0&0  
+2017-05-16 22:37:58.529 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:37:58.530 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:58.532 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["2", "0", "0"]) - ModelState is Valid
+2017-05-16 22:37:58.630 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+2017-05-16 22:37:58.634 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-16 22:37:58.638 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 169.0928ms
+2017-05-16 22:37:58.646 +03:00 [Information] Request finished in 190.4194ms 200 application/json; charset=utf-8
+2017-05-16 22:37:58.714 +03:00 [Information] Executed DbCommand (77ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:58.782 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:58.862 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:58.954 +03:00 [Information] Executed DbCommand (88ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:59.055 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:59.158 +03:00 [Information] Executed DbCommand (99ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:37:59.164 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:37:59.167 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 633.3354ms
+2017-05-16 22:37:59.174 +03:00 [Information] Request finished in 699.123ms 200 application/json; charset=utf-8
+2017-05-16 22:38:06.615 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties/byUniversity/1  
+2017-05-16 22:38:06.622 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/1&0&0  
+2017-05-16 22:38:06.622 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:38:06.655 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" with arguments (["1"]) - ModelState is Valid
+2017-05-16 22:38:06.669 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:38:06.673 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 22:38:06.677 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["1", "0", "0"]) - ModelState is Valid
+2017-05-16 22:38:06.740 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[@__universityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId]
+FROM [Faculties] AS [x]
+WHERE [x].[UniversityId] = @__universityId_0
+2017-05-16 22:38:06.744 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFacultiesByUniversity (AspNetCoreSpa)" in 118.2706ms
+2017-05-16 22:38:06.750 +03:00 [Information] Request finished in 131.8563ms 200 application/json; charset=utf-8
+2017-05-16 22:38:06.762 +03:00 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Course], [x].[FacultyId], [x].[Name]
+FROM [Subjects] AS [x]
+2017-05-16 22:38:06.830 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:38:06.918 +03:00 [Information] Executed DbCommand (83ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:38:06.980 +03:00 [Information] Executed DbCommand (59ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:38:07.050 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:38:07.122 +03:00 [Information] Executed DbCommand (68ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:38:07.189 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[@_outer_FacultyId='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [y0].[UniversityId]
+FROM [Faculties] AS [y0]
+WHERE [y0].[Id] = @_outer_FacultyId
+2017-05-16 22:38:07.192 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 22:38:07.196 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 519.2295ms
+2017-05-16 22:38:07.204 +03:00 [Information] Request finished in 583.0173ms 200 application/json; charset=utf-8
+2017-05-16 22:38:11.341 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 22:38:11.378 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 22:38:11.491 +03:00 [Information] Request finished in 90.1857ms 200 image/png; charset=UTF-8
+2017-05-16 22:38:11.514 +03:00 [Information] Request finished in 133.486ms 200 image/png; charset=UTF-8
+2017-05-16 23:01:25.333 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 23:01:30.975 +03:00 [Information] Executed DbCommand (165ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:01:31.065 +03:00 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:01:31.166 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:01:31.943 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 23:01:34.706 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:01:34.774 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:01:34.845 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:01:34.917 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:01:34.980 +03:00 [Information] Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:01:38.768 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 23:01:38.768 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 23:01:39.408 +03:00 [Information] Request finished in 761.3254ms 200 
+2017-05-16 23:01:41.885 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:01:45.159 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:01:59.648 +03:00 [Information] 
+2017-05-16 23:01:59.653 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 23:01:59.708 +03:00 [Information] 
+2017-05-16 23:01:59.711 +03:00 [Information] [at-loader] Ok, 0.064 sec.
+2017-05-16 23:01:59.872 +03:00 [Information] webpack built ca03e9f69c68384cc9cd in 37885ms
+2017-05-16 23:02:28.292 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 23:02:32.591 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 47667.2969ms
+2017-05-16 23:02:32.659 +03:00 [Information] Request finished in 54110.6107ms 200 text/html; charset=utf-8
+2017-05-16 23:02:33.285 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 23:02:33.462 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=LXnzY2na95PNbtDbS_QTrhG9EnzFnkDSdhOtI_ft68M  
+2017-05-16 23:02:33.499 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:02:33.507 +03:00 [Information] Request finished in 224.7783ms 404 
+2017-05-16 23:02:34.748 +03:00 [Information] Request finished in 1001.7441ms 200 application/javascript; charset=UTF-8
+2017-05-16 23:02:40.940 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 23:02:40.947 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 23:02:41.016 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 23:02:41.019 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 23:02:41.025 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 23:02:41.322 +03:00 [Information] Request finished in 113.772ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:41.333 +03:00 [Information] Request finished in 101.2691ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:41.397 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 23:02:41.458 +03:00 [Information] Request finished in 364.1704ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:41.462 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 23:02:41.466 +03:00 [Information] Request finished in 364.3395ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:41.470 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 23:02:41.482 +03:00 [Information] Request finished in 143.0239ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:41.484 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 23:02:42.521 +03:00 [Information] Request finished in 1157.3931ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:42.527 +03:00 [Information] Request finished in 1049.2175ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:42.531 +03:00 [Information] Request finished in 1587.875ms 200 image/png; charset=UTF-8
+2017-05-16 23:02:47.771 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 23:02:47.775 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:02:47.794 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:02:47.807 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-16 23:02:47.811 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:02:47.835 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 23:02:47.866 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:02:47.884 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:02:47.914 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Works  
+2017-05-16 23:02:47.928 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:02:47.931 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:02:47.934 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:02:47.940 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:02:48.021 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-16 23:02:49.858 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 23:02:50.027 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 2155.7725ms
+2017-05-16 23:02:50.053 +03:00 [Information] Request finished in 2200.4484ms 200 application/json; charset=utf-8
+2017-05-16 23:02:50.101 +03:00 [Information] Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 23:02:50.113 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 2321.9961ms
+2017-05-16 23:02:50.121 +03:00 [Information] Request finished in 2346.1383ms 200 application/json; charset=utf-8
+2017-05-16 23:02:50.176 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 23:02:50.188 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:02:50.199 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 2374.2536ms
+2017-05-16 23:02:50.203 +03:00 [Information] Request finished in 2396.14ms 200 application/json; charset=utf-8
+2017-05-16 23:02:50.544 +03:00 [Information] Executed DbCommand (314ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [w].[Id], [w].[AuthorId], [w].[CreationDate], [w].[Description], [w].[Price], [w].[Rating], [w].[SubjectId], [w].[Theme]
+FROM [Works] AS [w]
+2017-05-16 23:02:50.657 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:02:50.728 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" in 2769.8129ms
+2017-05-16 23:02:50.743 +03:00 [Information] Request finished in 2843.8315ms 200 application/json; charset=utf-8
+2017-05-16 23:11:50.625 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 23:11:54.933 +03:00 [Information] Executed DbCommand (175ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:11:55.030 +03:00 [Information] Executed DbCommand (88ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:11:55.132 +03:00 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:11:56.119 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 23:11:59.134 +03:00 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:11:59.208 +03:00 [Information] Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:11:59.272 +03:00 [Information] Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:11:59.340 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:11:59.437 +03:00 [Information] Executed DbCommand (93ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:12:02.045 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 23:12:02.045 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 23:12:03.230 +03:00 [Information] Request finished in 1512.3389ms 200 
+2017-05-16 23:12:04.642 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:12:07.018 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:12:26.227 +03:00 [Information] 
+2017-05-16 23:12:26.374 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 23:12:26.375 +03:00 [Information] 
+2017-05-16 23:12:26.415 +03:00 [Information] [at-loader] Ok, 0.067 sec.
+2017-05-16 23:12:26.590 +03:00 [Information] webpack built 21fa7d74a089b5d869e4 in 38466ms
+2017-05-16 23:12:54.546 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 23:12:55.758 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 49315.408ms
+2017-05-16 23:12:55.821 +03:00 [Information] Request finished in 54117.7965ms 200 text/html; charset=utf-8
+2017-05-16 23:12:56.115 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 23:12:56.122 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=fGxsLHV-D1OcRw0BPAZHPFh9KPX4U3GYMLEm2VGuAWk  
+2017-05-16 23:12:56.348 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:12:56.355 +03:00 [Information] Request finished in 252.0869ms 404 
+2017-05-16 23:12:57.773 +03:00 [Information] Request finished in 1664.7349ms 200 application/javascript; charset=UTF-8
+2017-05-16 23:13:01.828 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 23:13:01.854 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 23:13:01.871 +03:00 [Information] Request finished in 50.5275ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:01.918 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 23:13:01.935 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 23:13:02.049 +03:00 [Information] Request finished in 126.7043ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:02.164 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 23:13:02.187 +03:00 [Information] Request finished in 89.8321ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:02.205 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 23:13:02.239 +03:00 [Information] Request finished in 219.8313ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:02.255 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 23:13:02.280 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 23:13:02.287 +03:00 [Information] Request finished in 190.2495ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:02.288 +03:00 [Information] Request finished in 145.098ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:02.300 +03:00 [Information] Request finished in 104.1898ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:02.307 +03:00 [Information] Request finished in 474.6639ms 200 image/png; charset=UTF-8
+2017-05-16 23:13:05.337 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 23:13:29.168 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 23:13:29.173 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:13:29.205 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 23:13:29.330 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:13:29.331 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-16 23:13:29.338 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:13:29.342 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:13:29.351 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:13:29.403 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:13:29.405 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:13:29.540 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-16 23:13:31.254 +03:00 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 23:13:31.453 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 2094.8182ms
+2017-05-16 23:13:31.480 +03:00 [Information] Request finished in 2261.1022ms 200 application/json; charset=utf-8
+2017-05-16 23:13:31.501 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Works  
+2017-05-16 23:13:31.504 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:13:31.545 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:13:31.565 +03:00 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 23:13:31.614 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 2387.7382ms
+2017-05-16 23:13:31.671 +03:00 [Information] Request finished in 2457.1832ms 200 application/json; charset=utf-8
+2017-05-16 23:13:31.701 +03:00 [Information] Executed DbCommand (81ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 23:13:31.718 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:13:31.783 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 2401.947ms
+2017-05-16 23:13:31.806 +03:00 [Information] Request finished in 2588.9859ms 200 application/json; charset=utf-8
+2017-05-16 23:13:32.302 +03:00 [Information] Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [w].[Id], [w].[AuthorId], [w].[CreationDate], [w].[Description], [w].[Price], [w].[Rating], [w].[SubjectId], [w].[Theme]
+FROM [Works] AS [w]
+2017-05-16 23:13:32.352 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:13:32.387 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" in 879.0717ms
+2017-05-16 23:13:32.396 +03:00 [Information] Request finished in 890.5799ms 200 application/json; charset=utf-8
+2017-05-16 23:13:35.937 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 23:13:35.943 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:13:35.948 +03:00 [Information] Request finished in 10.2826ms 404 
+2017-05-16 23:18:58.520 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 23:19:03.256 +03:00 [Information] Executed DbCommand (311ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:19:03.345 +03:00 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:19:03.626 +03:00 [Information] Executed DbCommand (183ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:19:08.409 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 23:19:14.660 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:19:14.735 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:19:14.809 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:19:14.876 +03:00 [Information] Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:19:14.952 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:19:19.050 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 23:19:19.050 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 23:19:19.835 +03:00 [Information] Request finished in 898.7529ms 200 
+2017-05-16 23:19:22.124 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:19:24.484 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:19:51.778 +03:00 [Information] 
+2017-05-16 23:19:52.005 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 23:19:52.013 +03:00 [Information] 
+2017-05-16 23:19:52.432 +03:00 [Information] [at-loader] Ok, 0.113 sec.
+2017-05-16 23:19:52.520 +03:00 [Information] webpack built d9519f8bebe727cbd822 in 55013ms
+2017-05-16 23:20:11.870 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 23:20:14.024 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 49775.6534ms
+2017-05-16 23:20:14.052 +03:00 [Information] Request finished in 55184.1134ms 200 text/html; charset=utf-8
+2017-05-16 23:20:14.274 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 23:20:14.365 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:20:14.385 +03:00 [Information] Request finished in 100.8259ms 404 
+2017-05-16 23:20:14.390 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=D1T60A_coVRrwjhXWf9VBou2nOrmlaSzia1QngAjbJA  
+2017-05-16 23:20:14.921 +03:00 [Information] Request finished in 512.2306ms 200 application/javascript; charset=UTF-8
+2017-05-16 23:20:24.774 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 23:20:24.805 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 23:20:25.030 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 23:20:25.033 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 23:20:25.037 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 23:20:25.051 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 23:20:25.071 +03:00 [Information] Request finished in 21.0761ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:25.088 +03:00 [Information] Request finished in 333.8471ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:25.098 +03:00 [Information] Request finished in 384.2802ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:25.101 +03:00 [Information] Request finished in 373.2351ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:25.105 +03:00 [Information] Request finished in 279.8387ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:25.336 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 23:20:25.342 +03:00 [Information] Request finished in 5.4293ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:25.469 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 23:20:25.778 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 23:20:26.136 +03:00 [Information] Request finished in 334.755ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:26.153 +03:00 [Information] Request finished in 681.1153ms 200 image/png; charset=UTF-8
+2017-05-16 23:20:40.085 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 23:20:40.088 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:20:40.103 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:20:40.129 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:20:41.966 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 23:20:41.970 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:20:41.974 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:20:41.977 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:20:42.846 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Works  
+2017-05-16 23:20:42.850 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:20:43.120 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:20:43.848 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-16 23:20:43.851 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:20:44.117 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-16 23:20:45.261 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 23:20:45.385 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 23:20:45.568 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:20:45.579 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 3572.931ms
+2017-05-16 23:20:45.587 +03:00 [Information] Request finished in 3737.8248ms 200 application/json; charset=utf-8
+2017-05-16 23:20:45.612 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 1738.9851ms
+2017-05-16 23:20:45.642 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [w].[Id], [w].[AuthorId], [w].[CreationDate], [w].[Description], [w].[Price], [w].[Rating], [w].[SubjectId], [w].[Theme]
+FROM [Works] AS [w]
+2017-05-16 23:20:45.643 +03:00 [Information] Request finished in 1768.7371ms 200 application/json; charset=utf-8
+2017-05-16 23:20:45.714 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:20:45.764 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" in 2902.6419ms
+2017-05-16 23:20:45.769 +03:00 [Information] Request finished in 2921.482ms 200 application/json; charset=utf-8
+2017-05-16 23:20:45.897 +03:00 [Information] Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 23:20:46.004 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 5808.9279ms
+2017-05-16 23:20:46.023 +03:00 [Information] Request finished in 5921.3942ms 200 application/json; charset=utf-8
+2017-05-16 23:24:38.625 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 23:24:44.671 +03:00 [Information] Executed DbCommand (178ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:24:44.747 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:24:44.884 +03:00 [Information] Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:24:45.671 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 23:24:48.301 +03:00 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:24:48.374 +03:00 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:24:48.443 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:24:48.512 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:24:48.583 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:24:51.235 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 23:24:51.246 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 23:24:51.832 +03:00 [Information] Request finished in 831.8951ms 200 
+2017-05-16 23:24:53.787 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:24:57.142 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:25:31.387 +03:00 [Information] 
+2017-05-16 23:25:31.407 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 23:25:31.459 +03:00 [Information] 
+2017-05-16 23:25:31.487 +03:00 [Information] [at-loader] Ok, 0.076 sec.
+2017-05-16 23:25:31.639 +03:00 [Information] webpack built d9e63e71b57d8a4add8b in 55648ms
+2017-05-16 23:26:38.934 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 23:27:00.326 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 123508.199ms
+2017-05-16 23:27:00.335 +03:00 [Information] Request finished in 129389.8782ms 200 text/html; charset=utf-8
+2017-05-16 23:29:40.017 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-16 23:29:42.017 +03:00 [Information] Executed DbCommand (172ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:29:42.108 +03:00 [Information] Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:29:42.211 +03:00 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:29:42.332 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-16 23:29:43.949 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:29:44.019 +03:00 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:29:44.096 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:29:44.172 +03:00 [Information] Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-16 23:29:44.238 +03:00 [Information] Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-16 23:29:45.184 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-16 23:29:45.194 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-16 23:29:45.519 +03:00 [Information] Request finished in 467.3829ms 200 
+2017-05-16 23:29:46.066 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:29:47.557 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:30:16.561 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-16 23:30:21.060 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 33646.1583ms
+2017-05-16 23:30:21.108 +03:00 [Information] Request finished in 36065.9625ms 200 text/html; charset=utf-8
+2017-05-16 23:30:21.330 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=i841cWDlPRswSg8w_OqXdu2VdhJFzQrQB4BfkfvtLbo  
+2017-05-16 23:30:21.410 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-16 23:30:22.852 +03:00 [Information] 
+2017-05-16 23:30:22.957 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-16 23:30:23.013 +03:00 [Information] webpack built d9e63e71b57d8a4add8b in 43942ms
+2017-05-16 23:30:23.014 +03:00 [Information] 
+2017-05-16 23:30:23.028 +03:00 [Information] [at-loader] Ok, 0.134 sec.
+2017-05-16 23:30:26.102 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:30:26.113 +03:00 [Information] Request finished in 4776.0789ms 404 
+2017-05-16 23:30:27.105 +03:00 [Information] Request finished in 5684.3366ms 200 application/javascript; charset=UTF-8
+2017-05-16 23:30:32.852 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-16 23:30:32.858 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-16 23:30:32.869 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-16 23:30:32.881 +03:00 [Information] Request finished in 29.5568ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:32.885 +03:00 [Information] Request finished in 60.6474ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:33.259 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-16 23:30:33.265 +03:00 [Information] Request finished in 6.1143ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:33.457 +03:00 [Information] Request finished in 633.0787ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:33.707 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-16 23:30:33.710 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-16 23:30:33.719 +03:00 [Information] Request finished in 11.6949ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:33.723 +03:00 [Information] Request finished in 13.5178ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:34.083 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-16 23:30:34.086 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-16 23:30:34.612 +03:00 [Information] Request finished in 36.3993ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:34.618 +03:00 [Information] Request finished in 550.4018ms 200 image/png; charset=UTF-8
+2017-05-16 23:30:41.012 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-16 23:31:30.743 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-16 23:31:30.747 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:31:30.767 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:31:30.807 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:31:30.972 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-16 23:31:30.977 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:31:30.984 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:31:30.989 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:31:31.897 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Works  
+2017-05-16 23:31:31.937 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:31:32.782 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-16 23:31:32.793 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-16 23:31:32.799 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-16 23:31:32.931 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-16 23:31:33.603 +03:00 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-16 23:31:33.854 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 2853.7626ms
+2017-05-16 23:31:33.886 +03:00 [Information] Request finished in 2891.5446ms 200 application/json; charset=utf-8
+2017-05-16 23:31:33.911 +03:00 [Information] Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [w].[Id], [w].[AuthorId], [w].[CreationDate], [w].[Description], [w].[Price], [w].[Rating], [w].[SubjectId], [w].[Theme]
+FROM [Works] AS [w]
+2017-05-16 23:31:34.009 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:31:34.051 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-16 23:31:34.133 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" in 2117.2059ms
+2017-05-16 23:31:34.146 +03:00 [Information] Request finished in 2240.954ms 200 application/json; charset=utf-8
+2017-05-16 23:31:34.149 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-16 23:31:34.156 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 1349.0688ms
+2017-05-16 23:31:34.161 +03:00 [Information] Request finished in 1395.9574ms 200 application/json; charset=utf-8
+2017-05-16 23:31:34.223 +03:00 [Information] Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-16 23:31:34.234 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 3469.5301ms
+2017-05-16 23:31:34.237 +03:00 [Information] Request finished in 3506.3146ms 200 application/json; charset=utf-8

@@ -8,6 +8,10 @@ namespace DAL.Entities
 {
     public class Work : IEntityBase
     {
+        public Work()
+        {
+            Downloaders = new List<UserWork>();
+        }
         public int Id { get ; set; }
         public string Theme { get; set; }
         public string Description { get; set; }

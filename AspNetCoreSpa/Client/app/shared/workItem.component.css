@@ -1,0 +1,47 @@
+﻿/*body {
+}
+.ui-accordion-header{
+    border-color:transparent !important
+}
+    .ui-accordion-header:hover {
+        border-color: #fbcb09;
+    }*/
+
+.ui-accordion-header > a{
+    color:black !important;
+    padding-left:0px !important;
+    padding-right:0px !important;
+        
+}
+.ui-datalist-content{
+    border:none !important
+}
+s.table > thead > tr > th {
+    border-bottom: 0 !important
+}
+
+.userBox {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    padding-left:1%;
+    padding-right:1%;
+}
+
+.userPic {
+    width: 50px;
+    border-radius: 50%;
+    margin: 2%;
+}
+.ui-panel-images{
+    width:280px !important;
+    height:320px !important;
+    cursor:zoom-in
+}
+.ui-dialog{
+    top:1px !important;
+}
+
+    .ui-dialog .ui-dialog-titlebar{
+        padding:0 !important
+    }

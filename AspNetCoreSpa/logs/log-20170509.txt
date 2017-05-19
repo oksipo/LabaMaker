@@ -1,0 +1,218 @@
+2017-05-09 00:01:00.423 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-09 00:01:05.814 +03:00 [Information] Executed DbCommand (266ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:01:06.056 +03:00 [Information] Executed DbCommand (233ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:01:06.219 +03:00 [Information] Executed DbCommand (120ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:01:06.447 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-09 00:01:07.509 +03:00 [Information] Executed DbCommand (323ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:01:07.860 +03:00 [Information] Executed DbCommand (288ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:01:08.085 +03:00 [Information] Executed DbCommand (172ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:01:08.268 +03:00 [Information] Executed DbCommand (178ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:01:08.378 +03:00 [Information] Executed DbCommand (108ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:01:08.942 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-09 00:01:08.942 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-09 00:01:09.282 +03:00 [Information] Request finished in 386.6164ms 200 
+2017-05-09 00:01:10.644 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-09 00:01:14.285 +03:00 [Information] 
+2017-05-09 00:01:14.308 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-09 00:01:14.316 +03:00 [Information] 
+2017-05-09 00:01:14.366 +03:00 [Information] [at-loader] Ok, 0.034 sec.
+2017-05-09 00:01:14.389 +03:00 [Information] webpack built b528977a802e54040025 in 14840ms
+2017-05-09 00:01:14.395 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-09 00:01:16.572 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 6292.9912ms
+2017-05-09 00:01:16.594 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-09 00:01:16.635 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=xxde8i75zrARnFPLMK_ctWJaQLHubg3et5HPT5LLZCM  
+2017-05-09 00:01:16.658 +03:00 [Information] Request finished in 7752.0612ms 200 text/html; charset=utf-8
+2017-05-09 00:01:17.416 +03:00 [Information] Request finished in 825.1267ms 200 application/javascript; charset=UTF-8
+2017-05-09 00:01:17.433 +03:00 [Information] Request finished in 854.3936ms 404 
+2017-05-09 00:01:18.770 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-09 00:01:18.774 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-09 00:01:18.797 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-09 00:01:18.803 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-09 00:01:18.809 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-09 00:01:18.821 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-09 00:01:18.827 +03:00 [Information] Request finished in 52.9742ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:18.852 +03:00 [Information] Request finished in 67.834ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:18.905 +03:00 [Information] Request finished in 75.9387ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:18.930 +03:00 [Information] Request finished in 59.4635ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:18.957 +03:00 [Information] Request finished in 56.0568ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:18.978 +03:00 [Information] Request finished in 182.3087ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:19.110 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-09 00:01:24.999 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-09 00:01:25.031 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-09 00:01:25.039 +03:00 [Information] Request finished in 35.1407ms 200 image/png; charset=UTF-8
+2017-05-09 00:01:25.085 +03:00 [Information] Request finished in 85.7611ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:28.565 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-09 00:03:31.539 +03:00 [Information] Executed DbCommand (271ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:03:31.673 +03:00 [Information] Executed DbCommand (123ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:03:31.791 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:03:31.923 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-09 00:03:33.012 +03:00 [Information] Executed DbCommand (112ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:03:33.140 +03:00 [Information] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:03:33.380 +03:00 [Information] Executed DbCommand (228ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:03:33.586 +03:00 [Information] Executed DbCommand (181ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:03:33.856 +03:00 [Information] Executed DbCommand (240ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:03:34.977 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-09 00:03:35.118 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-09 00:03:35.811 +03:00 [Information] Request finished in 1104.6897ms 200 
+2017-05-09 00:03:37.683 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-09 00:03:41.849 +03:00 [Information] 
+2017-05-09 00:03:41.884 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-09 00:03:41.884 +03:00 [Information] 
+2017-05-09 00:03:41.926 +03:00 [Information] [at-loader] Ok, 0.035 sec.
+2017-05-09 00:03:41.956 +03:00 [Information] webpack built ae1fb66114b84ca8ffe1 in 14282ms
+2017-05-09 00:03:43.610 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-09 00:03:44.699 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 7284.2848ms
+2017-05-09 00:03:44.742 +03:00 [Information] Request finished in 10179.1506ms 200 text/html; charset=utf-8
+2017-05-09 00:03:45.141 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-09 00:03:45.190 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=gi8v3PDdY6R8N9wPkQO82JE48MX3xMgBEbEQlNbVqMU  
+2017-05-09 00:03:45.199 +03:00 [Information] Request finished in 57.178ms 404 
+2017-05-09 00:03:45.554 +03:00 [Information] Request finished in 282.4655ms 200 application/javascript; charset=UTF-8
+2017-05-09 00:03:49.540 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-09 00:03:49.883 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-09 00:03:50.184 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-09 00:03:50.230 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-09 00:03:50.278 +03:00 [Information] Request finished in 716.011ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:50.361 +03:00 [Information] Request finished in 747.3058ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:50.438 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-09 00:03:50.629 +03:00 [Information] Request finished in 269.34ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:50.759 +03:00 [Information] Request finished in 378.9199ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:50.770 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-09 00:03:50.777 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-09 00:03:50.857 +03:00 [Information] Request finished in 434.3265ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:50.878 +03:00 [Information] Request finished in 1315.4046ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:56.910 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-09 00:03:56.944 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-09 00:03:56.989 +03:00 [Information] Request finished in 85.3542ms 200 image/png; charset=UTF-8
+2017-05-09 00:03:57.210 +03:00 [Information] Request finished in 189.1587ms 200 image/png; charset=UTF-8
+2017-05-09 00:05:26.300 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-09 00:05:26.385 +03:00 [Information] Request finished in 91.1047ms 404 
+2017-05-09 00:05:26.485 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js.map  
+2017-05-09 00:05:27.233 +03:00 [Information] Request finished in 711.8301ms 200 application/json; charset=UTF-8
+2017-05-09 00:07:59.160 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-09 00:08:02.782 +03:00 [Information] Executed DbCommand (483ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:08:03.136 +03:00 [Information] Executed DbCommand (344ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:08:03.376 +03:00 [Information] Executed DbCommand (188ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:08:03.535 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-09 00:08:04.802 +03:00 [Information] Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:08:05.106 +03:00 [Information] Executed DbCommand (287ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:08:05.418 +03:00 [Information] Executed DbCommand (277ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:08:05.733 +03:00 [Information] Executed DbCommand (266ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:08:06.149 +03:00 [Information] Executed DbCommand (369ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:08:07.912 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-09 00:08:07.912 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-09 00:08:08.668 +03:00 [Information] Request finished in 914.671ms 200 
+2017-05-09 00:08:09.798 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-09 00:08:13.857 +03:00 [Information] 
+2017-05-09 00:08:14.271 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-09 00:08:14.274 +03:00 [Information] 
+2017-05-09 00:08:14.307 +03:00 [Information] [at-loader] Ok, 0.05 sec.
+2017-05-09 00:08:15.439 +03:00 [Information] webpack built 28527d52a35f9449a622 in 15622ms
+2017-05-09 00:08:44.182 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-09 00:08:44.987 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=tkWUR00CyEXER-XjOqaDs5CSy94FNWzf29zPRDNjsbs  
+2017-05-09 00:08:44.991 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 35345.7876ms
+2017-05-09 00:08:45.000 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-09 00:08:45.014 +03:00 [Information] Request finished in 37318.4007ms 200 text/html; charset=utf-8
+2017-05-09 00:08:45.054 +03:00 [Information] Request finished in 100.632ms 404 
+2017-05-09 00:08:45.169 +03:00 [Information] Request finished in 216.2168ms 200 application/javascript; charset=UTF-8
+2017-05-09 00:08:47.277 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-09 00:08:47.290 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-09 00:08:47.330 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-09 00:08:47.356 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-09 00:08:47.356 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-09 00:08:47.378 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-09 00:08:47.425 +03:00 [Information] Request finished in 84.8952ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:47.455 +03:00 [Information] Request finished in 149.1595ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:47.465 +03:00 [Information] Request finished in 217.9089ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:47.497 +03:00 [Information] Request finished in 136.5096ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:47.497 +03:00 [Information] Request finished in 159.9411ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:47.532 +03:00 [Information] Request finished in 139.9857ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:47.845 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-09 00:08:59.234 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-09 00:08:59.315 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-09 00:08:59.417 +03:00 [Information] Request finished in 130.5611ms 200 image/png; charset=UTF-8
+2017-05-09 00:08:59.443 +03:00 [Information] Request finished in 195.2268ms 200 image/png; charset=UTF-8
+2017-05-09 00:09:37.937 +03:00 [Information] Connection id ""0HL4MAP9JEG47"" communication error.
+Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvException: Error -4081 ECANCELED operation canceled
+2017-05-09 00:23:24.586 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from F:\Eleks\LabaMaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-09 00:23:28.264 +03:00 [Information] Executed DbCommand (375ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:23:28.742 +03:00 [Information] Executed DbCommand (473ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:23:29.082 +03:00 [Information] Executed DbCommand (327ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:23:29.174 +03:00 [Information] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-09 00:23:32.929 +03:00 [Information] Executed DbCommand (219ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:23:33.205 +03:00 [Information] Executed DbCommand (275ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:23:33.478 +03:00 [Information] Executed DbCommand (267ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:23:34.078 +03:00 [Information] Executed DbCommand (404ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-09 00:23:34.386 +03:00 [Information] Executed DbCommand (288ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-09 00:23:36.274 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-09 00:23:36.274 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-09 00:23:37.275 +03:00 [Information] Request finished in 1153.4396ms 200 
+2017-05-09 00:23:40.011 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-09 00:23:49.645 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-09 00:23:50.715 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 11097.6189ms
+2017-05-09 00:23:50.801 +03:00 [Information] Request finished in 14630.6524ms 200 text/html; charset=utf-8
+2017-05-09 00:23:50.831 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-09 00:23:50.834 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=tkWUR00CyEXER-XjOqaDs5CSy94FNWzf29zPRDNjsbs  

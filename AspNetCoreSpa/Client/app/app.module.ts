@@ -3,28 +3,38 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
-import { AccordionModule } from 'primeng/primeng';  
+import { APP_BASE_HREF } from '@angular/common';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
 import { HomeComponent } from './home/home.component'
-import { SharedModule } from './shared/shared.module';
+import { WorksComponent } from './allWorks/works.component'
+import { MySharedModule } from './shared/shared.module';
+
+
+import { DataListModule } from 'primeng/primeng';
+import { DropdownModule } from 'primeng/primeng';
+
 
 const AppRoutes: Routes = [
-    { path: 'home', component: HomeComponent }
+    { path: 'home', component: HomeComponent },
+    { path: 'allWorks', component: WorksComponent },
+    { path: '', component: HomeComponent },
 ];
 
 @NgModule({
-    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent],
+    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, WorksComponent],
     imports: [
-        AccordionModule,
         BrowserAnimationsModule,
         BrowserModule,
         // FormsModule,
         HttpModule,
-        SharedModule,
+        MySharedModule,
+        DropdownModule,
+        DataListModule,
         RouterModule.forRoot(AppRoutes)],
-    providers: [
+    providers: [{ provide: APP_BASE_HREF, useValue: '/' }
     ],
     bootstrap: [AppComponent]
 })
