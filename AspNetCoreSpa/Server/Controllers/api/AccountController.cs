@@ -75,7 +75,13 @@ namespace AspNetCoreSpa.Server.Controllers.api
             var currentUser = new ApplicationUser
             {
                 UserName = model.Email,
-                Email = model.Email
+                Email = model.Email,
+                Balance = 0f,
+                Name = model.Username,
+                Rating = 3,
+                UserPicPath= "https://labamakerfiles.blob.core.windows.net/userpics/nophoto.png",
+                StudNumber=model.Number
+
             };
             
             var result = await _userManager.CreateAsync(currentUser, model.Password);
@@ -92,8 +98,14 @@ namespace AspNetCoreSpa.Server.Controllers.api
                     var confirmationLink = "<a class='btn-primary' href=\"" + callbackUrl + "\">Confirm email address</a>";
                     _logger.LogInformation(3, "User created a new account with password.");
                     //await _emailSender.SendEmailAsync(MailType.Register, new EmailModel { To = model.Email }, confirmationLink);
-                    return Json(new { });
-                }
+                    await Login(new LoginViewModel
+                    {
+                        Email = model.Email,
+                        Password = model.Password,
+                        RememberMe = true
+                    });
+                    return Json(new { currentUser.Id});
+               }
             }
             AddErrors(result);
             // If we got this far, something failed, redisplay form

@@ -1,8 +1,10 @@
 ﻿import {
     Component, Input, ViewEncapsulation
 } from '@angular/core';
-import { WorkItem } from '../Models/workItem'
+//import { WorkItem } from '../Models/workItem'
 import { WorkScreenService } from '../Services/workScreenService'
+import { WorkCommentService } from "../Services/workCommentService"
+import { Observable } from 'rxjs/Rx';
 
 @Component({
     selector: 'workItem',
@@ -11,10 +13,11 @@ import { WorkScreenService } from '../Services/workScreenService'
     encapsulation: ViewEncapsulation.None
 })
 export class WorkItemComponent {
-    constructor(private screenService: WorkScreenService) { }
-    @Input() Item: WorkItem;
+    constructor(private screenService: WorkScreenService, private commentService: WorkCommentService) { }
+    @Input() Item: any;
     pictureCount: number = 1;
     images: any[] = [];
+    comments: any[] = [];
     imageToShow: string;
     display: boolean= false;
     getScreens = (() =>
@@ -31,6 +34,17 @@ export class WorkItemComponent {
                 }
             ))
     );
+
+    getComments = (() =>
+    {
+        var tempcomments:any[] = [];
+        this.commentService.getByWorkId(this.Item.id).subscribe(
+            data => data.map((x: any) => tempcomments.push(x)));
+        this.comments = tempcomments;
+        var numbers = Observable.timer(30000);
+        numbers.subscribe(x => this.getComments());
+
+    })
 
     onImageClicked = (($event: any) => {
         this.imageToShow = this.images[$event.index].source;

@@ -34,8 +34,8 @@ s.table > thead > tr > th {
     margin: 2%;
 }
 .ui-panel-images{
-    width:280px !important;
-    height:320px !important;
+    width:300px !important;
+    height:300px !important;
     cursor:zoom-in
 }
 .ui-dialog{
@@ -45,3 +45,13 @@ s.table > thead > tr > th {
     .ui-dialog .ui-dialog-titlebar{
         padding:0 !important
     }
+
+#commentsTable{
+    width:100%;
+    margin-top:3%;
+    padding-right:3%;
+}
+
+.evenRow{
+    background-color:lightgray
+}

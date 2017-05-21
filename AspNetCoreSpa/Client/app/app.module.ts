@@ -11,28 +11,27 @@ import { FooterComponent } from './footer.component';
 import { HomeComponent } from './home/home.component'
 import { WorksComponent } from './allWorks/works.component'
 import { MySharedModule } from './shared/shared.module';
-
-
-import { DataListModule } from 'primeng/primeng';
-import { DropdownModule } from 'primeng/primeng';
-
+import { TestComponent } from "./Test/test"
+import { LoginComponent } from "./Authorization/login.component"
+import {RegisterComponent } from "./Authorization/register.component"
 
 const AppRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'allWorks', component: WorksComponent },
     { path: '', component: HomeComponent },
+    { path: 'login', component: LoginComponent },
+    { path: "test", component: TestComponent },
+    { path: "register", component: RegisterComponent }
 ];
 
 @NgModule({
-    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, WorksComponent],
+    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, WorksComponent, TestComponent, LoginComponent, RegisterComponent],
     imports: [
         BrowserAnimationsModule,
         BrowserModule,
         // FormsModule,
         HttpModule,
         MySharedModule,
-        DropdownModule,
-        DataListModule,
         RouterModule.forRoot(AppRoutes)],
     providers: [{ provide: APP_BASE_HREF, useValue: '/' }
     ],

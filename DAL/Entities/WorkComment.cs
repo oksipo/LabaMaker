@@ -12,5 +12,8 @@ namespace DAL.Entities
         public int AuthorId { get; set; }
         [ForeignKey("AuthorId")]
         public ApplicationUser Author { get; set; }
+        public int WorkId { get; set; }
+        public Work Work { get; set; }
+
     }
 }

@@ -1,0 +1,39 @@
+﻿<div id="mybox">
+    <div id="contents">
+        <h1 style="    color: black;
+    font-size: 5vw;">
+            <b>Laba</b>Maker
+        </h1>
+        <h2 style="  color: black;width:70%;margin:0">
+            Найбільший український ресурс з лабами, розрахами, рефератами та іншими роботами для студентів.
+            <br />
+            <br />
+            Не гай часу, приєднуйся!
+        </h2>
+        <div id="loginForm">
+            <h3 class="text-center">Реєстрація</h3>
+            <div class="input-group myInput">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="username" type="text" class="form-control" name="username" [(ngModel)]="userName" placeholder="Ваше ім'я">
+            </div>
+            <div class="input-group myInput">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <input id="email" type="email" class="form-control" name="email" [(ngModel)]="email" placeholder="Електронна пошта">
+            </div>
+            <div class="input-group myInput">
+                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                <input id="password" type="password" class="form-control" name="password" [(ngModel)]="password" placeholder="Пароль">
+            </div>
+            <div class="input-group myInput">
+                <span class="input-group-addon"><i class="fa fa-hashtag"></i></span>
+                <input id="number" type="text" class="form-control" name="number" [(ngModel)]="number" placeholder="Номер студака">
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center">
+                <button pButton type="button" label="Зареєструватися" class="ui-button-success" (click)="register()"></button>
+                Вже маєте акаунт?
+                <a style="color:black" routerLink="/login"><u>Увійдіть!</u></a>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,5 +1,5 @@
-﻿<p-accordion (onOpen)="getScreens()">
-    <p-accordionTab >
+﻿<p-accordion (onOpen)="getScreens();getComments();">
+    <p-accordionTab>
         <p-header>
             <table class="table" style="margin-bottom:0px;">
                 <thead class="thead" style="border-color:transparent">
@@ -17,27 +17,48 @@
         </p-header>
         <div style="display:flex;flex-direction:column">
             <div style="display:flex;flex-direction:row">
-                <div class="userBox">
-                    <img [src]="Item.author.userPicPath" class="userPic" />
-                    <div >
+                <div style="display:flex;flex-direction:column">
+                    <div style="display:flex;flex-direction:row">
+                        <div class="userBox">
+                            <img [src]="Item.author.userPicPath" class="userPic" />
+                            <div>
 
-                        <p class="text-center">
-                            {{Item.author.name}}
-                            </p>
-                            <ai-star [rating]="Item.author.rating"></ai-star>
-                            123
-                            <br />
-                            123
+                                <p class="text-center">
+                                    {{Item.author.name}}
+                                </p>
+                                <ai-star [rating]="Item.author.rating"></ai-star>
+                                123
+                                <br />
+                                123
+                            </div>
+                        </div>
+                        <div style="width:100%">
+                            <h4 class="text-center">Опис роботи:</h4>
+                            <div [innerHTML]="Item.description" #description></div>
+                            <div style="display:flex;flex-direction:row;justify-content:flex-end;margin-top:1%">
+                                <h4 style="margin-right:1%">Ціна:{{Item.price}}</h4>
+                                <button pButton type="button" style="margin-right:3%" class="ui-button-success" label="Додати до кошика"></button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div style="width:100%">
-                    <h4 class="text-center">Опис роботи:</h4>
-                    <div [innerHTML]="Item.description" #description></div>
+                    <p-dataList id="commentsTable" [value]="comments" [paginator]="true" [rows]="5" [emptyMessage]="'Поки коментарів нема :('">
+                        <p-header>
+                            Коментарі:
+                        </p-header>
+                        <ng-template let-comment let-i="index" pTemplate="comment">
+                            <table style="width:100%;" [class.evenRow]="i%2==0">
+                                <tr [class.evenRow]="i%2==0">
+                                    <td style="min-width:90%;text-align:left;padding-top:1%;padding-bottom:1%">{{comment.message+" "+comment.authorName}}</td>
+                                    <td style="min-width:10%;float:right"><ai-star [rating]="comment.rating"></ai-star></td>
+                                </tr>
+                            </table>
+                        </ng-template>
+                    </p-dataList>
                 </div>
                 <p-dialog [(visible)]="display" closable="true" modal="modal">
-                    <img [src]="imageToShow" style="width:400px;height:560px;"/>
+                    <img [src]="imageToShow" style="width:480px;height:540px;" />
                 </p-dialog>
-                <p-galleria [images]="images" [panelWidth]="280" [panelHeight]="320" [showCaption]="false" [autoPlay]="false" (onImageClicked)="onImageClicked($event)"></p-galleria>
+                <p-galleria [images]="images" [panelWidth]="300" [panelHeight]="300" [showCaption]="false" [autoPlay]="false" (onImageClicked)="onImageClicked($event)"></p-galleria>
             </div>
         </div>
     </p-accordionTab>

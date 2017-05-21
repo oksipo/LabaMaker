@@ -7,6 +7,7 @@ using AspNetCoreSpa.Server.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Labamaker.DAL.Models;
 
 namespace AspNetCoreSpa.Server.Controllers.api
 {
@@ -22,10 +23,19 @@ namespace AspNetCoreSpa.Server.Controllers.api
             _userManager = userManager;
         }
 
-        [HttpGet("username")]
-        public async Task<IActionResult> MeGet()
+        [HttpGet("me")]
+        public async Task<UserModel> MeGet()
         {
-            throw new NotImplementedException();
+            var me =await _userManager.GetUserAsync(HttpContext.User);
+            return new UserModel
+            {
+                Name = me.Name,
+                Email = me.Email,
+                Rating = me.Rating,
+                Balance = me.Balance,
+                UserPic = me.UserPicPath
+            };
+           
 
         }
 

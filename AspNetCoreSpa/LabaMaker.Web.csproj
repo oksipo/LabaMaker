@@ -175,6 +175,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="WindowsAzure.Storage" Version="8.1.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -189,8 +190,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Uploaded\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="wwwroot\dist\" />
+    <Folder Include="wwwroot\Uploaded\" />
   </ItemGroup>
 
   <ItemGroup>

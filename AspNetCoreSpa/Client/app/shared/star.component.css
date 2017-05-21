@@ -1,5 +1,7 @@
 ﻿.crop {
     overflow: hidden;
+    height:14px;
+    background-color:inherit
 }
 
 div {

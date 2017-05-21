@@ -32,6 +32,7 @@ namespace AspNetCoreSpa.DAL
 
             modelBuilder.Entity<UserWork>().HasOne(p=>p.Downloader).WithMany(p=>p.DownloadedWorks).OnDelete(Microsoft.EntityFrameworkCore.Metadata.DeleteBehavior.Restrict);
             modelBuilder.Entity<UserWork>().HasOne(p => p.Work).WithMany(p => p.Downloaders).OnDelete(Microsoft.EntityFrameworkCore.Metadata.DeleteBehavior.Restrict);
+            modelBuilder.Entity<WorkComment>().HasOne(p => p.Work).WithMany(p => p.Comments).OnDelete(Microsoft.EntityFrameworkCore.Metadata.DeleteBehavior.Restrict);
             // Customize the ASP.NET Identity model and override the defaults if needed.
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);

@@ -9,14 +9,8 @@ namespace AspNetCoreSpa.Server.ViewModels.AccountViewModels
         public string Username { get; set; }
 
         [Required]
-        [StringLength(250)]
-        [Display(Name = "Firstname")]
-        public string Firstname { get; set; }
-
-        [Required]
-        [StringLength(250)]
-        [Display(Name = "Lastname")]
-        public string Lastname { get; set; }
+        [Display(Name ="Number")]
+        public int Number { get; set; }
 
         [Required]
         [StringLength(250)]
