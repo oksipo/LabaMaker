@@ -10,6 +10,7 @@ import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
 import { HomeComponent } from './home/home.component'
 import { WorksComponent } from './allWorks/works.component'
+import { AboutUsComponent } from './aboutUs/aboutUs.component'
 import { MySharedModule } from './shared/shared.module';
 import { TestComponent } from "./Test/test"
 import { LoginComponent } from "./Authorization/login.component"
@@ -18,6 +19,7 @@ import {RegisterComponent } from "./Authorization/register.component"
 const AppRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'allWorks', component: WorksComponent },
+    { path: 'aboutUs', component: AboutUsComponent },
     { path: '', component: HomeComponent },
     { path: 'login', component: LoginComponent },
     { path: "test", component: TestComponent },
@@ -25,7 +27,7 @@ const AppRoutes: Routes = [
 ];
 
 @NgModule({
-    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, WorksComponent, TestComponent, LoginComponent, RegisterComponent],
+    declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, WorksComponent, TestComponent, LoginComponent, RegisterComponent, AboutUsComponent],
     imports: [
         BrowserAnimationsModule,
         BrowserModule,
