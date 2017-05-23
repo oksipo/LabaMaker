@@ -10,7 +10,8 @@ import { SubjectService } from '../Services/subjectService'
 import { WorksService } from '../Services/worksService'
 import { WorkScreenService } from '../Services/workScreenService'
 import { WorkCommentService } from '../Services/workCommentService'
-import {AuthService } from '../Services/authService'
+import { AuthService } from '../Services/authService'
+import { ProfileService } from '../Services/profileService'
 import { StarComponent } from './star.component';
 
 import { AccordionModule } from 'primeng/primeng';  
@@ -43,6 +44,6 @@ import { WebStorageModule, BROWSER_STORAGE_PROVIDERS } from "h5webstorage";
         WebStorageModule
     ],
     declarations: [StarComponent, WorkItemComponent],
-    providers: [UniversityService, FacultyService, SubjectService, WorksService, WorkScreenService, WorkCommentService, AuthService, BROWSER_STORAGE_PROVIDERS]
+    providers: [UniversityService, FacultyService, SubjectService, WorksService, WorkScreenService, WorkCommentService, ProfileService, AuthService, BROWSER_STORAGE_PROVIDERS]
 })
 export class MySharedModule { }
