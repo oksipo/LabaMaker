@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { LocalStorage, StorageProperty } from 'h5webstorage';
-
+import { AuthService} from './Services/authService'
 
 @Component({
   selector: 'main-app',
@@ -8,13 +7,12 @@ import { LocalStorage, StorageProperty } from 'h5webstorage';
   styleUrls:['../../wwwroot/styles/primeng.css','app.component.css']
 })
 export class AppComponent {
-    constructor(private localStorage: LocalStorage) {  }
-    @StorageProperty({ storageKey: 'localId', storage: "Local" }) localId: string = "";
+    constructor(private auth: AuthService) { }
      UserName="MyUserName";
      Balance=100;
      Rating=3;
      UserPic = "http://www.dpa.cv.ua/wp-content/uploads/2014/02/3f.jpg";
      isLoggedIn = (() => {
-         return (this.localId) != "";
+         return (this.auth.isAuthorized());
      });
 }

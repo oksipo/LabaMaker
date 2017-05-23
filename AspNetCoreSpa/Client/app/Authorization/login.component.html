@@ -11,14 +11,14 @@
         <h3 class="text-center">Вхід</h3>
         <div class="input-group myInput">
             <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="Електронна пошта">
+            <input id="email" type="text" class="form-control" name="email" [(ngModel)]="email" placeholder="Електронна пошта">
         </div>
         <div class="input-group myInput">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input id="password" type="password" class="form-control" name="password" placeholder="Пароль">
+            <input id="password" type="password" class="form-control" name="password" [(ngModel)]="password" placeholder="Пароль">
         </div>
         <div style="display:flex;flex-direction:column;align-items:center">
-            <button pButton type="button" label="Увійти" class="ui-button-success"></button>
+            <button pButton type="button" label="Увійти" class="ui-button-success" (click)="login()"></button>
             <a style="color:black" href="forgot"><u>Забули пароль?</u></a>
             <br />
 
