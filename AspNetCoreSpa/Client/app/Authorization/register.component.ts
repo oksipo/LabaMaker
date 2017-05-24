@@ -1,5 +1,4 @@
 ﻿import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 import { AuthService } from "../Services/authService"
 
 @Component({
@@ -8,7 +7,7 @@ import { AuthService } from "../Services/authService"
     styleUrls: ['login.component.css']
 })
 export class RegisterComponent {
-    constructor(private auth: AuthService, private router: Router) { }
+    constructor(private auth: AuthService) { }
 
     userName: string;
     email: string;
@@ -22,6 +21,6 @@ export class RegisterComponent {
                 email: this.email,
                 password: this.password,
                 number: this.number
-            }).subscribe(x => this.router.navigateByUrl("home"));
+            }).subscribe();
     })
 }

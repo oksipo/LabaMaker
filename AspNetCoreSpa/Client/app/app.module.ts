@@ -14,20 +14,16 @@ import { AboutUsComponent } from './aboutUs/aboutUs.component'
 import { MySharedModule } from './shared/shared.module';
 import { TestComponent } from "./Test/test"
 import { LoginComponent } from "./Authorization/login.component"
-import { RegisterComponent } from "./Authorization/register.component"
-
-import { IsAuthorizedGuard } from "./shared/isAuthorizedGuard"
-import { IsUnAuthorizedGuard } from "./shared/isUnAuthorizedGuard"
+import {RegisterComponent } from "./Authorization/register.component"
 
 const AppRoutes: Routes = [
-    { path: 'home', component: HomeComponent, canActivate:[IsAuthorizedGuard] },
-    { path: 'allWorks', component: WorksComponent, canActivate: [IsAuthorizedGuard] },
-    { path: 'aboutUs', component: AboutUsComponent, canActivate: [IsAuthorizedGuard] },
-    { path: 'login', component: LoginComponent, canActivate: [IsUnAuthorizedGuard] },
-    { path: "test", component: TestComponent, canActivate: [IsAuthorizedGuard] },
-    { path: "register", component: RegisterComponent, canActivate: [IsAuthorizedGuard] },
-    { path: '', component: HomeComponent, canActivate: [IsAuthorizedGuard] },
-    { path: '**', component: HomeComponent, canActivate: [IsUnAuthorizedGuard] }
+    { path: 'home', component: HomeComponent },
+    { path: 'allWorks', component: WorksComponent },
+    { path: 'aboutUs', component: AboutUsComponent },
+    { path: '', component: HomeComponent },
+    { path: 'login', component: LoginComponent },
+    { path: "test", component: TestComponent },
+    { path: "register", component: RegisterComponent }
 ];
 
 @NgModule({
@@ -39,7 +35,7 @@ const AppRoutes: Routes = [
         HttpModule,
         MySharedModule,
         RouterModule.forRoot(AppRoutes)],
-    providers: [{ provide: APP_BASE_HREF, useValue: '/' }, IsAuthorizedGuard, IsUnAuthorizedGuard
+    providers: [{ provide: APP_BASE_HREF, useValue: '/' }
     ],
     bootstrap: [AppComponent]
 })
