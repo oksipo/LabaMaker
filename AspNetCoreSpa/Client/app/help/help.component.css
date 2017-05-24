@@ -1,24 +1,14 @@
-﻿.displaying_columns{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.displaying_headers {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.main_header {
+﻿.main_header {
     color: #404040;
     font-size: 45px;
 }
 
 .headers {
     color: #404040;
-    font-size: 28px;
-    margin-bottom: 21px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-left: 0 !important;
 }
 
 .border {
@@ -29,4 +19,25 @@
     color: #404040;
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 21px;
+}
+
+/*links*/
+a {
+    color: rgba(41, 43, 41, 0.9) !important;
+    text-decoration: underline;
+}
+
+a:hover {
+     color: rgb(128, 128, 128) !important;
+     text-decoration: underline;
+}
+
+a:visited {
+     color: rgba(41, 43, 41, 0.5);
+     text-decoration: underline;
+}
+
+a:active {
+     color: rgba(41, 43, 41, 0.5);
+     text-decoration: underline;
 }

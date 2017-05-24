@@ -1,0 +1,26 @@
+﻿<div class="border">
+    <p class="main_header">{{maintitle}}</p>
+
+    <p class="text-text"> {{description_part1}} <a routerLink="/help">{{insert}}</a> {{description_part2}} </p>
+</div>
+
+<div class="displaying_center" style="margin-top: 30px">
+    <div class="displaying_column">
+        <p class="headers">{{subtitle}}</p>
+        <div class="displaying_row">
+            <p class="text-text item labling">{{point1}}</p>
+            <p-dropdown class="mintext" [options]="problemsNames" [(ngModel)]="selectedProblem" placeholder='Оберіть категорію повідомлення...' [style]="{'width':'350px','margin-bottom':'3%'}"></p-dropdown>
+        </div>
+        <div class="displaying_row">
+            <p class="text-text item labling">{{point2}}</p>
+            <input class="mintext inputting" [(ngModel)]="theme" placeholder='Вкажіть тему повідомлення...'/>
+        </div>
+        <div class="displaying_row">
+            <p class="text-text item labling">{{point3}}</p>
+            <input class="mintext inputting" [(ngModel)]="message" placeholder='Опишіть вашу проблему...' />
+        </div>
+        <button pButton type="button" label="Надіслати" class="ui-button-success" style="width:200px; height: 35px; float: right; font-size: 17px; margin-left: 290px"></button>
+    </div>
+</div>
+
+
