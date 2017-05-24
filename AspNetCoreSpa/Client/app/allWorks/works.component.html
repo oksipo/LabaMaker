@@ -9,12 +9,12 @@
 <h3>Розширений пошук</h3>
 <div class="dropdown_main_block">
     <div class="dropdown_small_block">
-        <p-dropdown [options]="universityNames" [(ngModel)]="selectedUniversity" [filter]="true" placeholder='Вуз' [style]="{'width':'200px','margin-bottom':'10%'}" (onChange)="onUniversitySelected()"></p-dropdown>
-        <p-dropdown [options]="cources" [(ngModel)]="selectedCource" [filter]="true" placeholder="Курс" [style]="{'width':'200px','margin-bottom':'10%'}" (onChange)='OnCourceSelected()'></p-dropdown>
+        <p-dropdown [options]="universityNames" [(ngModel)]="selectedUniversity" [filter]="true" placeholder='Вуз...' [style]="{'width':'200px','margin-bottom':'10%'}" (onChange)="onUniversitySelected()"></p-dropdown>
+        <p-dropdown [options]="cources" [(ngModel)]="selectedCource" [filter]="true" placeholder="Курс..." [style]="{'width':'200px','margin-bottom':'10%'}" (onChange)='OnCourceSelected()'></p-dropdown>
     </div>
     <div class="dropdown_small_block">
-        <p-dropdown [options]="facultyNames" [(ngModel)]="selectedFaculty" [filter]="true" placeholder="Спеціальність" [style]="{'width':'200px','margin-bottom':'10%'}" (onChange)="onFacultySelected()"></p-dropdown>
-        <p-dropdown [options]="subjects" [(ngModel)]="selectedSubject" [filter]="true" placeholder="Предмет" [style]="{'width':'200px','margin-bottom':'10%'}"></p-dropdown>
+        <p-dropdown [options]="facultyNames" [(ngModel)]="selectedFaculty" [filter]="true" placeholder="Спеціальність..." [style]="{'width':'200px','margin-bottom':'10%'}" (onChange)="onFacultySelected()"></p-dropdown>
+        <p-dropdown [options]="subjects" [(ngModel)]="selectedSubject" [filter]="true" placeholder="Предмет..." [style]="{'width':'200px','margin-bottom':'10%'}"></p-dropdown>
     </div>
     </div>
 
@@ -31,7 +31,7 @@
         </tr>
     </thead>
 </table>
-<p-dataList [value]="works" [paginator]="true" [rows]="2">
+<p-dataList [value]="works" [paginator]="true" [rows]="10">
     <ng-template let-work pTemplate="workItem">
         <workItem [Item]="work"></workItem>
     </ng-template>
