@@ -49,8 +49,7 @@ namespace AspNetCoreSpa.Server.Controllers.api
                 var user = await _userManager.FindByEmailAsync(model.Email);
                 var roles = await _userManager.GetRolesAsync(user);
                 _logger.LogInformation(1, "User logged in.");
-                var rez= AppUtils.SignIn(user, roles);
-                return Json(new { user.Id });
+                return AppUtils.SignIn(user, roles);
             }
             if (result.RequiresTwoFactor)
             {
