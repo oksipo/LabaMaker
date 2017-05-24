@@ -30,6 +30,8 @@ const AppRoutes: Routes = [
     { path: 'login', component: LoginComponent, canActivate: [IsUnAuthorizedGuard] },
     { path: "test", component: TestComponent, canActivate: [IsAuthorizedGuard] },
     { path: "register", component: RegisterComponent, canActivate: [IsAuthorizedGuard] },
+    { path: 'help', component: HelpComponent, canActivate: [IsAuthorizedGuard] },
+    { path: 'questions', component: QuestionsComponent, canActivate: [IsAuthorizedGuard] },
     { path: '', component: HomeComponent, canActivate: [IsAuthorizedGuard] },
     { path: '**', component: HomeComponent, canActivate: [IsUnAuthorizedGuard] }
 ];
@@ -45,7 +47,7 @@ const AppRoutes: Routes = [
         RouterModule.forRoot(AppRoutes),
         Ng2PageScrollModule.forRoot(),
         ButtonModule],
-    providers: [{ provide: APP_BASE_HREF, useValue: '/' }
+    providers: [{ provide: APP_BASE_HREF, useValue: '/' },IsAuthorizedGuard,IsUnAuthorizedGuard
     ],
     bootstrap: [AppComponent]
 })
