@@ -1,35 +1,4 @@
-﻿input:hover {
-    border-color:#fbcb09
-}
-input:focus {
-    border-color: #fbcb09;
-    box-shadow: #fbcb09
-}
-
-.dropdown_main_block{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-start;
-}
-.dropdown_small_block {
-    margin-right:10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.ui-paginator{
-    background-color:transparent !important;
-    border:none !important
-}
-.ui-paginator-last {
-    background-color: green
-} 
-.ui-paginator-first{
-    background-color:red
-}
-
-.displaying_columns{
+﻿.displaying_columns{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,7 +19,6 @@ input:focus {
     color: #404040;
     font-size: 28px;
     margin-bottom: 21px;
-    font-weight: 600;
 }
 
 .border {

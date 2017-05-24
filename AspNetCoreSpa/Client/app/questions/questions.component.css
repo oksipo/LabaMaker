@@ -1,0 +1,102 @@
+﻿.displaying_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.displaying_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.displaying_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item{
+    margin-right: 10px;
+}
+
+.inputting{
+    width: 350px !important;
+    border-radius: 3px;
+    height: 35px;
+    border-color: rgb(206, 205, 205);
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 3%;
+    padding: 2px;
+}
+
+.labling{
+    width: 120px;
+}
+
+.main_header {
+    color: #404040;
+    font-size: 45px;
+}
+
+.headers {
+    color: #404040;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-left: 0 !important;
+
+}
+
+.border {
+    border-bottom: 1px solid black !important;
+}
+
+.text-text {
+    color: #404040;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+
+.mintext {
+    font-size: 17px;
+    margin-left: 4px;
+}
+
+/*links*/
+a {
+    color: rgba(41, 43, 41, 0.9) !important;
+    text-decoration: underline;
+}
+
+a:hover {
+     color: rgb(128, 128, 128) !important;
+     text-decoration: underline;
+}
+
+a:visited {
+     color: rgba(41, 43, 41, 0.5);
+     text-decoration: underline;
+}
+
+a:active {
+     color: rgba(41, 43, 41, 0.5);
+     text-decoration: underline;
+}
+
+::-webkit-input-placeholder {
+    color: #808080;
+}
+
+::-moz-placeholder {
+    color: #808080;
+}
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: #808080;
+}
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: #808080;
+}
