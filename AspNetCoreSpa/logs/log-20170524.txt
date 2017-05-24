@@ -1,0 +1,479 @@
+2017-05-24 12:06:28.257 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from G:\Проект лабамейкер\Labamaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-24 12:06:32.528 +03:00 [Information] Executed DbCommand (261ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:06:32.605 +03:00 [Information] Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:06:32.697 +03:00 [Information] Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-24 12:06:33.458 +03:00 [Information] User profile is available. Using '"C:\Users\Nastya\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-24 12:06:38.037 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:06:38.075 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:06:38.113 +03:00 [Information] Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-24 12:06:38.167 +03:00 [Information] Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:06:38.206 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-24 12:06:40.142 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-24 12:06:40.142 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-24 12:06:40.754 +03:00 [Information] Request finished in 715.1537ms 200 
+2017-05-24 12:06:44.930 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:06:48.200 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:07:13.468 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:07:16.035 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 28102.3913ms
+2017-05-24 12:07:16.077 +03:00 [Information] Request finished in 36157.3211ms 200 text/html; charset=utf-8
+2017-05-24 12:07:16.200 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:07:16.285 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/polyfills.dll.js?v=LHgQiLsoey-37df5fU8pnGLF-zyOCYx534TgDoes-bY  
+2017-05-24 12:07:16.288 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/font-awesome.css  
+2017-05-24 12:07:16.295 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.dll.js?v=JzRAwEXPiGPhsDA7v7EokISDjkW6lNBGB-OnF0bjIjY  
+2017-05-24 12:07:16.309 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/themes/lightness/theme.css  
+2017-05-24 12:07:16.315 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles/primeng.css  
+2017-05-24 12:07:16.382 +03:00 [Information] The file "/styles/themes/lightness/theme.css" was not modified
+2017-05-24 12:07:16.405 +03:00 [Information] The file "/styles/font-awesome.css" was not modified
+2017-05-24 12:07:16.409 +03:00 [Information] The file "/styles/primeng.css" was not modified
+2017-05-24 12:07:16.464 +03:00 [Information] Request finished in 133.27ms 304 text/css
+2017-05-24 12:07:16.465 +03:00 [Information] Request finished in 107.1067ms 304 text/css
+2017-05-24 12:07:16.505 +03:00 [Information] Request finished in 140.6183ms 304 text/css
+2017-05-24 12:07:16.509 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=wHRcsixZEYAid_Ra7cFECd4hhHr6YWKTYXfnqFoApKU  
+2017-05-24 12:07:21.503 +03:00 [Information] 
+2017-05-24 12:07:21.507 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:07:21.669 +03:00 [Error] 
+2017-05-24 12:07:21.673 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:07:21.826 +03:00 [Information] webpack built 2851e956de08c56faf1c in 56916ms
+2017-05-24 12:07:25.409 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:07:25.420 +03:00 [Information] The file "/dist/vendor.dll.js" was not modified
+2017-05-24 12:07:25.446 +03:00 [Information] The file "/dist/polyfills.dll.js" was not modified
+2017-05-24 12:07:25.453 +03:00 [Information] Request finished in 9206.8457ms 304 application/javascript
+2017-05-24 12:07:25.496 +03:00 [Information] Request finished in 9139.533ms 304 application/javascript
+2017-05-24 12:07:25.545 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:07:25.704 +03:00 [Information] Request finished in 9501.0466ms 404 
+2017-05-24 12:07:27.723 +03:00 [Information] Request finished in 11212.3455ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:07:34.865 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:07:34.886 +03:00 [Information] Request finished in 15.7742ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.020 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:07:35.058 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:07:35.100 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:07:35.117 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:07:35.127 +03:00 [Information] Request finished in 150.7659ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.150 +03:00 [Information] Request finished in 75.4005ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.171 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:07:35.184 +03:00 [Information] Request finished in 93.2836ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.201 +03:00 [Information] Request finished in 139.5293ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.215 +03:00 [Information] Request finished in 171.9837ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.243 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-24 12:07:35.267 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-24 12:07:35.318 +03:00 [Information] Request finished in 47.1671ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:35.323 +03:00 [Information] Request finished in 90.9143ms 200 image/png; charset=UTF-8
+2017-05-24 12:07:42.359 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:09:05.237 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-24 12:09:05.245 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-24 12:09:05.274 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:05.278 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:05.301 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:09:05.612 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:05.627 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-24 12:09:06.377 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-24 12:09:06.382 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:06.412 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:09:06.420 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:07.048 +03:00 [Information] Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-24 12:09:07.220 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 833.1405ms
+2017-05-24 12:09:07.257 +03:00 [Information] Request finished in 849.4226ms 200 application/json; charset=utf-8
+2017-05-24 12:09:07.258 +03:00 [Information] Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-24 12:09:07.306 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Works  
+2017-05-24 12:09:07.308 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2017-05-24 12:09:07.312 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:07.329 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:09:07.349 +03:00 [Information] The file "/fonts/fontawesome-webfont.woff2" was not modified
+2017-05-24 12:09:07.358 +03:00 [Information] Request finished in 46.5913ms 304 application/font-woff2
+2017-05-24 12:09:07.379 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 2073.2743ms
+2017-05-24 12:09:07.416 +03:00 [Information] Request finished in 2148.3906ms 200 application/json; charset=utf-8
+2017-05-24 12:09:07.463 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Universities  
+2017-05-24 12:09:07.467 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Faculties  
+2017-05-24 12:09:07.490 +03:00 [Information] Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-24 12:09:07.553 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:07.564 +03:00 [Information] Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-24 12:09:07.575 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:09:07.579 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:07.587 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:07.589 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:07.599 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:09:07.604 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:07.629 +03:00 [Information] Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-24 12:09:07.636 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 2334.696ms
+2017-05-24 12:09:07.654 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.UniversitiesController.GetUniversities (AspNetCoreSpa)" in 71.7984ms
+2017-05-24 12:09:07.673 +03:00 [Information] Request finished in 238.2884ms 200 application/json; charset=utf-8
+2017-05-24 12:09:07.678 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[UniversityId]
+FROM [Faculties] AS [f]
+2017-05-24 12:09:07.685 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.FacultiesController.GetFaculties (AspNetCoreSpa)" in 90.1597ms
+2017-05-24 12:09:07.692 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Subjects/filtered/0&0&0  
+2017-05-24 12:09:07.724 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:07.735 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2017-05-24 12:09:07.748 +03:00 [Information] Request finished in 2406.0391ms 200 application/json; charset=utf-8
+2017-05-24 12:09:07.753 +03:00 [Information] Request finished in 269.227ms 200 application/json; charset=utf-8
+2017-05-24 12:09:07.776 +03:00 [Information] Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-24 12:09:07.802 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:07.836 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.SubjectsController.GetSubjectsFiltered (AspNetCoreSpa)" in 76.0293ms
+2017-05-24 12:09:07.865 +03:00 [Information] Request finished in 193.3743ms 200 application/json; charset=utf-8
+2017-05-24 12:09:08.040 +03:00 [Information] Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId], [u].[Id], [u].[Name]
+FROM [Faculties] AS [x]
+INNER JOIN [Universities] AS [u] ON [x].[UniversityId] = [u].[Id]
+2017-05-24 12:09:08.259 +03:00 [Information] Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-24 12:09:08.869 +03:00 [Warning] The LINQ expression '([y].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.915 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.925 +03:00 [Warning] The LINQ expression '([y].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.932 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.937 +03:00 [Warning] The LINQ expression '([y].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.942 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.947 +03:00 [Warning] The LINQ expression '([y].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.951 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.956 +03:00 [Warning] The LINQ expression '([y].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.961 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.966 +03:00 [Warning] The LINQ expression '([y].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.970 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.980 +03:00 [Warning] The LINQ expression '([y].Id == {from Subject z in __Subjects_4 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.986 +03:00 [Warning] The LINQ expression '([z].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.990 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:08.997 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.001 +03:00 [Warning] The LINQ expression '([y].Id == {from Subject z in __Subjects_4 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.005 +03:00 [Warning] The LINQ expression '([z].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.009 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.013 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.017 +03:00 [Warning] The LINQ expression '([y].Id == {from Subject z in __Subjects_6 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.022 +03:00 [Warning] The LINQ expression '([z].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.028 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.032 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.037 +03:00 [Warning] The LINQ expression '([y].Id == {from Subject z in __Subjects_6 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.042 +03:00 [Warning] The LINQ expression '([z].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.046 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.051 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.056 +03:00 [Warning] The LINQ expression '([y].Id == {from Faculty k in __Faculties_8 where ([k].Id == {from Subject z in __Subjects_9 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()}) select [k].UniversityId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.060 +03:00 [Warning] The LINQ expression '([k].Id == {from Subject z in __Subjects_9 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.064 +03:00 [Warning] The LINQ expression '([z].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.068 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.073 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.079 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.083 +03:00 [Warning] The LINQ expression '([y].Id == {from Faculty k in __Faculties_8 where ([k].Id == {from Subject z in __Subjects_9 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()}) select [k].UniversityId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.088 +03:00 [Warning] The LINQ expression '([k].Id == {from Subject z in __Subjects_9 where ([z].Id == [x].SubjectId) select [z].FacultyId => Single()})' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.093 +03:00 [Warning] The LINQ expression '([z].Id == [x].SubjectId)' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.098 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.103 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.132 +03:00 [Warning] The LINQ expression 'Single()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.167 +03:00 [Warning] The Include operation for navigation: 'x.Author' was ignored because the target navigation is not reachable in the final query results. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'CoreEventId.IncludeIgnoredWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider.
+2017-05-24 12:09:09.243 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Theme], [x].[Description], [x].[CreationDate], [x].[Price], [x].[Rating], [x].[SubjectId], [x].[AuthorId], [x.Author].[Name], [x.Author].[Rating], [x.Author].[UserPicPath]
+FROM [Works] AS [x]
+INNER JOIN [AspNetUsers] AS [x.Author] ON [x].[AuthorId] = [x.Author].[Id]
+2017-05-24 12:09:09.335 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:09.409 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" in 2091.2368ms
+2017-05-24 12:09:09.415 +03:00 [Information] Request finished in 2150.0642ms 200 application/json; charset=utf-8
+2017-05-24 12:09:09.418 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/Works  
+2017-05-24 12:09:09.424 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:09:09.427 +03:00 [Information] Executing action method "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:09:09.469 +03:00 [Information] Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Course], [s].[FacultyId], [s].[Name]
+FROM [Subjects] AS [s]
+2017-05-24 12:09:09.517 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Name], [x].[UniversityId], [u].[Id], [u].[Name]
+FROM [Faculties] AS [x]
+INNER JOIN [Universities] AS [u] ON [x].[UniversityId] = [u].[Id]
+2017-05-24 12:09:09.558 +03:00 [Information] Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Name]
+FROM [Universities] AS [u]
+2017-05-24 12:09:09.607 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Theme], [x].[Description], [x].[CreationDate], [x].[Price], [x].[Rating], [x].[SubjectId], [x].[AuthorId], [x.Author].[Name], [x.Author].[Rating], [x.Author].[UserPicPath]
+FROM [Works] AS [x]
+INNER JOIN [AspNetUsers] AS [x.Author] ON [x].[AuthorId] = [x.Author].[Id]
+2017-05-24 12:09:09.649 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-05-24 12:09:09.654 +03:00 [Information] Executed action "LabaMaker.Web.Server.Controllers.api.WorksController.GetWorks (AspNetCoreSpa)" in 225.8066ms
+2017-05-24 12:09:09.659 +03:00 [Information] Request finished in 241.1163ms 200 application/json; charset=utf-8
+2017-05-24 12:10:14.010 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-24 12:10:16.638 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-24 12:10:16.884 +03:00 [Information] webpack building...
+2017-05-24 12:10:17.151 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/aboutUs  
+2017-05-24 12:10:17.157 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:10:17.164 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:10:17.172 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:10:17.329 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 160.0162ms
+2017-05-24 12:10:17.339 +03:00 [Information] Request finished in 181.9795ms 200 text/html; charset=utf-8
+2017-05-24 12:10:17.602 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:10:17.605 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=KrdIpCPrwyp9mIsum99mHuAY29Tu5HSG26Dt0Xw2pPo  
+2017-05-24 12:10:19.052 +03:00 [Information] 
+2017-05-24 12:10:19.056 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:10:19.071 +03:00 [Error] 
+2017-05-24 12:10:19.075 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:10:19.183 +03:00 [Information] webpack built 12904dd975471439ecf9 in 5191ms
+2017-05-24 12:10:19.432 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:10:19.461 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:10:19.477 +03:00 [Information] Request finished in 1865.3681ms 404 
+2017-05-24 12:10:20.353 +03:00 [Information] Request finished in 2747.231ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:10:23.269 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:10:23.272 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:10:23.303 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:10:23.304 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:10:23.313 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:10:23.320 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:10:23.330 +03:00 [Information] Request finished in 42.5231ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:23.366 +03:00 [Information] Request finished in 73.4369ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:23.382 +03:00 [Information] Request finished in 59.5355ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:23.397 +03:00 [Information] Request finished in 90.399ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:23.410 +03:00 [Information] Request finished in 52.8392ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:23.415 +03:00 [Information] Request finished in 135.8473ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:23.496 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:10:23.819 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2017-05-24 12:10:23.832 +03:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"G:\Проект лабамейкер\Labamaker\AspNetCoreSpa\wwwroot\favicon.ico"'
+2017-05-24 12:10:23.981 +03:00 [Information] Request finished in 162.0214ms 200 image/x-icon
+2017-05-24 12:10:41.979 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-24 12:10:42.037 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-24 12:10:42.042 +03:00 [Information] webpack building...
+2017-05-24 12:10:42.330 +03:00 [Information] 
+2017-05-24 12:10:42.332 +03:00 [Error] 
+2017-05-24 12:10:42.353 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:10:42.357 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:10:42.438 +03:00 [Information] webpack built bf1f0f332ccfb7bc6623 in 415ms
+2017-05-24 12:10:42.455 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12904dd975471439ecf9.hot-update.json  
+2017-05-24 12:10:42.612 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:10:42.619 +03:00 [Information] Request finished in 162.1343ms 200 application/json; charset=UTF-8
+2017-05-24 12:10:42.667 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/0.12904dd975471439ecf9.hot-update.js  
+2017-05-24 12:10:42.673 +03:00 [Information] Request finished in 6.3354ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:10:44.115 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/aboutUs  
+2017-05-24 12:10:44.128 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:10:44.137 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:10:44.142 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:10:44.295 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 157.1893ms
+2017-05-24 12:10:44.318 +03:00 [Information] Request finished in 199.1901ms 200 text/html; charset=utf-8
+2017-05-24 12:10:44.369 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=2gWILH2dJ-jwDMKqvKgIo0UlMVX2H9QAdYTFm5nI1_s  
+2017-05-24 12:10:44.375 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:10:44.413 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:10:44.479 +03:00 [Information] Request finished in 59.7467ms 404 
+2017-05-24 12:10:45.650 +03:00 [Information] Request finished in 1279.8397ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:10:48.582 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:10:48.588 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:10:48.615 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:10:48.623 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:10:48.635 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:10:48.640 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:10:48.660 +03:00 [Information] Request finished in 54.584ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:48.682 +03:00 [Information] Request finished in 73.5724ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:48.730 +03:00 [Information] Request finished in 70.381ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:48.739 +03:00 [Information] Request finished in 103.0007ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:48.745 +03:00 [Information] Request finished in 107.4438ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:48.749 +03:00 [Information] Request finished in 152.2622ms 200 image/png; charset=UTF-8
+2017-05-24 12:10:48.833 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:10:49.149 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2017-05-24 12:10:49.232 +03:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"G:\Проект лабамейкер\Labamaker\AspNetCoreSpa\wwwroot\favicon.ico"'
+2017-05-24 12:10:49.265 +03:00 [Information] Request finished in 106.1619ms 200 image/x-icon
+2017-05-24 12:11:27.096 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-24 12:11:27.239 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-24 12:11:27.370 +03:00 [Information] webpack building...
+2017-05-24 12:11:27.799 +03:00 [Information] 
+2017-05-24 12:11:27.847 +03:00 [Error] 
+2017-05-24 12:11:27.916 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:11:27.996 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:11:28.048 +03:00 [Information] webpack built 4e3b999ac11902be8fec in 832ms
+2017-05-24 12:11:28.408 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:11:29.179 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/aboutUs  
+2017-05-24 12:11:29.185 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:11:29.190 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:11:29.197 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:11:29.337 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 147.3697ms
+2017-05-24 12:11:29.342 +03:00 [Information] Request finished in 162.4287ms 200 text/html; charset=utf-8
+2017-05-24 12:11:29.370 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=jqll8MFfsu6ndphdekkHNVRf-djMi0Qf1Adht6aq4-8  
+2017-05-24 12:11:29.382 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:11:29.392 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:11:29.406 +03:00 [Information] Request finished in 23.1122ms 404 
+2017-05-24 12:11:30.753 +03:00 [Information] Request finished in 1384.1466ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:11:34.458 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:11:34.467 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:11:34.474 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:11:34.479 +03:00 [Information] Request finished in 27.7347ms 200 image/png; charset=UTF-8
+2017-05-24 12:11:34.499 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:11:34.504 +03:00 [Information] Request finished in 29.5054ms 200 image/png; charset=UTF-8
+2017-05-24 12:11:34.533 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:11:34.539 +03:00 [Information] Request finished in 48.1406ms 200 image/png; charset=UTF-8
+2017-05-24 12:11:34.552 +03:00 [Information] Request finished in 35.9127ms 200 image/png; charset=UTF-8
+2017-05-24 12:11:34.557 +03:00 [Information] Request finished in 87.9476ms 200 image/png; charset=UTF-8
+2017-05-24 12:11:34.564 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:11:34.573 +03:00 [Information] Request finished in 57.2909ms 200 image/png; charset=UTF-8
+2017-05-24 12:11:34.675 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:11:34.972 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2017-05-24 12:11:34.983 +03:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"G:\Проект лабамейкер\Labamaker\AspNetCoreSpa\wwwroot\favicon.ico"'
+2017-05-24 12:11:35.005 +03:00 [Information] Request finished in 19.702ms 200 image/x-icon
+2017-05-24 12:19:23.620 +03:00 [Information] 
+[at-loader] Using typescript@2.2.2 from typescript and "tsconfig.json" from G:\Проект лабамейкер\Labamaker\AspNetCoreSpa/tsconfig.json (in a forked process).
+
+2017-05-24 12:19:25.420 +03:00 [Information] Executed DbCommand (162ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:19:25.472 +03:00 [Information] Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:19:25.522 +03:00 [Information] Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-24 12:19:25.756 +03:00 [Information] User profile is available. Using '"C:\Users\Nastya\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-05-24 12:19:27.162 +03:00 [Information] Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:19:27.207 +03:00 [Information] Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:19:27.247 +03:00 [Information] Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-24 12:19:27.288 +03:00 [Information] Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-05-24 12:19:27.326 +03:00 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-05-24 12:19:28.319 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-05-24 12:19:28.319 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-05-24 12:19:28.708 +03:00 [Information] Request finished in 450.2947ms 200 
+2017-05-24 12:19:29.164 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:19:30.186 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:19:36.645 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:19:42.546 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=jqll8MFfsu6ndphdekkHNVRf-djMi0Qf1Adht6aq4-8  
+2017-05-24 12:19:42.624 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:19:42.626 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 12578.979ms
+2017-05-24 12:19:42.674 +03:00 [Information] Request finished in 14453.2706ms 200 text/html; charset=utf-8
+2017-05-24 12:19:57.138 +03:00 [Information] 
+2017-05-24 12:19:57.144 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:19:57.353 +03:00 [Error] 
+2017-05-24 12:19:57.356 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:19:58.198 +03:00 [Information] webpack built 5c09bd09aed0c25b9a39 in 36126ms
+2017-05-24 12:20:07.900 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:20:08.012 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:20:08.026 +03:00 [Information] Request finished in 25474.9751ms 404 
+2017-05-24 12:20:10.848 +03:00 [Information] Request finished in 28311.5108ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:20:23.288 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:20:23.363 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:20:23.363 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:20:23.404 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:20:23.434 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:20:23.461 +03:00 [Information] Request finished in 54.7952ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.469 +03:00 [Information] Request finished in 116.1852ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.472 +03:00 [Information] Request finished in 162.0624ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.485 +03:00 [Information] Request finished in 136.1547ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.488 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:20:23.496 +03:00 [Information] Request finished in 100.5666ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.501 +03:00 [Information] Request finished in 15.2432ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.902 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:20:23.938 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7a2a21bd634868499f2f488a03d8b6df.png  
+2017-05-24 12:20:23.948 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/2032fec226141cb79fd156c3e0f90e01.png  
+2017-05-24 12:20:23.977 +03:00 [Information] Request finished in 28.2209ms 200 image/png; charset=UTF-8
+2017-05-24 12:20:23.983 +03:00 [Information] Request finished in 64.932ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:37.248 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-24 12:21:37.363 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-24 12:21:37.470 +03:00 [Information] webpack building...
+2017-05-24 12:21:38.260 +03:00 [Information] 
+2017-05-24 12:21:38.296 +03:00 [Error] 
+2017-05-24 12:21:38.296 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:21:38.305 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:21:38.438 +03:00 [Information] webpack built db6cb5fa7714cd900698 in 1097ms
+2017-05-24 12:21:38.725 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:21:38.736 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/5c09bd09aed0c25b9a39.hot-update.json  
+2017-05-24 12:21:38.770 +03:00 [Information] Request finished in 37.2151ms 200 application/json; charset=UTF-8
+2017-05-24 12:21:38.795 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/0.5c09bd09aed0c25b9a39.hot-update.js  
+2017-05-24 12:21:38.816 +03:00 [Information] Request finished in 11.7314ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:21:45.419 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/aboutUs  
+2017-05-24 12:21:45.426 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:21:45.432 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:21:45.439 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:21:45.569 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 134.2742ms
+2017-05-24 12:21:45.578 +03:00 [Information] Request finished in 154.7547ms 200 text/html; charset=utf-8
+2017-05-24 12:21:45.816 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:21:45.823 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=pGRYhiJPOyzS-RC5ft3MaAQcgzqvhkCWbOXxVnQ_F8E  
+2017-05-24 12:21:45.951 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:21:46.012 +03:00 [Information] Request finished in 197.6257ms 404 
+2017-05-24 12:21:47.502 +03:00 [Information] Request finished in 1684.288ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:21:50.377 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:21:50.384 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:21:50.410 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:21:50.467 +03:00 [Information] Request finished in 48.3167ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:50.479 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:21:50.494 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:21:50.502 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:21:50.519 +03:00 [Information] Request finished in 160.2647ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:50.521 +03:00 [Information] Request finished in 19.5502ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:50.532 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:21:50.537 +03:00 [Information] Request finished in 132.4738ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:50.544 +03:00 [Information] Request finished in 141.5258ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:50.554 +03:00 [Information] Request finished in 117.0042ms 200 image/png; charset=UTF-8
+2017-05-24 12:21:51.165 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2017-05-24 12:21:51.220 +03:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"G:\Проект лабамейкер\Labamaker\AspNetCoreSpa\wwwroot\favicon.ico"'
+2017-05-24 12:21:51.268 +03:00 [Information] Request finished in 102.1904ms 200 image/x-icon
+2017-05-24 12:22:54.979 +03:00 [Information] DLL: Checking if DLLs are valid.
+2017-05-24 12:22:55.046 +03:00 [Information] DLL: All DLLs are valid.
+2017-05-24 12:22:55.162 +03:00 [Information] webpack building...
+2017-05-24 12:22:56.259 +03:00 [Information] 
+2017-05-24 12:22:56.264 +03:00 [Information] [at-loader] Checking started in a separate process...
+2017-05-24 12:22:56.362 +03:00 [Error] 
+2017-05-24 12:22:56.366 +03:00 [Error] [at-loader] Checking finished with 1 errors
+2017-05-24 12:22:56.433 +03:00 [Information] webpack built ecc45e29477e246c4085 in 1400ms
+2017-05-24 12:22:56.659 +03:00 [Information] [at-loader] ./Client/app/app.component.ts:11:25 
+    TS6138: Property 'localStorage' is declared but never used. 
+
+2017-05-24 12:22:57.419 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/help  
+2017-05-24 12:22:57.428 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:22:57.434 +03:00 [Information] Executing action method "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" with arguments (null) - ModelState is Valid
+2017-05-24 12:22:57.440 +03:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-05-24 12:22:57.578 +03:00 [Information] Executed action "AspNetCoreSpa.Server.Controllers.HomeController.Index (AspNetCoreSpa)" in 143.7277ms
+2017-05-24 12:22:57.588 +03:00 [Information] Request finished in 169.5501ms 200 text/html; charset=utf-8
+2017-05-24 12:22:57.631 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/vendor.css  
+2017-05-24 12:22:57.664 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/main.js?v=J9oj82o_GDhmtVkTiHXpaGLSPhlb8c1pWRqHIF6iWNM  
+2017-05-24 12:22:57.726 +03:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-05-24 12:22:57.795 +03:00 [Information] Request finished in 110.9259ms 404 
+2017-05-24 12:22:59.248 +03:00 [Information] Request finished in 1590.2475ms 200 application/javascript; charset=UTF-8
+2017-05-24 12:23:02.364 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/4d74fc94f016eda56a66f7275558068d.png  
+2017-05-24 12:23:02.372 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/7392186acd82834af0cb190ecbe3d69f.png  
+2017-05-24 12:23:02.390 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/3b2166422573863d86eb379a9a322fb8.png  
+2017-05-24 12:23:02.404 +03:00 [Information] Request finished in 29.3607ms 200 image/png; charset=UTF-8
+2017-05-24 12:23:02.424 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/895d6d4d4ea7f3bc226859a6eb468ed3.png  
+2017-05-24 12:23:02.447 +03:00 [Information] Request finished in 59.8985ms 200 image/png; charset=UTF-8
+2017-05-24 12:23:02.453 +03:00 [Information] Request finished in 83.3073ms 200 image/png; charset=UTF-8
+2017-05-24 12:23:02.467 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/12aea3ad13dadcfd18f47ebc6893c4f6.png  
+2017-05-24 12:23:02.480 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/dist/c253bb009083ee25bee41d6d4769d0fe.png  
+2017-05-24 12:23:02.488 +03:00 [Information] Request finished in 29.9354ms 200 image/png; charset=UTF-8
+2017-05-24 12:23:02.498 +03:00 [Information] Request finished in 79.3163ms 200 image/png; charset=UTF-8
+2017-05-24 12:23:02.504 +03:00 [Information] Request finished in 37.0347ms 200 image/png; charset=UTF-8
+2017-05-24 12:23:02.588 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/__webpack_hmr  
+2017-05-24 12:23:03.015 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2017-05-24 12:23:03.047 +03:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"G:\Проект лабамейкер\Labamaker\AspNetCoreSpa\wwwroot\favicon.ico"'
+2017-05-24 12:23:03.132 +03:00 [Information] Request finished in 110.6331ms 200 image/x-icon
